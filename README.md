@@ -30,7 +30,7 @@ Deal up to three random prompts, then go deeper for something specific or back u
 
 | File | What it is |
 |---|---|
-| `index.html` | The website: cards side by side on a laptop, stacked on a phone. The Buy Me a Coffee button top right stays hidden until a username is set: edit `data-user=""` on the `#coffee` link |
+| `index.html` | The website: cards side by side on a laptop, stacked on a phone. The Buy Me a Coffee button top right links to buymeacoffee.com/sophiang.builds; change `data-user` on the `#coffee` link to point it elsewhere, or empty it to hide the button |
 | `app.html` | The phone app: Liquid Glass screen, shown inside an iPhone 15 frame on wider screens. "Add to Home Screen" opens this one |
 
 ![The phone app](docs/preview-app.png)

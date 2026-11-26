@@ -1,13 +1,13 @@
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="brand/logo-horizontal-dark.svg">
-    <img src="brand/logo-horizontal.svg" alt="Three Word Brief" height="88">
+    <img src="brand/logo-horizontal.svg" alt="Build From Three" height="88">
   </picture>
 </p>
 
-<p align="center">Get three random words. Build a product from them.</p>
+<p align="center">Deal three random cards. Build something from what lands.</p>
 
-# Try Your Luck
+# Build From Three
 
 A random picker for things to make, do, cook, play and learn. Up to three Liquid Glass cards land on random categories, and you can step down layer by layer to the exact thing: a real phrase, song, dish, place or product.
 

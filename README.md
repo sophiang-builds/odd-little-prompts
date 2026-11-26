@@ -9,7 +9,7 @@ A random picker for things to make, do, cook, play and learn. Up to three Liquid
 
 Every pick comes from a fixed list using the device's secure random generator. Nothing is chosen by AI when the app runs, so playing it costs no AI tokens.
 
-![Explore version in an iPhone 15 frame](docs/explore-preview.png)
+![Three Word Brief in an iPhone 15 frame](docs/brand-preview.png)
 
 ## Two versions
 
@@ -45,7 +45,7 @@ python3 picker.py --test
 
 ## Brand
 
-`brand/` holds the logo (light and dark horizontal versions) and the favicon. `icons/` holds the sizes made from it: a 32 px tab icon, the 180 px iPhone home-screen icon, and 192 and 512 px icons for `manifest.webmanifest`. The on-screen "Try your luck" line is the app's prompt, not its name.
+`brand/` holds the logo (light and dark horizontal versions) and the favicon. `icons/` holds the sizes made from it: a 32 px tab icon, the 180 px iPhone home-screen icon, and 192 and 512 px icons for `manifest.webmanifest`. The app uses the logo at the top of the screen and the logo's palette throughout: coral `#FF5A4E`, sun `#FFC23C`, teal `#2EC4B6`, navy `#1B1A2E` and cream `#FFF6E9`.
 
 ## Hosting on GitHub Pages
 

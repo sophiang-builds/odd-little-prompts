@@ -12,10 +12,13 @@ struct ContentView: View {
             Wash(seed: pickTick).ignoresSafeArea()
 
             VStack(spacing: 0) {
-                // "Try your luck" with the Y swapped for a thunderstorm
-                Text("Try \(Image(systemName: "cloud.bolt.fill"))our luck")
-                    .font(.subheadline.weight(.semibold))
-                    .symbolRenderingMode(.multicolor)
+                // Three Word Brief logo. Add brand/logo-horizontal.svg (and the -dark one as its
+                // Dark appearance) to Assets as an image set named "Logo", with Preserve Vector Data on.
+                Image("Logo")
+                    .resizable()
+                    .scaledToFit()
+                    .frame(height: 30)
+                    .accessibilityLabel("Three Word Brief")
                     .padding(.top, 8)
 
                 Spacer()
@@ -42,7 +45,8 @@ struct ContentView: View {
                     .font(.title3.weight(.semibold))
                     .buttonStyle(.glassProminent)
                     .controlSize(.large)
-                    .tint(.jomudBlue)
+                    .tint(.twbTeal)
+                    .foregroundStyle(Color.twbNavy)
                     .padding(.top, 26)
 
                 if slots.count == 1 { Spacer() } else { Spacer().frame(height: 22) }
@@ -200,7 +204,7 @@ struct CategorySheet: View {
     }
 }
 
-/// The jomud colour wash that sits behind the glass. It drifts to a new spot on every pick.
+/// The Three Word Brief colour wash that sits behind the glass. It drifts to a new spot on every pick.
 struct Wash: View {
     let seed: Int
     @Environment(\.colorScheme) private var scheme
@@ -209,13 +213,13 @@ struct Wash: View {
         GeometryReader { geo in
             let w = geo.size.width, h = geo.size.height
             ZStack {
-                (scheme == .dark ? Color(red: 0.1, green: 0.07, blue: 0.22) : Color(red: 0.96, green: 0.85, blue: 0.78))
-                blob(.jomudPeach, x: 0.15, y: 0.25, size: w * 1.15, w: w, h: h, k: 1)
-                blob(.jomudLilac, x: 0.85, y: 0.42, size: w * 1.15, w: w, h: h, k: 2)
-                blob(.jomudBlue, x: 0.35, y: 0.82, size: w * 1.15, w: w, h: h, k: 3)
-                blob(.jomudRose, x: 0.8, y: 0.05, size: w * 0.6, w: w, h: h, k: 4)
+                (scheme == .dark ? Color.twbNavy : Color(red: 1, green: 0.92, blue: 0.82))
+                blob(.twbCoral, x: 0.15, y: 0.25, size: w * 1.15, w: w, h: h, k: 1)
+                blob(.twbTeal, x: 0.85, y: 0.42, size: w * 1.15, w: w, h: h, k: 2)
+                blob(.twbSun, x: 0.35, y: 0.82, size: w * 1.15, w: w, h: h, k: 3)
+                blob(.twbCoral, x: 0.8, y: 0.05, size: w * 0.6, w: w, h: h, k: 4)
             }
-            .opacity(scheme == .dark ? 0.85 : 1)
+            .opacity(scheme == .dark ? 0.62 : 0.9)
             .animation(.smooth(duration: 1.6), value: seed)
         }
     }

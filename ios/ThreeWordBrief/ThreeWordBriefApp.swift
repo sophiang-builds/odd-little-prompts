@@ -8,11 +8,12 @@ struct ThreeWordBriefApp: App {
 }
 
 extension Color {
-    static let jomudBlue = Color(red: 15 / 255, green: 102 / 255, blue: 219 / 255)
-    static let jomudPeach = Color(red: 240 / 255, green: 122 / 255, blue: 58 / 255)
-    static let jomudLilac = Color(red: 122 / 255, green: 63 / 255, blue: 224 / 255)
-    static let jomudRose = Color(red: 232 / 255, green: 80 / 255, blue: 106 / 255)
-    static let jomudCream = Color(red: 251 / 255, green: 245 / 255, blue: 238 / 255)
+    // Three Word Brief palette, taken from the logo
+    static let twbCoral = Color(red: 255 / 255, green: 90 / 255, blue: 78 / 255)    // #FF5A4E
+    static let twbSun = Color(red: 255 / 255, green: 194 / 255, blue: 60 / 255)     // #FFC23C
+    static let twbTeal = Color(red: 46 / 255, green: 196 / 255, blue: 182 / 255)    // #2EC4B6
+    static let twbNavy = Color(red: 27 / 255, green: 26 / 255, blue: 46 / 255)      // #1B1A2E
+    static let twbCream = Color(red: 255 / 255, green: 246 / 255, blue: 233 / 255)   // #FFF6E9
 }
 
 // Shake the phone to pick: UIKit reports the gesture, SwiftUI listens for it.

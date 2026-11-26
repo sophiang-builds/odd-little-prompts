@@ -107,8 +107,7 @@ button{font:inherit;color:inherit;border:0;background:none;padding:0;cursor:poin
 .cell{container-type:size;aspect-ratio:1;width:min(340px,calc((100vw - 2 * max(5vw,16px) - (var(--n) - 1) * 18px) / var(--n)))}
 .ctrl{max-width:440px}
 .count{display:flex;padding:4px;gap:2px;border-radius:24px}
-.fnote{max-width:1240px;width:100%;margin:0 auto;text-align:center;font-size:14px;color:var(--muted)}
-.keys{display:block;margin-top:4px}
+.keys{margin:-10px 0 0;font-size:13px;color:var(--muted);text-align:center}
 kbd{font:600 12px/1 -apple-system,system-ui,sans-serif;padding:3px 6px;border-radius:6px;background:light-dark(rgba(255,255,255,.6),rgba(255,255,255,.12));border:1px solid light-dark(rgba(43,31,61,.15),rgba(255,246,233,.18))}
 @media (hover:none){.keys{display:none}}
 .count svg.v{display:none}
@@ -164,9 +163,8 @@ kbd{font:600 12px/1 -apple-system,system-ui,sans-serif;padding:3px 6px;border-ra
         <button data-n="2" aria-label="Two squares"><svg class="h" viewBox="0 0 26 24"><rect y="6" width="12" height="12" rx="3"/><rect x="14" y="6" width="12" height="12" rx="3"/></svg><svg class="v" viewBox="0 0 12 24"><rect x="1" y="1" width="10" height="10" rx="2.5"/><rect x="1" y="13" width="10" height="10" rx="2.5"/></svg></button>
         <button data-n="3" aria-label="Three squares"><svg class="h" viewBox="0 0 40 24"><rect y="6" width="12" height="12" rx="3"/><rect x="14" y="6" width="12" height="12" rx="3"/><rect x="28" y="6" width="12" height="12" rx="3"/></svg><svg class="v" viewBox="0 0 16 24"><rect width="16" height="7" rx="2"/><rect y="8.5" width="16" height="7" rx="2"/><rect y="17" width="16" height="7" rx="2"/></svg></button>
       </div>
+    <p class="keys"><kbd>Space</kbd> pick &nbsp; <kbd>↓</kbd> deeper &nbsp; <kbd>↑</kbd> back &nbsp; <kbd>1</kbd> <kbd>2</kbd> <kbd>3</kbd> cards</p>
   </main>
-  <footer class="fnote">Picked by code from a fixed list of <span id="nCat">259</span> categories and <span id="nIdea">2,816</span> ideas. No AI, no sign-up.
-    <span class="keys"><kbd>Space</kbd> pick &nbsp; <kbd>↓</kbd> deeper &nbsp; <kbd>↑</kbd> back &nbsp; <kbd>1</kbd> <kbd>2</kbd> <kbd>3</kbd> cards</span></footer>
 </div>
 <div id="sheetHost"></div>
 
@@ -374,7 +372,6 @@ kbd{font:600 12px/1 -apple-system,system-ui,sans-serif;padding:3px 6px;border-ra
     DB.forEach(c => c.children.forEach(k => walk(k, c.name)));
     try { BAG = JSON.parse(localStorage.getItem("olp-bag") || "[]").filter(n => byName(n)); } catch (e) { BAG = []; }
     $("pick").disabled = false;
-    $("nCat").textContent = DB.length; $("nIdea").textContent = LEAVES.length.toLocaleString("en-AU");
   }).catch(() => { $("slots").insertAdjacentHTML("afterend", `<p style="color:var(--muted);text-align:center">Couldn't load the category list</p>`); });
 }
 </script>

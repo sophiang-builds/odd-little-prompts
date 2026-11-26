@@ -1,3 +1,12 @@
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="brand/logo-horizontal-dark.svg">
+    <img src="brand/logo-horizontal.svg" alt="Three Word Brief" height="88">
+  </picture>
+</p>
+
+<p align="center">Get three random words. Build a product from them.</p>
+
 # Try Your Luck
 
 A random picker for things to make, do, cook, play and learn. Up to three Liquid Glass cards land on random categories, and you can step down layer by layer to the exact thing: a real phrase, song, dish, place or product.

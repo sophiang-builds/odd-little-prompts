@@ -23,7 +23,6 @@ Deal up to three random prompts, then go deeper for something specific or back u
 
 - **Pick for me** deals a fresh category onto each card. It is the only thing that changes categories.
 - **Down arrow** (right) takes every card one layer deeper at random. **Up arrow** (left) steps back without re-rolling.
-- **Swipe or drag a card left** to swap just that card for another option at the same layer in the same category. Two swaps per card per layer; the counter in the card's corner resets when you change layer or pick again.
 - **Hold a card** to lock it to a category. The switch at the bottom sets 1, 2 or 3 cards.
 - On the website: <kbd>Space</kbd> picks, <kbd>↓</kbd> <kbd>↑</kbd> change layer, <kbd>1</kbd> <kbd>2</kbd> <kbd>3</kbd> set the number of cards.
 

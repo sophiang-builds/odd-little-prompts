@@ -55,9 +55,6 @@ button{font:inherit;color:inherit;border:0;background:none;padding:0;cursor:poin
 @keyframes roll{from{transform:translateY(-35%);opacity:.2;filter:blur(1.5px)}}
 .foot{position:absolute;right:7cqmin;bottom:6cqmin;height:clamp(12px,7cqmin,18px);color:var(--muted)}
 .foot svg{height:100%;width:auto}
-.foot{display:flex;align-items:center;gap:2px;font-size:clamp(11px,5.6cqmin,14px);font-weight:700;line-height:1}
-.foot.out{opacity:.3}
-.sq{touch-action:pan-y;-webkit-user-select:none;user-select:none}
 .sq.nope{animation:nope .4s}
 @keyframes nope{25%{transform:translateX(-6px)}50%{transform:translateX(5px)}75%{transform:translateX(-3px)}}
 .pick{height:56px;padding:0 34px;border-radius:28px;font-size:18px;font-weight:600;color:#1B1A2E;--gfill:color-mix(in srgb,var(--brand) 92%,transparent);--ghi:rgba(255,255,255,.6);--glo:rgba(255,255,255,.18)}
@@ -107,10 +104,15 @@ button{font:inherit;color:inherit;border:0;background:none;padding:0;cursor:poin
 .keys{display:block;margin-top:4px}
 kbd{font:600 12px/1 -apple-system,system-ui,sans-serif;padding:3px 6px;border-radius:6px;background:light-dark(rgba(255,255,255,.6),rgba(255,255,255,.12));border:1px solid light-dark(rgba(27,26,46,.15),rgba(255,246,233,.18))}
 @media (hover:none){.keys{display:none}}
+.count svg.v{display:none}
+.count button{width:60px}
 .scrim{position:fixed;inset:0;z-index:8;background:rgba(0,0,0,.18)}
 .sheet{position:fixed;left:8px;right:8px;bottom:max(8px,env(safe-area-inset-bottom,0px));margin-inline:auto;max-width:520px;height:min(70svh,640px);z-index:9;border-radius:32px;display:flex;flex-direction:column;padding:8px 16px 0;--gfill:light-dark(rgba(255,255,255,.7),rgba(30,32,44,.78));animation:up .35s cubic-bezier(.2,.9,.3,1)}
 .list{flex:1;overflow-y:auto;margin:0 -16px;padding:0 16px 16px}
 @media (max-width:759px){
+  .count svg.h{display:none}
+  .count svg.v{display:block}
+  .count button{width:54px}
   .home svg{height:32px}
   .lede{display:none}
   .stagearea{gap:22px;padding-block:18px}
@@ -148,13 +150,13 @@ kbd{font:600 12px/1 -apple-system,system-ui,sans-serif;padding:3px 6px;border-ra
           <button class="glass press nav" id="down" aria-label="Down a layer" disabled><svg viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></svg></button>
         </div>
     <div class="glass count" id="count" role="group" aria-label="How many picks">
-        <button data-n="1" aria-label="One square"><svg viewBox="0 0 12 24"><rect y="6" width="12" height="12" rx="3"/></svg></button>
-        <button data-n="2" aria-label="Two squares"><svg viewBox="0 0 12 24"><rect x="1" y="1" width="10" height="10" rx="2.5"/><rect x="1" y="13" width="10" height="10" rx="2.5"/></svg></button>
-        <button data-n="3" aria-label="Three squares"><svg viewBox="0 0 16 24"><rect width="16" height="7" rx="2"/><rect y="8.5" width="16" height="7" rx="2"/><rect y="17" width="16" height="7" rx="2"/></svg></button>
+        <button data-n="1" aria-label="One square"><svg class="h" viewBox="0 0 12 24"><rect y="6" width="12" height="12" rx="3"/></svg><svg class="v" viewBox="0 0 12 24"><rect y="6" width="12" height="12" rx="3"/></svg></button>
+        <button data-n="2" aria-label="Two squares"><svg class="h" viewBox="0 0 26 24"><rect y="6" width="12" height="12" rx="3"/><rect x="14" y="6" width="12" height="12" rx="3"/></svg><svg class="v" viewBox="0 0 12 24"><rect x="1" y="1" width="10" height="10" rx="2.5"/><rect x="1" y="13" width="10" height="10" rx="2.5"/></svg></button>
+        <button data-n="3" aria-label="Three squares"><svg class="h" viewBox="0 0 40 24"><rect y="6" width="12" height="12" rx="3"/><rect x="14" y="6" width="12" height="12" rx="3"/><rect x="28" y="6" width="12" height="12" rx="3"/></svg><svg class="v" viewBox="0 0 16 24"><rect width="16" height="7" rx="2"/><rect y="8.5" width="16" height="7" rx="2"/><rect y="17" width="16" height="7" rx="2"/></svg></button>
       </div>
   </main>
   <footer class="fnote">Picked by code from a fixed list of <span id="nCat">123</span> categories and <span id="nIdea">1,730</span> ideas. No AI, no sign-up.
-    <span class="keys"><kbd>Space</kbd> pick &nbsp; <kbd>↓</kbd> deeper &nbsp; <kbd>↑</kbd> back &nbsp; <kbd>1</kbd> <kbd>2</kbd> <kbd>3</kbd> cards &nbsp; drag a card left to swap it</span></footer>
+    <span class="keys"><kbd>Space</kbd> pick &nbsp; <kbd>↓</kbd> deeper &nbsp; <kbd>↑</kbd> back &nbsp; <kbd>1</kbd> <kbd>2</kbd> <kbd>3</kbd> cards</span></footer>
 </div>
 <div id="sheetHost"></div>
 
@@ -166,8 +168,6 @@ kbd{font:600 12px/1 -apple-system,system-ui,sans-serif;padding:3px 6px;border-ra
   const esc = s => String(s).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
   const calm = matchMedia("(prefers-reduced-motion: reduce)").matches;
   const $ = id => document.getElementById(id);
-  const ICON_SWAP = '<svg viewBox="0 0 24 24"><path d="M10 7l-5 5 5 5M5 12h10a4 4 0 0 1 4 4" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>';
-  const MAX_SWAPS = 2;
   const ICON_LOCK = '<svg viewBox="0 0 24 24" style="height:1em;flex:none"><path d="M7 10V7a5 5 0 0 1 10 0v3h1a1 1 0 0 1 1 1v9a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1v-9a1 1 0 0 1 1-1zm2 0h6V7a3 3 0 0 0-6 0z" fill="currentColor"/></svg>';
 
   let DB = [], LEAVES = [], MIDS = [];
@@ -180,8 +180,6 @@ kbd{font:600 12px/1 -apple-system,system-ui,sans-serif;padding:3px 6px;border-ra
   const visible = p => p.filter(n => !n.hide);
   const canDown = s => !!(s.path && s.path[s.path.length - 1].children);
   const canUp = s => !!(s.path && s.path.length > 1);
-  const fresh = s => { s.swaps = 0; s.seen = new Set(s.path ? [s.path[s.path.length - 1].name] : []); };
-  const swapsLeft = s => (s.path && !(s.path.length === 1 && s.lock)) ? MAX_SWAPS - (s.swaps || 0) : 0;
 
   // One shown layer down: pick a child at random; if it is a hidden facet, keep going.
   const down = path => {
@@ -217,7 +215,7 @@ kbd{font:600 12px/1 -apple-system,system-ui,sans-serif;padding:3px 6px;border-ra
     const trail = p.length === 1 ? "Category" : p.slice(0, -1).map(n => n.name).join(" · ");
     const layer = visible(p).length;
     const dots = Array.from({ length: Math.max(layer, 3) }, (_, k) => `<i class="${k < layer ? "on" : ""}"></i>`).join("");
-    return `<button class="glass press sq" data-i="${i}" aria-label="${esc(trail + ": " + last.name)}"><div class="cap"><span>${esc(trail)}</span>${s.lock ? ICON_LOCK : ""}</div><div class="big"><span>${esc(last.name)}</span>${last.note ? `<small class="note">${esc(last.note)}</small>` : ""}</div><div class="dots" aria-hidden="true">${dots}</div><div class="foot${swapsLeft(s) ? "" : " out"}" aria-hidden="true">${ICON_SWAP}<b>${swapsLeft(s)}</b></div></button>`;
+    return `<button class="glass press sq" data-i="${i}" aria-label="${esc(trail + ": " + last.name)}"><div class="cap"><span>${esc(trail)}</span>${s.lock ? ICON_LOCK : ""}</div><div class="big"><span>${esc(last.name)}</span>${last.note ? `<small class="note">${esc(last.note)}</small>` : ""}</div><div class="dots" aria-hidden="true">${dots}</div></button>`;
   };
 
   const render = () => {
@@ -259,7 +257,7 @@ kbd{font:600 12px/1 -apple-system,system-ui,sans-serif;padding:3px 6px;border-ra
   // Pick for me: fresh categories, back at the top layer.
   const pickAll = () => {
     const cats = chooseCategories();
-    slots.forEach((s, i) => { s.path = [cats[i]]; fresh(s); });
+    slots.forEach((s, i) => s.path = [cats[i]]);
     spin(slots.map((_, i) => i));
   };
 
@@ -267,29 +265,6 @@ kbd{font:600 12px/1 -apple-system,system-ui,sans-serif;padding:3px 6px;border-ra
     const others = new Set(slots.filter((s, j) => j !== i && s.path).map(s => s.path[0].name));
     const pool = slots[i].lock ? [byName(slots[i].lock)] : DB.filter(c => !others.has(c.name));
     slots[i].path = [pool[randBelow(pool.length)]];
-    fresh(slots[i]);
-    spin([i]);
-  };
-
-  // Swipe left: swap one card for another option at the same layer in the same category,
-  // never repeating what it has already shown, at most MAX_SWAPS times per layer.
-  const swap = i => {
-    const s = slots[i];
-    if (!swapsLeft(s)) { nudge(i, "nope"); return; }
-    let pool;
-    if (s.path.length === 1) {
-      const others = new Set(slots.filter((t, j) => j !== i && t.path).map(t => t.path[0].name));
-      pool = DB.filter(c => !others.has(c.name) && !s.seen.has(c.name)).map(c => [c]);
-    } else {
-      const parent = up(s.path), opts = [];
-      const walk = (node, pre) => node.children.forEach(k => k.hide && k.children ? walk(k, pre.concat(k)) : opts.push(pre.concat(k)));
-      walk(parent[parent.length - 1], parent);
-      pool = opts.filter(q => !s.seen.has(q[q.length - 1].name));
-    }
-    if (!pool.length) { nudge(i, "nope"); return; }
-    s.path = pool[randBelow(pool.length)];
-    s.swaps = (s.swaps || 0) + 1;
-    s.seen.add(s.path[s.path.length - 1].name);
     spin([i]);
   };
 
@@ -299,13 +274,13 @@ kbd{font:600 12px/1 -apple-system,system-ui,sans-serif;padding:3px 6px;border-ra
     slots.forEach((s, i) => {
       if (only !== undefined && i !== only) return;
       const p = s.path && down(s.path);
-      if (p) { s.path = p; fresh(s); moved.push(i); } else if (s.path) setTimeout(() => nudge(i, "nope"), 0);
+      if (p) { s.path = p; moved.push(i); } else if (s.path) setTimeout(() => nudge(i, "nope"), 0);
     });
     if (moved.length) spin(moved);
   };
   const goUp = () => {
     const moved = [];
-    slots.forEach((s, i) => { const p = s.path && up(s.path); if (p) { s.path = p; fresh(s); moved.push(i); } });
+    slots.forEach((s, i) => { const p = s.path && up(s.path); if (p) { s.path = p; moved.push(i); } });
     render();
     moved.forEach(i => { const b = document.querySelector(`.sq[data-i="${i}"] .big`); if (b && !calm) b.classList.add("tick"); });
   };
@@ -332,43 +307,12 @@ kbd{font:600 12px/1 -apple-system,system-ui,sans-serif;padding:3px 6px;border-ra
     $("list").onclick = e => { const b = e.target.closest("button"); if (!b) return; slots[i].lock = b.dataset.c || null; close(); pickOne(i); };
   };
 
-  // Card gestures: swipe or drag left to swap that card, long-press to choose its category
-  let pressTimer = null, drag = null;
+  // Card gestures: long-press (or right-click) a card to choose its category
+  let pressTimer = null;
   const sq = e => e.target.closest(".sq");
-  $("slots").addEventListener("pointerdown", e => {
-    const el = sq(e); if (!el) return;
-    const i = +el.dataset.i;
-    drag = { el, i, id: e.pointerId, x: e.clientX, y: e.clientY, dx: 0, on: false };
-    pressTimer = setTimeout(() => { if (drag && !drag.on) { drag = null; openSheet(i); } }, 520);
-  });
-  addEventListener("pointermove", e => {
-    if (!drag || e.pointerId !== drag.id) return;
-    const dx = e.clientX - drag.x, dy = e.clientY - drag.y;
-    if (!drag.on) {
-      if (Math.hypot(dx, dy) > 8) clearTimeout(pressTimer);
-      if (Math.abs(dx) > 10 && Math.abs(dx) > Math.abs(dy)) { drag.on = true; drag.el.style.transition = "none"; }
-      else return;
-    }
-    drag.dx = Math.min(dx, 20);
-    drag.el.style.transform = `translateX(${drag.dx}px) rotate(${drag.dx / 45}deg)`;
-  });
-  const endDrag = () => {
-    clearTimeout(pressTimer);
-    const d = drag; drag = null;
-    if (!d || !d.on) return;
-    const el = d.el;
-    el.style.transition = "transform .22s ease, opacity .22s ease";
-    if (d.dx < -70 && swapsLeft(slots[d.i])) {
-      el.style.transform = "translateX(-115%) rotate(-5deg)"; el.style.opacity = "0";
-      setTimeout(() => swap(d.i), 180);
-    } else {
-      el.style.transform = "";
-      if (d.dx < -70) setTimeout(() => nudge(d.i, "nope"), 220);
-    }
-  };
-  addEventListener("pointerup", endDrag);
-  addEventListener("pointercancel", endDrag);
-  $("slots").addEventListener("contextmenu", e => { const el = sq(e); if (!el) return; e.preventDefault(); clearTimeout(pressTimer); drag = null; openSheet(+el.dataset.i); });
+  $("slots").addEventListener("pointerdown", e => { const el = sq(e); if (!el) return; pressTimer = setTimeout(() => openSheet(+el.dataset.i), 520); });
+  ["pointerup", "pointerleave", "pointercancel"].forEach(t => $("slots").addEventListener(t, () => clearTimeout(pressTimer)));
+  $("slots").addEventListener("contextmenu", e => { const el = sq(e); if (!el) return; e.preventDefault(); clearTimeout(pressTimer); openSheet(+el.dataset.i); });
   $("pick").addEventListener("click", pickAll);
   $("down").addEventListener("click", () => goDown());
   $("up").addEventListener("click", goUp);

@@ -1,0 +1,11 @@
+# The third layer for any item that has nothing more specific underneath it.
+# Format:  Group: twist, twist, twist      (each group is equally likely, then each twist within it)
+# "Mash-up" is special: the app swaps it for a random item from a different category.
+Time: In ten minutes, In under 60 seconds, Before breakfast, At sunset, Over a whole weekend, In one sitting
+Who: With a friend, With someone twice your age, With a child, Alone, As a team of three, For someone you just met
+Where: Outdoors, On public transport, In the smallest space you can find, In a café, By the water, In the kitchen
+Rule: Without your phone, Using only what you already own, Under $50, In complete silence, With your other hand, With one rule you invent
+Scale: Make it tiny, Make it huge, Do it three times, Make it last a week, Do the opposite, Do half of it
+Style: As if it's the 1980s, As a fairy tale, As a documentary, As a competition, As slowly as possible, As a gift
+Share: Then show one person, Film it, Write it up as a recipe, Turn it into a poster, Explain it in one sentence, Teach it to someone
+Mash-up: Mash it up

@@ -1,0 +1,180 @@
+[
+ {
+  "name": "Time",
+  "hide": true,
+  "children": [
+   {
+    "name": "In ten minutes"
+   },
+   {
+    "name": "In under 60 seconds"
+   },
+   {
+    "name": "Before breakfast"
+   },
+   {
+    "name": "At sunset"
+   },
+   {
+    "name": "Over a whole weekend"
+   },
+   {
+    "name": "In one sitting"
+   }
+  ]
+ },
+ {
+  "name": "Who",
+  "hide": true,
+  "children": [
+   {
+    "name": "With a friend"
+   },
+   {
+    "name": "With someone twice your age"
+   },
+   {
+    "name": "With a child"
+   },
+   {
+    "name": "Alone"
+   },
+   {
+    "name": "As a team of three"
+   },
+   {
+    "name": "For someone you just met"
+   }
+  ]
+ },
+ {
+  "name": "Where",
+  "hide": true,
+  "children": [
+   {
+    "name": "Outdoors"
+   },
+   {
+    "name": "On public transport"
+   },
+   {
+    "name": "In the smallest space you can find"
+   },
+   {
+    "name": "In a café"
+   },
+   {
+    "name": "By the water"
+   },
+   {
+    "name": "In the kitchen"
+   }
+  ]
+ },
+ {
+  "name": "Rule",
+  "hide": true,
+  "children": [
+   {
+    "name": "Without your phone"
+   },
+   {
+    "name": "Using only what you already own"
+   },
+   {
+    "name": "Under $50"
+   },
+   {
+    "name": "In complete silence"
+   },
+   {
+    "name": "With your other hand"
+   },
+   {
+    "name": "With one rule you invent"
+   }
+  ]
+ },
+ {
+  "name": "Scale",
+  "hide": true,
+  "children": [
+   {
+    "name": "Make it tiny"
+   },
+   {
+    "name": "Make it huge"
+   },
+   {
+    "name": "Do it three times"
+   },
+   {
+    "name": "Make it last a week"
+   },
+   {
+    "name": "Do the opposite"
+   },
+   {
+    "name": "Do half of it"
+   }
+  ]
+ },
+ {
+  "name": "Style",
+  "hide": true,
+  "children": [
+   {
+    "name": "As if it's the 1980s"
+   },
+   {
+    "name": "As a fairy tale"
+   },
+   {
+    "name": "As a documentary"
+   },
+   {
+    "name": "As a competition"
+   },
+   {
+    "name": "As slowly as possible"
+   },
+   {
+    "name": "As a gift"
+   }
+  ]
+ },
+ {
+  "name": "Share",
+  "hide": true,
+  "children": [
+   {
+    "name": "Then show one person"
+   },
+   {
+    "name": "Film it"
+   },
+   {
+    "name": "Write it up as a recipe"
+   },
+   {
+    "name": "Turn it into a poster"
+   },
+   {
+    "name": "Explain it in one sentence"
+   },
+   {
+    "name": "Teach it to someone"
+   }
+  ]
+ },
+ {
+  "name": "Mash-up",
+  "hide": true,
+  "children": [
+   {
+    "name": "Mash it up",
+    "mash": 1
+   }
+  ]
+ }
+]

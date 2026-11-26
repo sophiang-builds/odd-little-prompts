@@ -11,8 +11,8 @@
 
 <p align="center">
   <img alt="AI at runtime: none" src="https://img.shields.io/badge/AI_at_runtime-none-9B7BFF?style=flat-square&labelColor=2B1F3D">
-  <img alt="123 categories" src="https://img.shields.io/badge/categories-123-FF8FB1?style=flat-square&labelColor=2B1F3D">
-  <img alt="1,730 ideas" src="https://img.shields.io/badge/ideas-1%2C730-FFD45C?style=flat-square&labelColor=2B1F3D">
+  <img alt="259 categories" src="https://img.shields.io/badge/categories-259-FF8FB1?style=flat-square&labelColor=2B1F3D">
+  <img alt="2,816 ideas" src="https://img.shields.io/badge/ideas-2%2C816-FFD45C?style=flat-square&labelColor=2B1F3D">
 </p>
 
 Deal up to three random prompts, then go deeper for something specific or back up for something broader. Every pick comes from a fixed list using the device's secure random generator. Nothing is chosen by AI when it runs, so playing costs no AI tokens.
@@ -21,8 +21,8 @@ Deal up to three random prompts, then go deeper for something specific or back u
 
 ## How it works
 
-- **Pick for me** deals a fresh category onto each card. It is the only thing that changes categories.
-- **Down arrow** (right) takes every card one layer deeper at random. **Up arrow** (left) steps back without re-rolling.
+- **Pick for me** deals a fresh category onto each card. It is the only thing that changes categories. Categories come from a shuffle bag: every one turns up once, in random order, before any repeats (about 86 picks of three cards).
+- **Down arrow** (right) takes every card one layer deeper at random. **Up arrow** (left) steps back without re-rolling. Every item has at least three layers: where there is nothing more specific underneath, the third layer is a twist (a time limit, who with, where, a rule, scale, style, how to share it) or a mash-up with an item from a different category.
 - **Hold a card** to lock it to a category. The switch at the bottom sets 1, 2 or 3 cards.
 - On the website: <kbd>Space</kbd> picks, <kbd>↓</kbd> <kbd>↑</kbd> change layer, <kbd>1</kbd> <kbd>2</kbd> <kbd>3</kbd> set the number of cards.
 
@@ -42,14 +42,15 @@ Deal up to three random prompts, then go deeper for something specific or back u
 | `build_db.py` | The seven original deep categories (Music, Drawing, Cooking, Writing, Movement, Photography, Making) |
 | `more_categories.txt` | The other categories, one per line: `Category \| Facet: item, item \| Facet: item` |
 | `exact_items.txt` | Exact names under an item: `Category > Item: Name; Name` |
+| `twists.txt` | The twist deck that gives every item a third layer, including the cross-category mash-up |
 | `deeper_items.txt` | The actual thing behind an instruction, with optional English notes: `Category > Item: Name \| note; Name` and `Category > Item = note` |
-| `categories.json` | Built output that the pages read. Don't edit by hand |
+| `categories.json`, `twists.json` | Built output that the pages read. Don't edit by hand |
 
-After editing any `.txt` file, run `python3 build_db.py`. It prints anything it couldn't match. Currently 123 categories and about 1,730 end points. `python3 picker.py --test` checks the picks are even.
+After editing any `.txt` file, run `python3 build_db.py`. It prints anything it couldn't match. Currently 259 categories and 2,816 end points. The second round of categories was found by pushing on opposites (tiny and huge, old and new, loud and quiet, real and fake, order and chaos) and then sweeping the big themes the first round missed; see the comments in `more_categories.txt`. `python3 picker.py --test` checks the picks are even.
 
 ## Brand
 
-`brand/` holds the logo (light and dark), the favicon and `make_logo.py`, which rebuilds them (the wordmark needs Inter ExtraBold and `pip install fonttools`). Logo colours: pink `#FF8FB1`, butter `#FFD45C` and lilac `#9B7BFF` cards on plum `#2B1F3D`, with cream `#FFF6E9` for the sparkle and text on dark.
+`brand/` holds the logo (light and dark), the favicon and `make_logo.py`, which rebuilds them (the wordmark needs Inter ExtraBold and `pip install fonttools`). Brand colours, used by the logo and the app alike: pink `#FF8FB1`, butter `#FFD45C` and lilac `#9B7BFF` on plum `#2B1F3D`, with cream `#FFF6E9` as the light ground.
 
 <img src="docs/palette.svg" alt="Pink #FF8FB1, butter #FFD45C, lilac #9B7BFF, plum #2B1F3D, cream #FFF6E9" width="780">
 

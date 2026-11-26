@@ -12,18 +12,18 @@
 <meta name="apple-mobile-web-app-title" content="Odd Little Prompts">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="theme-color" content="#FFF6E9" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#1B1A2E" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#2B1F3D" media="(prefers-color-scheme: dark)">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
 /* VOICE occasion, a party toy played with friends, quiet until you tap
-   BRAND Odd Little Prompts. Logo: pink #FF8FB1, butter #FFD45C, lilac #9B7BFF cards on plum #2B1F3D. App: coral #FF5A4E, sun #FFC23C, teal #2EC4B6 on navy #1B1A2E and cream #FFF6E9
-   IDEA an iOS 26 Liquid Glass screen: glass squares floating over the jomud colour wash
+   BRAND Odd Little Prompts: pink #FF8FB1, butter #FFD45C, lilac #9B7BFF on plum #2B1F3D and cream #FFF6E9, the logo's own palette
+   IDEA an iOS 26 Liquid Glass screen: glass cards floating over the logo's colour wash
    PICTURE the 1 to 3 glass squares themselves, centred, landing on a pick like a slot reel
-   COLOUR cream ground with peach, lilac and jomud blue light behind the glass; blue for the one action
+   COLOUR cream ground (plum at night) with pink, lilac and butter light behind the glass; lilac for the one action
    TYPE SF Pro on iPhone (system-ui), Inter as the stand-in elsewhere
    LAYOUT phone: tiny title, squares and Pick centred, count switch above the home bar; wider: the same screen inside an iPhone 15 frame */
-:root{color-scheme:light dark;--bg:light-dark(#FFF6E9,#1B1A2E);--ink:light-dark(#1B1A2E,#FFF6E9);--muted:light-dark(rgba(27,26,46,.58),rgba(255,246,233,.62));--brand:#2EC4B6;--brandInk:light-dark(#0E7D73,#2EC4B6);--lastInk:light-dark(#7E5CF0,#B9A2FF);--coral:#FF5A4E;--sun:#FFC23C;--teal:#2EC4B6;--gfill:light-dark(rgba(255,255,255,.4),rgba(255,255,255,.08));--ghi:light-dark(rgba(255,255,255,.9),rgba(255,255,255,.34));--glo:light-dark(rgba(255,255,255,.35),rgba(255,255,255,.1));--gshadow:light-dark(rgba(27,26,46,.22),rgba(0,0,0,.45));--blob:light-dark(.9,.62);--stage:light-dark(#ECE6DC,#0E0D18)}
+:root{color-scheme:light dark;--bg:light-dark(#FFF6E9,#2B1F3D);--ink:light-dark(#2B1F3D,#FFF6E9);--muted:light-dark(rgba(43,31,61,.58),rgba(255,246,233,.62));--brand:#9B7BFF;--brandInk:light-dark(#6A4BD8,#B9A2FF);--lastInk:light-dark(#7E5CF0,#B9A2FF);--pink:#FF8FB1;--butter:#FFD45C;--lilac:#9B7BFF;--gfill:light-dark(rgba(255,255,255,.4),rgba(43,31,61,.46));--ghi:light-dark(rgba(255,255,255,.9),rgba(255,255,255,.34));--glo:light-dark(rgba(255,255,255,.35),rgba(255,255,255,.1));--gshadow:light-dark(rgba(43,31,61,.22),rgba(0,0,0,.45));--blob:light-dark(.9,.62);--stage:light-dark(#F0E6E2,#140E1E)}
 :root[data-theme=light]{color-scheme:light}:root[data-theme=dark]{color-scheme:dark}
 *{box-sizing:border-box;min-width:0}
 html,body{height:100%}
@@ -46,12 +46,12 @@ button{font:inherit;color:inherit;border:0;background:none;padding:0;cursor:poin
 }
 
 /* colour wash behind the glass */
-.wash{position:absolute;inset:-20%;background:light-dark(#FFEAD2,#1B1A2E);pointer-events:none;opacity:var(--blob)}
+.wash{position:absolute;inset:-20%;background:light-dark(#FFEEE4,#2B1F3D);pointer-events:none;opacity:var(--blob)}
 .wash i{position:absolute;width:72%;aspect-ratio:1;border-radius:50%;transition:transform 1.6s cubic-bezier(.2,.8,.2,1)}
-.wash i:nth-child(1){left:-6%;top:12%;background:radial-gradient(closest-side,var(--coral) 35%,transparent)}
-.wash i:nth-child(2){right:-4%;top:28%;background:radial-gradient(closest-side,var(--teal) 35%,transparent)}
-.wash i:nth-child(3){left:14%;bottom:10%;background:radial-gradient(closest-side,var(--sun) 35%,transparent)}
-.wash i:nth-child(4){right:10%;top:2%;width:40%;background:radial-gradient(closest-side,var(--coral) 35%,transparent)}
+.wash i:nth-child(1){left:-6%;top:12%;background:radial-gradient(closest-side,var(--pink) 35%,transparent)}
+.wash i:nth-child(2){right:-4%;top:28%;background:radial-gradient(closest-side,var(--lilac) 35%,transparent)}
+.wash i:nth-child(3){left:14%;bottom:10%;background:radial-gradient(closest-side,var(--butter) 35%,transparent)}
+.wash i:nth-child(4){right:10%;top:2%;width:40%;background:radial-gradient(closest-side,var(--pink) 35%,transparent)}
 
 /* Liquid Glass */
 .glass{position:relative;isolation:isolate;background:var(--gfill);-webkit-backdrop-filter:blur(22px) saturate(185%);backdrop-filter:blur(22px) saturate(185%);box-shadow:inset 0 1.5px 0 var(--ghi),inset 1.5px 0 0 var(--glo),inset -1px 0 0 var(--glo),inset 0 -1px 0 var(--glo),0 18px 40px -14px var(--gshadow);transition:transform .35s cubic-bezier(.3,1.5,.5,1),background .2s}
@@ -87,7 +87,7 @@ button{font:inherit;color:inherit;border:0;background:none;padding:0;cursor:poin
 .foot svg{height:100%;width:auto}
 .sq.nope{animation:nope .4s}
 @keyframes nope{25%{transform:translateX(-6px)}50%{transform:translateX(5px)}75%{transform:translateX(-3px)}}
-.pick{height:56px;padding:0 34px;border-radius:28px;font-size:18px;font-weight:600;color:#1B1A2E;--gfill:color-mix(in srgb,var(--brand) 92%,transparent);--ghi:rgba(255,255,255,.6);--glo:rgba(255,255,255,.18)}
+.pick{height:56px;padding:0 34px;border-radius:28px;font-size:18px;font-weight:600;color:#2B1F3D;--gfill:color-mix(in srgb,var(--brand) 92%,transparent);--ghi:rgba(255,255,255,.6);--glo:rgba(255,255,255,.18)}
 .ctrl{width:100%;display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:10px}
 .ctrl #up{justify-self:start}
 .ctrl #down{justify-self:end}
@@ -169,7 +169,7 @@ button{font:inherit;color:inherit;border:0;background:none;padding:0;cursor:poin
   const $ = id => document.getElementById(id);
   const ICON_LOCK = '<svg viewBox="0 0 24 24" style="height:1em;flex:none"><path d="M7 10V7a5 5 0 0 1 10 0v3h1a1 1 0 0 1 1 1v9a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1v-9a1 1 0 0 1 1-1zm2 0h6V7a3 3 0 0 0-6 0z" fill="currentColor"/></svg>';
 
-  let DB = [], LEAVES = [], MIDS = [];
+  let DB = [], LEAVES = [], MIDS = [], TWISTS = [], REFS = [], BAG = [];
   // each slot: { path: [node,...] | null, lock: categoryName | null }. Paths can hold hidden
   // facet nodes (Do, Make, Twist...) that are stepped through but never shown as the pick.
   let slots = [{ path: null, lock: null }];
@@ -177,15 +177,21 @@ button{font:inherit;color:inherit;border:0;background:none;padding:0;cursor:poin
 
   const byName = n => DB.find(c => c.name === n);
   const visible = p => p.filter(n => !n.hide);
-  const canDown = s => !!(s.path && s.path[s.path.length - 1].children);
+  // An item with nothing more specific underneath draws its next layer from the twist deck.
+  const kidsOf = n => n.children || (n.twist ? TWISTS : null);
+  const canDown = s => !!(s.path && kidsOf(s.path[s.path.length - 1]));
   const canUp = s => !!(s.path && s.path.length > 1);
 
   // One shown layer down: pick a child at random; if it is a hidden facet, keep going.
   const down = path => {
     const p = path.slice();
-    let node = p[p.length - 1];
-    if (!node.children) return null;
-    do { node = node.children[randBelow(node.children.length)]; p.push(node); } while (node.hide && node.children);
+    let node = p[p.length - 1], kids = kidsOf(node);
+    if (!kids) return null;
+    do {
+      node = kids[randBelow(kids.length)];
+      if (node.mash) node = mashUp(p[0].name);
+      p.push(node); kids = node.children;
+    } while (node.hide && kids);
     return p;
   };
   // One shown layer up: drop the last node and any hidden facets above it.
@@ -197,12 +203,33 @@ button{font:inherit;color:inherit;border:0;background:none;padding:0;cursor:poin
   };
 
   // Different categories across squares in one pick (sampling without replacement).
+  // Mash-up twist: pair the card with a random item from a different category.
+  const mashUp = cat => {
+    let r; do { r = REFS[randBelow(REFS.length)]; } while (r.cat === cat);
+    return { name: `Mash it up with: ${r.name}`, note: `From ${r.cat}` };
+  };
+
+  // Shuffle bag: every category comes up once, in random order, before any repeats.
+  const saveBag = () => { try { localStorage.setItem("olp-bag", JSON.stringify(BAG)); } catch (e) {} };
+  const refill = () => {
+    BAG = DB.map(c => c.name);
+    for (let i = BAG.length - 1; i > 0; i--) { const j = randBelow(i + 1); [BAG[i], BAG[j]] = [BAG[j], BAG[i]]; }
+  };
+  const drawCat = taken => {
+    for (let round = 0; round < 2; round++) {
+      const k = BAG.findIndex(n => !taken.has(n));
+      if (k >= 0) { const name = BAG.splice(k, 1)[0]; saveBag(); return byName(name); }
+      refill();
+    }
+    const pool = DB.filter(c => !taken.has(c.name));
+    return pool[randBelow(pool.length)];
+  };
+
   const chooseCategories = () => {
     const taken = new Set(slots.filter(s => s.lock).map(s => s.lock));
     return slots.map(s => {
       if (s.lock) return byName(s.lock);
-      const pool = DB.filter(c => !taken.has(c.name));
-      const c = pool[randBelow(pool.length)];
+      const c = drawCat(taken);
       taken.add(c.name);
       return c;
     });
@@ -211,7 +238,7 @@ button{font:inherit;color:inherit;border:0;background:none;padding:0;cursor:poin
   const squareHTML = (s, i) => {
     if (!s.path) return `<button class="glass press sq" data-i="${i}" aria-label="Empty square ${i + 1}"><div class="cap">${s.lock ? `<span>${esc(s.lock)}</span>${ICON_LOCK}` : ""}</div><div class="big"></div></button>`;
     const p = s.path, last = p[p.length - 1];
-    const trail = p.length === 1 ? "Category" : p.slice(0, -1).map(n => n.name).join(" · ");
+    const trail = p.length === 1 ? "Category" : p.slice(0, -1).filter(n => !TWISTS.includes(n)).map(n => n.name).join(" · ");
     const layer = visible(p).length;
     const dots = Array.from({ length: Math.max(layer, 3) }, (_, k) => `<i class="${k < layer ? "on" : ""}"></i>`).join("");
     return `<button class="glass press sq" data-i="${i}" aria-label="${esc(trail + ": " + last.name)}"><div class="cap"><span>${esc(trail)}</span>${s.lock ? ICON_LOCK : ""}</div><div class="big"><span>${esc(last.name)}</span>${last.note ? `<small class="note">${esc(last.note)}</small>` : ""}</div><div class="dots" aria-hidden="true">${dots}</div></button>`;
@@ -322,11 +349,12 @@ button{font:inherit;color:inherit;border:0;background:none;padding:0;cursor:poin
   addEventListener("resize", fit); fit();
 
   render();
-  fetch("categories.json").then(r => r.json()).then(d => {
-    DB = d;
-    const walk = n => { if (!n.children) { LEAVES.push(n.name); return; } if (!n.hide) MIDS.push(n.name); n.children.forEach(walk); };
-    DB.forEach(c => c.children.forEach(walk));
+  Promise.all(["categories.json", "twists.json"].map(u => fetch(u).then(r => r.json()))).then(([d, t]) => {
+    DB = d; TWISTS = t;
+    const walk = (n, cat) => { if (!n.children) { LEAVES.push(n.name); REFS.push({ name: n.name, cat }); return; } if (!n.hide) MIDS.push(n.name); n.children.forEach(k => walk(k, cat)); };
+    DB.forEach(c => c.children.forEach(k => walk(k, c.name)));
+    try { BAG = JSON.parse(localStorage.getItem("olp-bag") || "[]").filter(n => byName(n)); } catch (e) { BAG = []; }
     $("pick").disabled = false;
-  }).catch(() => { $("slots").insertAdjacentHTML("afterend", `<p style="color:var(--muted);text-align:center">Couldn't load categories.json</p>`); });
+  }).catch(() => { $("slots").insertAdjacentHTML("afterend", `<p style="color:var(--muted);text-align:center">Couldn't load the category list</p>`); });
 }
 </script>

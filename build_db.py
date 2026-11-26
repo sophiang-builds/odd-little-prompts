@@ -366,11 +366,39 @@ def attach_exact(data, path):
         print(f"{path.name}: not found (check spelling):", "; ".join(missing))
     return data
 
+def flag_twists(data):
+    """Every item gets a third shown layer. Items with nothing more specific underneath
+    are flagged "twist": the app then draws their next layer from twists.json."""
+    def walk(n, shown):
+        shown += 0 if n.get("hide") else 1
+        if "children" in n:
+            for k in n["children"]:
+                walk(k, shown)
+        elif shown < 3:
+            n["twist"] = 1
+    for c in data:
+        walk(c, 0)
+    return data
+
+def parse_twists(path):
+    groups = []
+    for line in path.read_text().splitlines():
+        line = line.strip()
+        if not line or line.startswith("#"):
+            continue
+        g, items = line.split(":", 1)
+        kids = [{"name": x.strip(), **({"mash": 1} if g.strip() == "Mash-up" else {})} for x in items.split(",") if x.strip()]
+        groups.append({"name": g.strip(), "hide": True, "children": kids})
+    return groups
+
 if __name__ == "__main__":
     data = [strip(n) for n in parse(TREE)]
     data += parse_compact(pathlib.Path(__file__).with_name("more_categories.txt"))
     data = attach_exact(data, pathlib.Path(__file__).with_name("exact_items.txt"))
     data = attach_exact(data, pathlib.Path(__file__).with_name("deeper_items.txt"))
+    data = flag_twists(data)
+    twists = parse_twists(pathlib.Path(__file__).with_name("twists.txt"))
+    pathlib.Path(__file__).with_name("twists.json").write_text(json.dumps(twists, ensure_ascii=False, indent=1))
     names = [c["name"] for c in data]
     dupes = {n for n in names if names.count(n) > 1}
     assert not dupes, f"duplicate categories: {dupes}"

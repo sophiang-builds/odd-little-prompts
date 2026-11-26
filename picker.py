@@ -11,7 +11,7 @@ layer deeper" should feel like.
 
 Usage:
   python3 picker.py Music Drawing          # one pick per category, one layer deep
-  python3 picker.py Music --depth 3        # go three layers in
+  python3 picker.py Music --depth 3        # go three layers in (every item has at least three)
   python3 picker.py --any                  # surprise category
   python3 picker.py --test                 # check the picks are actually even
 """
@@ -19,6 +19,15 @@ import argparse, json, pathlib, secrets
 from collections import Counter
 
 DB = json.loads(pathlib.Path(__file__).with_name("categories.json").read_text())
+TWISTS = json.loads(pathlib.Path(__file__).with_name("twists.json").read_text())
+
+def leaves(n, cat, out):
+    if "children" not in n:
+        out.append((cat, n["name"]))
+    for k in n.get("children", []):
+        leaves(k, cat, out)
+    return out
+REFS = [r for c in DB for r in leaves(c, c["name"], [])]
 
 def find(name):
     for c in DB:
@@ -27,12 +36,25 @@ def find(name):
     raise SystemExit(f"No category '{name}'. Options: {', '.join(c['name'] for c in DB)}")
 
 def pick(node, depth):
-    path = [node["name"]]
+    """Go `depth` shown layers down. Hidden facets are stepped through; items with nothing
+    more specific underneath draw from the twist deck; a mash-up pulls an item from another category."""
+    cat, path = node["name"], [node["name"]]
     for _ in range(depth):
-        kids = node.get("children")
+        kids = node.get("children") or (TWISTS if node.get("twist") else None)
         if not kids:
             break
-        node = kids[secrets.randbelow(len(kids))]
+        while True:
+            node = kids[secrets.randbelow(len(kids))]
+            if node.get("mash"):
+                while True:
+                    c, name = REFS[secrets.randbelow(len(REFS))]
+                    if c != cat:
+                        break
+                node = {"name": f"Mash it up with: {name} ({c})"}
+            if node.get("hide") and node.get("children"):
+                kids = node["children"]
+                continue
+            break
         path.append(node["name"])
     return path
 

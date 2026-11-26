@@ -1,0 +1,16 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "three-word-brief-plugins",
+  "description": "Claude Code plugins from the Three Word Brief project.",
+  "owner": {
+    "name": "sophiang1227"
+  },
+  "plugins": [
+    {
+      "name": "app-brand-studio",
+      "source": "./plugins/app-brand-studio",
+      "description": "Brand designer, typographer and UI art director for apps: three directions, measured contrast, licence-checked fonts and buildable tokens.",
+      "version": "0.1.0"
+    }
+  ]
+}

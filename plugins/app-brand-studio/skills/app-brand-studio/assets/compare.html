@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Brand directions</title>
+<!--
+  HOW TO USE
+  1. Replace the font <link> with the Google Fonts (or self-hosted @font-face) for all three directions.
+  2. Fill each .dir-a / .dir-b / .dir-c token block. Every colour on the screen comes from these tokens,
+     so the contrast pairings you check are exactly the ones rendered.
+  3. Change the copy ONCE in the <template> below; all three frames clone it, so copy and controls stay identical.
+  4. Set the direction names, concepts and trade-offs in the captions.
+  5. Render: node ../scripts/render.js compare.html out.png --width 1320
+-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Fraunces:opsz,wght@9..144,600&family=Space+Grotesk:wght@500;700&family=Noto+Sans+HK:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  /* ---------- Direction tokens: edit these ---------- */
+  .dir-a {
+    --bg: #FFFFFF; --surface: #F4F4F6; --text: #16161A; --muted: #5B5B66; --border: #D9D9E0;
+    --primary: #1F3DFF; --on-primary: #FFFFFF; --secondary-text: #1F3DFF; --focus: #1F3DFF;
+    --error: #B3261E; --accent: #FFB800;
+    --font-display: "Inter", system-ui, sans-serif; --display-weight: 600; --display-size: 34px; --display-lh: 1.1; --display-track: -0.02em;
+    --font-body: "Inter", system-ui, sans-serif; --body-size: 17px; --body-lh: 1.5;
+    --font-zh: "Noto Sans HK", "PingFang HK", "Microsoft JhengHei", sans-serif;
+    --radius: 12px; --button-h: 52px; --pad: 24px; --align: left;
+  }
+  .dir-b {
+    --bg: #FFF6EC; --surface: #FFFFFF; --text: #2A1A12; --muted: #6B5246; --border: #E8D5C4;
+    --primary: #B33A14; --on-primary: #FFFFFF; --secondary-text: #8A2C0F; --focus: #2A1A12;
+    --error: #A11A1A; --accent: #F2A541;
+    --font-display: "Fraunces", Georgia, serif; --display-weight: 600; --display-size: 38px; --display-lh: 1.05; --display-track: -0.01em;
+    --font-body: "Inter", system-ui, sans-serif; --body-size: 17px; --body-lh: 1.55;
+    --font-zh: "Noto Sans HK", "PingFang HK", "Microsoft JhengHei", sans-serif;
+    --radius: 999px; --button-h: 56px; --pad: 28px; --align: left;
+  }
+  .dir-c {
+    --bg: #0E0F13; --surface: #1A1C22; --text: #F2F3F5; --muted: #A4A8B3; --border: #34373F;
+    --primary: #C6F432; --on-primary: #0E0F13; --secondary-text: #C6F432; --focus: #FFFFFF;
+    --error: #FF8A80; --accent: #7C5CFF;
+    --font-display: "Space Grotesk", system-ui, sans-serif; --display-weight: 700; --display-size: 40px; --display-lh: 1.0; --display-track: -0.03em;
+    --font-body: "Inter", system-ui, sans-serif; --body-size: 16px; --body-lh: 1.5;
+    --font-zh: "Noto Sans HK", "PingFang HK", "Microsoft JhengHei", sans-serif;
+    --radius: 4px; --button-h: 52px; --pad: 20px; --align: left;
+  }
+
+  /* ---------- Layout: shared, leave alone unless the comparison needs it ---------- */
+  :root { color-scheme: light; }
+  * { box-sizing: border-box; }
+  body { margin: 0; padding: 32px; background: #E9E9EC; font-family: system-ui, sans-serif; color: #16161A; }
+  .row { display: flex; gap: 32px; justify-content: center; align-items: flex-start; flex-wrap: wrap; }
+  figure { margin: 0; width: 390px; }
+  figcaption { margin-top: 14px; font-size: 14px; line-height: 1.45; color: #2B2B30; }
+  figcaption b { display: block; font-size: 17px; margin-bottom: 2px; }
+  figcaption .swatches { display: flex; gap: 6px; margin: 8px 0; }
+  figcaption .swatches span { width: 28px; height: 28px; border-radius: 6px; box-shadow: inset 0 0 0 1px rgb(0 0 0 / 0.12); }
+  .phone {
+    width: 390px; height: 844px; border-radius: 44px; overflow: hidden; position: relative;
+    background: var(--bg); color: var(--text); box-shadow: 0 0 0 10px #111, 0 20px 50px rgb(0 0 0 / 0.25);
+    font-family: var(--font-body); font-size: var(--body-size); line-height: var(--body-lh);
+    display: flex; flex-direction: column; text-align: var(--align);
+  }
+  .status { height: 54px; display: flex; justify-content: space-between; align-items: center; padding: 0 30px; font: 600 15px system-ui; }
+  .screen { flex: 1; display: flex; flex-direction: column; padding: 16px var(--pad) 34px; gap: 16px; }
+  .eyebrow { font-size: 13px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+  h1 { margin: 0; font-family: var(--font-display); font-weight: var(--display-weight); font-size: var(--display-size); line-height: var(--display-lh); letter-spacing: var(--display-track); }
+  .zh { font-family: var(--font-zh); font-size: calc(var(--body-size) + 1px); line-height: 1.7; margin: 0; }
+  p { margin: 0; }
+  .muted { color: var(--muted); }
+  .card { background: var(--surface); border: 1px solid var(--border); border-radius: min(var(--radius), 20px); padding: 16px; display: flex; gap: 12px; align-items: center; }
+  .dot { width: 40px; height: 40px; border-radius: 50%; background: var(--accent); flex: none; }
+  .field { display: flex; flex-direction: column; gap: 6px; }
+  .field label { font-size: 14px; font-weight: 600; }
+  .input { height: 48px; border-radius: min(var(--radius), 12px); border: 2px solid var(--error); background: var(--surface); padding: 0 14px; display: flex; align-items: center; color: var(--text); }
+  .err { color: var(--error); font-size: 14px; display: flex; gap: 6px; align-items: center; }
+  .spacer { flex: 1; }
+  .btn { height: var(--button-h); border-radius: var(--radius); border: 0; font: 600 17px var(--font-body); width: 100%; display: flex; align-items: center; justify-content: center; }
+  .btn.primary { background: var(--primary); color: var(--on-primary); outline: 3px solid var(--focus); outline-offset: 3px; }
+  .btn.secondary { background: transparent; color: var(--secondary-text); }
+  .legend { font-size: 12px; color: var(--muted); text-align: center; }
+</style>
+</head>
+<body>
+<div class="row" id="row">
+  <figure class="dir-a"><div class="phone"></div>
+    <figcaption><b>A. Direction name</b>One-line concept.<div class="swatches"></div>Trade-off: what it costs.</figcaption></figure>
+  <figure class="dir-b"><div class="phone"></div>
+    <figcaption><b>B. Direction name</b>One-line concept.<div class="swatches"></div>Trade-off: what it costs.</figcaption></figure>
+  <figure class="dir-c"><div class="phone"></div>
+    <figcaption><b>C. Direction name</b>One-line concept.<div class="swatches"></div>Trade-off: what it costs.</figcaption></figure>
+</div>
+
+<!-- The one screen every direction shows. Edit copy here only. -->
+<template id="screen">
+  <div class="status"><span>9:41</span><span>5G ▮</span></div>
+  <div class="screen">
+    <div class="eyebrow">App name</div>
+    <h1>Headline that says the main promise</h1>
+    <p class="muted">Body copy at real length: one or two sentences explaining what happens next, so line length and rhythm are visible.</p>
+    <p class="zh" lang="zh-HK">中文句子：試吓用真實長度嘅內容。</p>
+    <div class="card"><div class="dot" aria-hidden="true"></div><div><b>Card title</b><br><span class="muted">Supporting detail · 12 min</span></div></div>
+    <div class="field"><label>Email</label><div class="input">name@example</div>
+      <div class="err"><span aria-hidden="true">⚠</span>Add the part after the @</div></div>
+    <div class="spacer"></div>
+    <button class="btn primary">Primary action</button>
+    <button class="btn secondary">Not now</button>
+    <div class="legend">Primary shown with its focus ring</div>
+  </div>
+</template>
+
+<script>
+  const tpl = document.getElementById('screen');
+  document.querySelectorAll('figure').forEach(fig => {
+    fig.querySelector('.phone').appendChild(tpl.content.cloneNode(true));
+    const cs = getComputedStyle(fig);
+    const sw = fig.querySelector('.swatches');
+    ['--bg', '--surface', '--text', '--primary', '--accent'].forEach(v => {
+      const s = document.createElement('span');
+      s.style.background = cs.getPropertyValue(v).trim();
+      s.title = v + ' ' + cs.getPropertyValue(v).trim();
+      sw.appendChild(s);
+    });
+  });
+</script>
+</body>
+</html>

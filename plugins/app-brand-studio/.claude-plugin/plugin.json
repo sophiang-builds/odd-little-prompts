@@ -1,0 +1,10 @@
+{
+  "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
+  "name": "app-brand-studio",
+  "version": "0.1.0",
+  "description": "Brand designer, typographer and UI art director for apps. Turns a described feeling into three comparable directions, then a buildable kit: purposeful palettes with measured WCAG 2.2 contrast, licence-checked free fonts (including Traditional Chinese), rendered mobile screens and copy-ready tokens.",
+  "author": {
+    "name": "sophiang1227"
+  },
+  "keywords": ["brand", "design", "typography", "colour", "accessibility", "wcag", "fonts", "design-tokens"]
+}

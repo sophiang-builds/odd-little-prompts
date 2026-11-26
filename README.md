@@ -58,7 +58,7 @@ After editing any `.txt` file, run `python3 build_db.py`. It prints anything it 
 
 ## Hosting on GitHub Pages
 
-Settings > Pages > Build and deployment > Deploy from a branch > `main` / root. Once the repository is renamed to `odd-little-prompts`, the site is at `https://sophiang1227.github.io/odd-little-prompts/` and the phone app at `/app.html`.
+Settings > Pages > Build and deployment > Deploy from a branch > `main` / root. The site is at `https://sophiang-builds.github.io/odd-little-prompts/` and the phone app at `/app.html`.
 
 ## iOS app
 

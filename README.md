@@ -15,6 +15,10 @@
   <img alt="2,816 ideas" src="https://img.shields.io/badge/ideas-2%2C816-FFD45C?style=flat-square&labelColor=2B1F3D">
 </p>
 
+<p align="center">
+  <a href="https://www.buymeacoffee.com/sophiang.builds" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me a Coffee" height="60" width="217"></a>
+</p>
+
 Deal up to three random prompts, then go deeper for something specific or back up for something broader. Every pick comes from a fixed list using the device's secure random generator. Nothing is chosen by AI when it runs, so playing costs no AI tokens.
 
 ![The website, light and dark](docs/preview-web.png)
@@ -30,7 +34,7 @@ Deal up to three random prompts, then go deeper for something specific or back u
 
 | File | What it is |
 |---|---|
-| `index.html` | The website: cards side by side on a laptop, stacked on a phone. The Buy Me a Coffee button top right links to buymeacoffee.com/sophiang.builds; change `data-user` on the `#coffee` link to point it elsewhere, or empty it to hide the button |
+| `index.html` | The website: cards side by side on a laptop, stacked on a phone. The official Buy Me a Coffee button sits top right (for buymeacoffee.com/sophiang.builds); if their script can't load, a plain backup link in the same spot appears instead |
 | `app.html` | The phone app: Liquid Glass screen, shown inside an iPhone 15 frame on wider screens. "Add to Home Screen" opens this one |
 
 ![The phone app](docs/preview-app.png)

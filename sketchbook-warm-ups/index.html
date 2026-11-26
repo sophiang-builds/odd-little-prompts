@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>3 Five-Minute Sketchbook Warm-Ups | Odd Little Prompts</title>
+<meta name="description" content="Three five-minute sketchbook warm-ups you can do with a pen and one nearby object. Draw its gaps, change its scale, then give it a job.">
+<link rel="canonical" href="https://oddlittleprompts.com/sketchbook-warm-ups/">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Odd Little Prompts">
+<meta property="og:title" content="Three five-minute sketchbook warm-ups">
+<meta property="og:description" content="Draw the gaps, change the scale, give it a job. Five minutes each, one object, one pen.">
+<meta property="og:url" content="https://oddlittleprompts.com/sketchbook-warm-ups/">
+<meta property="og:image" content="https://oddlittleprompts.com/docs/social-preview.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="../brand/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="../icons/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="../icons/apple-touch-icon.png">
+<meta name="theme-color" content="#FFF6E9" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#2B1F3D" media="(prefers-color-scheme: dark)">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+/* Static guide page in the same look as the homepage: logo palette wash, Liquid Glass panels, system type */
+:root{color-scheme:light dark;--bg:light-dark(#FFF6E9,#2B1F3D);--ink:light-dark(#2B1F3D,#FFF6E9);--muted:light-dark(rgba(43,31,61,.58),rgba(255,246,233,.62));--brand:#9B7BFF;--brandInk:light-dark(#6A4BD8,#B9A2FF);--lastInk:light-dark(#7E5CF0,#B9A2FF);--pink:#FF8FB1;--butter:#FFD45C;--lilac:#9B7BFF;--gfill:light-dark(rgba(255,255,255,.4),rgba(43,31,61,.46));--ghi:light-dark(rgba(255,255,255,.9),rgba(255,255,255,.34));--glo:light-dark(rgba(255,255,255,.35),rgba(255,255,255,.1));--gshadow:light-dark(rgba(43,31,61,.22),rgba(0,0,0,.45));--blob:light-dark(.9,.62);--stage:light-dark(#F0E6E2,#140E1E)}
+:root[data-theme=light]{color-scheme:light}:root[data-theme=dark]{color-scheme:dark}
+*{box-sizing:border-box;min-width:0}
+html,body{height:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.4 -apple-system,BlinkMacSystemFont,"SF Pro Text","Inter",system-ui,sans-serif;-webkit-tap-highlight-color:transparent;-webkit-user-select:none;user-select:none}
+button{font:inherit;color:inherit;border:0;background:none;padding:0;cursor:pointer}
+.wash{position:absolute;inset:-20%;background:light-dark(#FFEEE4,#2B1F3D);pointer-events:none;opacity:var(--blob)}
+.wash i{position:absolute;width:72%;aspect-ratio:1;border-radius:50%;transition:transform 1.6s cubic-bezier(.2,.8,.2,1)}
+.wash i:nth-child(1){left:-6%;top:12%;background:radial-gradient(closest-side,var(--pink) 35%,transparent)}
+.wash i:nth-child(2){right:-4%;top:28%;background:radial-gradient(closest-side,var(--lilac) 35%,transparent)}
+.wash i:nth-child(3){left:14%;bottom:10%;background:radial-gradient(closest-side,var(--butter) 35%,transparent)}
+.wash i:nth-child(4){right:10%;top:2%;width:40%;background:radial-gradient(closest-side,var(--pink) 35%,transparent)}
+.glass{position:relative;isolation:isolate;background:var(--gfill);-webkit-backdrop-filter:blur(22px) saturate(185%);backdrop-filter:blur(22px) saturate(185%);box-shadow:inset 0 1.5px 0 var(--ghi),inset 1.5px 0 0 var(--glo),inset -1px 0 0 var(--glo),inset 0 -1px 0 var(--glo),0 18px 40px -14px var(--gshadow);transition:transform .35s cubic-bezier(.3,1.5,.5,1),background .2s}
+.glass::before{content:"";position:absolute;inset:0;border-radius:inherit;pointer-events:none;z-index:-1;background:linear-gradient(155deg,rgba(255,255,255,.5),rgba(255,255,255,0) 34%,rgba(255,255,255,0) 72%,rgba(255,255,255,.16))}
+.glass.press:active{transform:scale(1.04)}
+:focus-visible{outline:3px solid color-mix(in srgb,var(--brand) 55%,transparent);outline-offset:3px}
+:root{--bot:16px}
+.wash{position:fixed;inset:-10%;--blob:light-dark(.9,.3)}
+.wash i{width:48%}
+.home{display:block;color:var(--ink)}
+.home svg{display:block;height:40px;width:auto}
+.home .tile{stroke:light-dark(transparent,rgba(255,246,233,.25));stroke-width:1.5}
+[hidden]{display:none!important}
+.home{flex:none}
+body{overflow-y:auto}
+.wash{position:fixed;inset:-10%;--blob:light-dark(.75,.3)}
+.wash i{width:48%}
+.page{position:relative;z-index:1;max-width:820px;margin:0 auto;padding:max(18px,env(safe-area-inset-top,0px)) max(5vw,16px,env(safe-area-inset-right,0px)) 64px max(5vw,16px,env(safe-area-inset-left,0px))}
+.head{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:36px}
+.back{font-weight:600;font-size:15px;color:var(--ink);text-decoration:none;min-height:44px;display:inline-flex;align-items:center;padding:0 18px;border-radius:22px}
+h1{margin:0 0 14px;font-size:clamp(30px,4.4vw,44px);line-height:1.08;letter-spacing:-.02em}
+p{margin:0 0 12px;font-size:17px;line-height:1.6;max-width:62ch}
+.ex{border-radius:28px;padding:24px 24px 12px;margin:22px 0}
+.ex h2{margin:0 0 10px;font-size:22px;letter-spacing:-.01em;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.ex h2 small{font-size:14px;font-weight:600;color:var(--brandInk);white-space:nowrap}
+.ex em{font-style:normal;font-weight:600}
+.next h2{margin:36px 0 10px;font-size:24px}
+.cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:16px}
+.cta a{min-height:48px;padding:0 22px;border-radius:24px;display:inline-flex;align-items:center;font-weight:600;text-decoration:none;color:var(--ink)}
+.cta a.primary{color:#2B1F3D;--gfill:color-mix(in srgb,#9B7BFF 92%,transparent)}
+@media (max-width:600px){.home svg{height:30px}.ex{padding:20px 18px 8px}}
+</style>
+
+<div class="wash" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+<div class="page">
+  <header class="head">
+    <a class="home" href="../" aria-label="Odd Little Prompts home"><svg aria-hidden="true" viewBox="0 0 514 92"><g transform="translate(6 12)"><rect class="tile" width="64" height="64" rx="14" fill="#2B1F3D"/>
+  <g stroke="#2B1F3D" stroke-width="3" stroke-linejoin="round">
+    <rect x="-13" y="-17" width="26" height="34" rx="6" fill="#FF8FB1" transform="translate(23 35) rotate(-16)"/>
+    <rect x="-13" y="-17" width="26" height="34" rx="6" fill="#FFD45C" transform="translate(32 31) rotate(0)"/>
+    <rect x="-13" y="-17" width="26" height="34" rx="6" fill="#9B7BFF" transform="translate(41 35) rotate(16)"/>
+  </g>
+  <path d="M0,-11 C1.6,-3 3,-1.6 11,0 C3,1.6 1.6,3 0,11 C-1.6,3 -3,1.6 -11,0 C-3,-1.6 -1.6,-3 0,-11Z" fill="#FFF6E9" transform="translate(41 35) rotate(16) scale(0.78)"/></g><rect x="98.0" y="76" width="83.7" height="6" rx="3" fill="#FF8FB1"/><rect x="201.7" y="76" width="101.0" height="6" rx="3" fill="#FFD45C"/><rect x="322.8" y="76" width="175.7" height="6" rx="3" fill="#9B7BFF"/><g fill="currentColor"><path d="M792 -20Q591 -20 430.5 69.0Q270 158 176.0 329.0Q82 500 82 744Q82 990 176.0 1161.0Q270 1332 430.5 1421.0Q591 1510 792 1510Q992 1510 1152.5 1421.0Q1313 1332 1406.5 1161.0Q1500 990 1500 744Q1500 499 1406.5 328.0Q1313 157 1152.5 68.5Q992 -20 792 -20ZM792 290Q900 290 978.0 342.0Q1056 394 1098.0 495.5Q1140 597 1140 744Q1140 892 1098.0 994.0Q1056 1096 978.0 1148.0Q900 1200 792 1200Q683 1200 605.0 1147.5Q527 1095 485.0 993.5Q443 892 443 744Q443 597 485.0 496.0Q527 395 605.0 342.5Q683 290 792 290Z" transform="translate(96.0 60) scale(0.0215 -0.0215)"/><path d="M520 -16Q396 -16 294.0 48.5Q192 113 132.0 240.5Q72 368 72 558Q72 754 134.5 881.5Q197 1009 298.5 1070.5Q400 1132 517 1132Q606 1132 669.0 1101.5Q732 1071 772.5 1024.0Q813 977 834 926H842V1490H1190V0H846V181H834Q812 131 770.5 86.0Q729 41 667.5 12.5Q606 -16 520 -16ZM639 256Q705 256 752.5 293.5Q800 331 825.0 399.0Q850 467 850 558Q850 651 825.0 718.5Q800 786 752.5 822.5Q705 859 639 859Q572 859 525.5 821.5Q479 784 455.0 716.5Q431 649 431 558Q431 468 455.0 399.5Q479 331 525.5 293.5Q572 256 639 256Z" transform="translate(129.2 60) scale(0.0215 -0.0215)"/><path d="M520 -16Q396 -16 294.0 48.5Q192 113 132.0 240.5Q72 368 72 558Q72 754 134.5 881.5Q197 1009 298.5 1070.5Q400 1132 517 1132Q606 1132 669.0 1101.5Q732 1071 772.5 1024.0Q813 977 834 926H842V1490H1190V0H846V181H834Q812 131 770.5 86.0Q729 41 667.5 12.5Q606 -16 520 -16ZM639 256Q705 256 752.5 293.5Q800 331 825.0 399.0Q850 467 850 558Q850 651 825.0 718.5Q800 786 752.5 822.5Q705 859 639 859Q572 859 525.5 821.5Q479 784 455.0 716.5Q431 649 431 558Q431 468 455.0 399.5Q479 331 525.5 293.5Q572 256 639 256Z" transform="translate(156.5 60) scale(0.0215 -0.0215)"/></g><g fill="currentColor"><path d="M116 0V1490H469V288H1092V0Z" transform="translate(199.7 60) scale(0.0215 -0.0215)"/><path d="M115 0V1118H464V0ZM289 1249Q215 1249 162.0 1298.5Q109 1348 109 1417Q109 1487 162.0 1536.0Q215 1585 289 1585Q364 1585 417.0 1536.5Q470 1488 470 1417Q470 1347 417.0 1298.0Q364 1249 289 1249Z" transform="translate(223.8 60) scale(0.0215 -0.0215)"/><path d="M718 1118V859H20V1118ZM168 1384H517V342Q517 298 538.0 276.5Q559 255 606 255Q624 255 656.5 259.0Q689 263 703 267L748 13Q689 -4 634.0 -10.0Q579 -16 530 -16Q352 -16 260.0 67.5Q168 151 168 311Z" transform="translate(235.5 60) scale(0.0215 -0.0215)"/><path d="M718 1118V859H20V1118ZM168 1384H517V342Q517 298 538.0 276.5Q559 255 606 255Q624 255 656.5 259.0Q689 263 703 267L748 13Q689 -4 634.0 -10.0Q579 -16 530 -16Q352 -16 260.0 67.5Q168 151 168 311Z" transform="translate(251.5 60) scale(0.0215 -0.0215)"/><path d="M464 1490V0H115V1490Z" transform="translate(267.5 60) scale(0.0215 -0.0215)"/><path d="M636 -21Q461 -21 334.0 48.5Q207 118 139.5 247.0Q72 376 72 555Q72 727 139.5 857.0Q207 987 331.0 1059.5Q455 1132 623 1132Q741 1132 839.5 1095.0Q938 1058 1010.5 985.5Q1083 913 1122.5 807.0Q1162 701 1162 562V474H196V677H996L833 629Q833 707 809.5 763.0Q786 819 740.0 849.0Q694 879 626 879Q558 879 511.0 848.5Q464 818 439.5 763.5Q415 709 415 636V490Q415 404 443.5 346.5Q472 289 523.0 260.5Q574 232 642 232Q689 232 727.5 245.0Q766 258 793.5 284.0Q821 310 835 347L1146 296Q1118 200 1049.5 128.5Q981 57 876.5 18.0Q772 -21 636 -21Z" transform="translate(279.1 60) scale(0.0215 -0.0215)"/></g><g fill="var(--lastInk)"><path d="M116 0V1490H726Q894 1490 1016.0 1425.0Q1138 1360 1203.5 1244.0Q1269 1128 1269 975Q1269 821 1202.0 707.0Q1135 593 1011.0 529.0Q887 465 716 465H338V744H652Q735 744 791.0 773.0Q847 802 875.0 854.0Q903 906 903 975Q903 1045 875.0 1096.5Q847 1148 790.5 1176.0Q734 1204 651 1204H469V0Z" transform="translate(320.8 60) scale(0.0215 -0.0215)"/><path d="M115 0V1118H454V914H466Q496 1025 565.5 1078.5Q635 1132 727 1132Q751 1132 777.5 1129.0Q804 1126 826 1120V816Q801 825 760.5 829.5Q720 834 688 834Q624 834 573.0 805.5Q522 777 493.0 727.0Q464 677 464 610V0Z" transform="translate(348.6 60) scale(0.0215 -0.0215)"/><path d="M634 -21Q459 -21 333.0 51.5Q207 124 139.5 253.5Q72 383 72 555Q72 728 139.5 857.5Q207 987 333.0 1059.5Q459 1132 634 1132Q809 1132 935.0 1059.5Q1061 987 1128.0 857.5Q1195 728 1195 555Q1195 383 1128.0 253.5Q1061 124 935.0 51.5Q809 -21 634 -21ZM634 246Q701 246 747.0 285.0Q793 324 816.5 394.0Q840 464 840 557Q840 650 816.5 719.5Q793 789 747.0 827.0Q701 865 634 865Q567 865 521.0 827.0Q475 789 451.5 719.5Q428 650 428 557Q428 464 451.5 394.0Q475 324 521.0 285.0Q567 246 634 246Z" transform="translate(366.3 60) scale(0.0215 -0.0215)"/><path d="M115 0V1118H436L456 828H432Q458 937 509.5 1004.0Q561 1071 629.5 1102.0Q698 1133 774 1133Q894 1133 967.5 1056.0Q1041 979 1081 804H1042Q1069 921 1127.0 994.0Q1185 1067 1263.0 1100.0Q1341 1133 1425 1133Q1530 1133 1610.5 1087.5Q1691 1042 1737.0 957.5Q1783 873 1783 754V0H1435V675Q1435 760 1390.5 804.0Q1346 848 1277 848Q1228 848 1191.5 826.0Q1155 804 1136.0 764.5Q1117 725 1117 671V0H782V680Q782 757 739.0 802.5Q696 848 626 848Q578 848 541.5 826.0Q505 804 484.5 763.5Q464 723 464 664V0Z" transform="translate(392.8 60) scale(0.0215 -0.0215)"/><path d="M115 -418V1118H460V926H472Q493 977 533.5 1024.0Q574 1071 636.5 1101.5Q699 1132 788 1132Q906 1132 1007.5 1070.5Q1109 1009 1171.5 881.5Q1234 754 1234 558Q1234 368 1174.0 240.5Q1114 113 1012.0 48.5Q910 -16 786 -16Q701 -16 638.5 12.5Q576 41 535.0 86.0Q494 131 472 181H464V-418ZM667 256Q734 256 780.5 293.5Q827 331 851.0 399.5Q875 468 875 558Q875 649 851.0 716.5Q827 784 781.0 821.5Q735 859 667 859Q600 859 553.0 822.5Q506 786 481.0 718.5Q456 651 456 558Q456 467 481.0 399.0Q506 331 553.5 293.5Q601 256 667 256Z" transform="translate(432.8 60) scale(0.0215 -0.0215)"/><path d="M718 1118V859H20V1118ZM168 1384H517V342Q517 298 538.0 276.5Q559 255 606 255Q624 255 656.5 259.0Q689 263 703 267L748 13Q689 -4 634.0 -10.0Q579 -16 530 -16Q352 -16 260.0 67.5Q168 151 168 311Z" transform="translate(460.0 60) scale(0.0215 -0.0215)"/><path d="M586 -21Q443 -21 333.0 19.5Q223 60 154.0 136.5Q85 213 65 320L389 371Q410 298 460.0 261.0Q510 224 599 224Q672 224 714.0 249.5Q756 275 756 317Q756 356 722.5 379.5Q689 403 619 417L424 455Q258 487 175.5 567.5Q93 648 93 777Q93 889 153.5 968.0Q214 1047 324.5 1089.5Q435 1132 585 1132Q725 1132 828.5 1094.5Q932 1057 995.5 987.5Q1059 918 1078 822L770 773Q755 829 708.5 860.5Q662 892 591 892Q528 892 484.5 866.5Q441 841 441 798Q441 764 468.0 738.5Q495 713 567 699L781 659Q947 627 1028.5 553.0Q1110 479 1110 357Q1110 242 1042.5 157.0Q975 72 857.0 25.5Q739 -21 586 -21Z" transform="translate(476.0 60) scale(0.0215 -0.0215)"/></g></svg></a>
+    <a class="glass press back" href="../#deck">Deal a prompt</a>
+  </header>
+  <main>
+    <h1>Three five-minute sketchbook warm-ups</h1>
+    <p>Put a mug, a key or a pair of scissors next to your sketchbook. No scissors handy? A fork or a chair works too. Pick one warm-up and give it five minutes. If you want to fill a page, use the same object for all three.</p>
+
+    <section class="glass ex" id="draw-the-gaps">
+      <h2>1. Draw the gaps <small>5 minutes</small></h2>
+      <p>Spend 30 seconds looking only for empty spaces: the hole in a mug's handle, the finger holes in scissors, the wedge of air between the blades. For the next four minutes, draw only those shapes. In the last 30 seconds, add <em>the smallest mark that makes the object recognisable</em>, and leave the rest of the outline open.</p>
+    </section>
+
+    <section class="glass ex" id="change-the-scale">
+      <h2>2. Change the scale <small>5 minutes</small></h2>
+      <p>Draw a rectangle the size of a postage stamp and fit the whole object inside it. In a second rectangle, zoom in until one edge of the object crosses the entire frame. Spend the last minute adding a person no bigger than a grain of rice. Where would they stand?</p>
+    </section>
+
+    <section class="glass ex" id="give-it-a-job">
+      <h2>3. Give it a job <small>5 minutes</small></h2>
+      <p>Imagine your object works the night shift. Draw it at the start of its shift, halfway through and just before it goes home, changing its angle in each little scene. Add one prop that tells us what the job is, and stop when someone could guess it without a caption.</p>
+      <p>Stuck for a job? Try a mug working the night shift at a lost-and-found desk. Draw its handle as one big listening ear, then add the tiny mitten someone has come to claim.</p>
+    </section>
+
+    <section class="next">
+      <h2>Make another warm-up</h2>
+      <p>Tomorrow, repeat one exercise with something soft, like a sock or a folded scarf. Or let the deck choose: it can deal you one specific thing to draw, or leave the category open and sketch whatever comes up.</p>
+      <div class="cta">
+        <a class="glass press primary" href="../#drawing">Deal me a drawing idea</a>
+        <a class="glass press" href="../#deck">Deal a creative prompt</a>
+      </div>
+    </section>
+  </main>
+</div>

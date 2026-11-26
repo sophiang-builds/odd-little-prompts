@@ -35,9 +35,16 @@ Deal up to three random prompts, then go deeper for something specific or back u
 | File | What it is |
 |---|---|
 | `index.html` | The website: cards side by side on a laptop, stacked on a phone. The official Buy Me a Coffee button sits top right (for buymeacoffee.com/sophiang.builds); if their script can't load, a plain backup link in the same spot appears instead |
+| `sketchbook-warm-ups/index.html` | A static guide with three five-minute sketchbook exercises; links back to the deck and to `/#drawing`, which opens one card locked to Drawing with a specific idea dealt |
 | `app.html` | The phone app: Liquid Glass screen, shown inside an iPhone 15 frame on wider screens. "Add to Home Screen" opens this one |
 
 ![The phone app](docs/preview-app.png)
+
+## Search setup
+
+- The homepage and guide each have their own title, description, canonical URL (on `oddlittleprompts.com`) and sharing preview. Their copy, examples and questions are plain HTML, so search engines and AI assistants can read them without running the deck.
+- `app.html` is marked `noindex`: it is the installed phone app, not a search page.
+- `robots.txt` allows all crawlers and points to `sitemap.xml`, which lists the two indexable pages. To keep AI training crawlers out while staying in AI search, add `Disallow: /` groups for `GPTBot` and `ClaudeBot` only.
 
 ## The database
 

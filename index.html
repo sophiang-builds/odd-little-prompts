@@ -2,8 +2,16 @@
 <html lang="en">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Odd Little Prompts</title>
-<meta name="description" content="Deal up to three odd little prompts, then go deeper or back up. Picked by code from a fixed list, no AI.">
+<title>Creative Prompt Generator for Creative Block | Odd Little Prompts</title>
+<meta name="description" content="Stuck on what to make? Deal up to three random creative prompt cards and narrow one from a broad category to something you can start in minutes. Free, no sign-up, made for people, not AI.">
+<link rel="canonical" href="https://oddlittleprompts.com/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Odd Little Prompts">
+<meta property="og:title" content="Creative prompts for when you don't know what to make">
+<meta property="og:description" content="Deal up to three random creative prompt cards, then go deeper until there is something you can start. Free, no sign-up.">
+<meta property="og:url" content="https://oddlittleprompts.com/">
+<meta property="og:image" content="https://oddlittleprompts.com/docs/social-preview.png">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="brand/favicon.svg" type="image/svg+xml">
 <link rel="icon" href="icons/favicon-32.png" sizes="32x32" type="image/png">
 <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
@@ -101,13 +109,32 @@ button{font:inherit;color:inherit;border:0;background:none;padding:0;cursor:poin
 .bmc a{margin:0!important}
 .home{flex:none}
 @media (max-width:440px){.bmc{zoom:.62}.coffee .l{display:none}.coffee .s{display:inline}.coffee{padding:0 14px 0 12px}}
-.stagearea{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:26px;padding-block:26px}
-.lede{margin:0;max-width:34em;text-align:center;font-size:17px;font-weight:500;line-height:1.5;color:var(--muted)}
+.stagearea{min-height:calc(100svh - 76px);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:22px;padding-block:22px;scroll-margin-top:12px}
+.intro{text-align:center;max-width:40em}
+.lede{margin:0;font-size:clamp(28px,3.6vw,40px);font-weight:700;line-height:1.08;letter-spacing:-.02em;color:var(--ink)}
+.sub{margin:10px auto 0;max-width:34em;font-size:17px;font-weight:500;line-height:1.5;color:var(--muted)}
+.hint{margin:-6px 0 0;padding:5px 14px;border-radius:999px;font-size:15px;font-weight:600;color:var(--ink);text-align:center;background:light-dark(rgba(255,255,255,.55),rgba(43,31,61,.6))}
+.hint:empty{visibility:hidden}
+.hint a,.more a{color:var(--brandInk);text-underline-offset:3px}
+.more{position:relative;z-index:1;width:100%;max-width:1040px;margin:0 auto;padding:28px 0 64px;display:grid;gap:60px}
+.more section{scroll-margin-top:16px}
+.more h2{margin:0 0 14px;font-size:clamp(26px,3vw,34px);font-weight:700;line-height:1.1;letter-spacing:-.02em}
+.more p{margin:0 0 12px;max-width:62ch;font-size:17px;line-height:1.6}
+.path{display:flex;flex-wrap:wrap;align-items:center;gap:8px}
+.path span{padding:6px 14px;border-radius:999px;background:light-dark(rgba(255,255,255,.7),rgba(255,255,255,.1));font-weight:600;font-size:15px}
+.path span+span::before{content:"→";margin-right:8px;color:var(--brandInk)}
+.tries{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin:18px 0}
+.try{border-radius:26px;padding:22px 22px 10px}
+.try h3{margin:0 0 8px;font-size:19px;line-height:1.25}
+.try p{font-size:16px}
+.faq{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px 36px}
+.faq h3{margin:0 0 6px;font-size:18px}
+.faq p{font-size:16px}
 .slots{width:100%;display:flex;justify-content:center;gap:18px}
 .cell{container-type:size;aspect-ratio:1;width:min(340px,calc((100vw - 2 * max(5vw,16px) - (var(--n) - 1) * 18px) / var(--n)))}
 .ctrl{max-width:440px}
 .count{display:flex;padding:4px;gap:2px;border-radius:24px}
-.keys{margin:-10px 0 0;font-size:13px;color:var(--muted);text-align:center}
+.keys{margin:-10px 0 0;font-size:13px;color:var(--ink);opacity:.7;text-align:center}
 kbd{font:600 12px/1 -apple-system,system-ui,sans-serif;padding:3px 6px;border-radius:6px;background:light-dark(rgba(255,255,255,.6),rgba(255,255,255,.12));border:1px solid light-dark(rgba(43,31,61,.15),rgba(255,246,233,.18))}
 @media (hover:none){.keys{display:none}}
 .count svg.v{display:none}
@@ -116,16 +143,21 @@ kbd{font:600 12px/1 -apple-system,system-ui,sans-serif;padding:3px 6px;border-ra
 .sheet{position:fixed;left:8px;right:8px;bottom:max(8px,env(safe-area-inset-bottom,0px));margin-inline:auto;max-width:520px;height:min(70svh,640px);z-index:9;border-radius:32px;display:flex;flex-direction:column;padding:8px 16px 0;--gfill:light-dark(rgba(255,255,255,.7),rgba(30,32,44,.78));animation:up .35s cubic-bezier(.2,.9,.3,1)}
 .list{flex:1;overflow-y:auto;margin:0 -16px;padding:0 16px 16px}
 @media (max-width:759px){
+  .sub{display:none}
+  .lede{font-size:22px}
+  .stagearea{min-height:calc(100svh - 64px);gap:16px;padding-block:14px}
+  .tries,.faq{grid-template-columns:1fr}
+  .more{gap:44px;padding-top:12px}
   .count svg.h{display:none}
   .count svg.v{display:block}
   .count button{width:54px}
   .home svg{height:32px}
-  .lede{display:none}
   .stagearea{gap:22px;padding-block:18px}
   .slots{flex-direction:column;align-items:center;gap:12px}
-  .slots[data-n="1"] .cell{width:min(86vw,340px)}
-  .slots[data-n="2"] .cell{width:min(100%,calc((100svh - 330px) / 2))}
-  .slots[data-n="3"] .cell{width:100%;aspect-ratio:auto;height:clamp(130px,calc((100svh - 350px) / 3),210px)}
+  .slots[data-n="1"] .cell{width:min(86vw,340px,calc(100svh - 360px))}
+  .slots[data-n="2"] .cell{width:min(100%,calc((100svh - 400px) / 2))}
+  .slots[data-n="3"] .cell{width:100%;aspect-ratio:auto;height:clamp(96px,calc((100svh - 450px) / 3),210px)}
+  .hint{font-size:14px;padding:4px 12px}
   .slots[data-n="3"] .sq{border-radius:30px;padding:clamp(16px,11cqmin,24px) 22px}
   .slots[data-n="3"] .cap span{-webkit-line-clamp:1}
   .slots[data-n="3"] .big{font-size:clamp(18px,14cqmin,28px)}
@@ -150,21 +182,65 @@ kbd{font:600 12px/1 -apple-system,system-ui,sans-serif;padding:3px 6px;border-ra
     <a class="glass press coffee" id="coffee" data-user="sophiang.builds" href="https://buymeacoffee.com/" target="_blank" rel="noopener" hidden><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9h12v5a5 5 0 0 1-5 5H9a5 5 0 0 1-5-5zM16 10h1.5a2.5 2.5 0 0 1 0 5H16M7 3.5c-.6.8.6 1.5 0 2.5M10.5 3.5c-.6.8.6 1.5 0 2.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="l">Buy me a coffee</span><span class="s">Coffee</span></a>
     <div class="bmc"><script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="sophiang.builds" data-color="#FFDD00" data-emoji="☕" data-font="Cookie" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#000000" data-coffee-color="#ffffff" onerror="document.getElementById('coffee').hidden=false;this.parentNode.hidden=true"></script></div>
   </header>
-  <main class="stagearea">
-    <h1 class="lede">Deal up to three odd little prompts. Go deeper for something specific, or back up for something broader.</h1>
+  <main class="stagearea" id="deck">
+    <div class="intro">
+      <h1 class="lede">Creative prompts for when you don't know what to make</h1>
+      <p class="sub">Pick a card for a starting point. Go one layer deeper when you want a detail you can draw, write, build or play with.</p>
+    </div>
     <div class="slots" id="slots" data-n="1" style="--n:1"></div>
+    <p class="hint" id="hint" aria-live="polite"></p>
+    <noscript><p class="hint">Turn on JavaScript to deal cards, or <a href="#creative-prompts">try one of the prompts below</a>.</p></noscript>
     <div class="ctrl">
-          <button class="glass press nav" id="up" aria-label="Up a layer" disabled><svg viewBox="0 0 24 24"><path d="M6 15l6-6 6 6"/></svg></button>
+          <button class="glass press nav" id="up" aria-label="Back one layer" disabled><svg viewBox="0 0 24 24"><path d="M6 15l6-6 6 6"/></svg></button>
           <button class="glass press pick" id="pick" disabled>Pick for me</button>
-          <button class="glass press nav" id="down" aria-label="Down a layer" disabled><svg viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></svg></button>
+          <button class="glass press nav" id="down" aria-label="Go deeper" disabled><svg viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></svg></button>
         </div>
-    <div class="glass count" id="count" role="group" aria-label="How many picks">
-        <button data-n="1" aria-label="One square"><svg class="h" viewBox="0 0 12 24"><rect y="6" width="12" height="12" rx="3"/></svg><svg class="v" viewBox="0 0 12 24"><rect y="6" width="12" height="12" rx="3"/></svg></button>
-        <button data-n="2" aria-label="Two squares"><svg class="h" viewBox="0 0 26 24"><rect y="6" width="12" height="12" rx="3"/><rect x="14" y="6" width="12" height="12" rx="3"/></svg><svg class="v" viewBox="0 0 12 24"><rect x="1" y="1" width="10" height="10" rx="2.5"/><rect x="1" y="13" width="10" height="10" rx="2.5"/></svg></button>
-        <button data-n="3" aria-label="Three squares"><svg class="h" viewBox="0 0 40 24"><rect y="6" width="12" height="12" rx="3"/><rect x="14" y="6" width="12" height="12" rx="3"/><rect x="28" y="6" width="12" height="12" rx="3"/></svg><svg class="v" viewBox="0 0 16 24"><rect width="16" height="7" rx="2"/><rect y="8.5" width="16" height="7" rx="2"/><rect y="17" width="16" height="7" rx="2"/></svg></button>
+    <div class="glass count" id="count" role="group" aria-label="Number of cards">
+        <button data-n="1" aria-label="One card"><svg class="h" viewBox="0 0 12 24"><rect y="6" width="12" height="12" rx="3"/></svg><svg class="v" viewBox="0 0 12 24"><rect y="6" width="12" height="12" rx="3"/></svg></button>
+        <button data-n="2" aria-label="Two cards"><svg class="h" viewBox="0 0 26 24"><rect y="6" width="12" height="12" rx="3"/><rect x="14" y="6" width="12" height="12" rx="3"/></svg><svg class="v" viewBox="0 0 12 24"><rect x="1" y="1" width="10" height="10" rx="2.5"/><rect x="1" y="13" width="10" height="10" rx="2.5"/></svg></button>
+        <button data-n="3" aria-label="Three cards"><svg class="h" viewBox="0 0 40 24"><rect y="6" width="12" height="12" rx="3"/><rect x="14" y="6" width="12" height="12" rx="3"/><rect x="28" y="6" width="12" height="12" rx="3"/></svg><svg class="v" viewBox="0 0 16 24"><rect width="16" height="7" rx="2"/><rect y="8.5" width="16" height="7" rx="2"/><rect y="17" width="16" height="7" rx="2"/></svg></button>
       </div>
     <p class="keys"><kbd>Space</kbd> pick &nbsp; <kbd>↓</kbd> deeper &nbsp; <kbd>↑</kbd> back &nbsp; <kbd>1</kbd> <kbd>2</kbd> <kbd>3</kbd> cards</p>
   </main>
+
+  <div class="more">
+    <section id="card-to-idea">
+      <h2>How a card turns into an idea</h2>
+      <p class="path"><span>Miniatures</span><span>A matchbox diorama</span><span>As a gift</span></p>
+      <p>Imagine a gig small enough to fit in your pocket. Fold a scrap of paper into a zigzag crowd, stand it inside a matchbox and write your friend's name on the ticket. You can stop at any point along the card's path.</p>
+      <p>If you deal two cards, try borrowing one detail from each. With Maps and Photography, take pictures of three doorways on your street and use them as landmarks on a hand-drawn map.</p>
+    </section>
+
+    <section id="creative-prompts">
+      <h2>Three creative prompts to try now</h2>
+      <p>Here are three ways to use ideas from the deck. Pick the one you can start with what's in front of you.</p>
+      <div class="tries">
+        <article class="glass try">
+          <h3>Draw a smell map</h3>
+          <p>Mark your front door with a dot. Map the nearest three smells you remember, with a different symbol for each. Fresh toast might be a little brown square.</p>
+        </article>
+        <article class="glass try">
+          <h3>Write the lost-key story</h3>
+          <p>"My spare key came home wet." Where did it go? Answer in six words. Have ten minutes? Write the first 100 words in the key's voice.</p>
+        </article>
+        <article class="glass try">
+          <h3>Photograph a reflection</h3>
+          <p>Find a shiny spoon. Move it until a window fits inside the curve, then take the picture with the handle still in the frame.</p>
+        </article>
+      </div>
+      <p class="guide">Drawing today? <a href="sketchbook-warm-ups/">Try three five-minute sketchbook warm-ups</a>.</p>
+    </section>
+
+    <section id="good-to-know">
+      <h2>Good to know</h2>
+      <div class="faq">
+        <div><h3>Is it free?</h3><p>Yes. There's no account, no sign-up and nothing to install. On an iPhone you can add it to your Home Screen from Safari's Share menu.</p></div>
+        <div><h3>Does it use AI?</h3><p>No AI chooses or writes your prompt. Every card comes from a fixed list of about 260 categories written in advance, and your device's random generator picks from it. The ideas are for you to make, not prompts for an AI image or chat tool.</p></div>
+        <div><h3>Do I need to be good at art?</h3><p>No. Most cards work with a pen, your phone camera or things already in your room. Stop at the category, or go deeper until it feels small enough to start.</p></div>
+        <div><h3>What if I don't like my card?</h3><p>Pick again for a fresh hand, or step back a layer and go deeper for a different detail. To choose a card's category yourself, hold the card or press Enter on it.</p></div>
+      </div>
+    </section>
+  </div>
 </div>
 <div id="sheetHost"></div>
 
@@ -245,7 +321,7 @@ kbd{font:600 12px/1 -apple-system,system-ui,sans-serif;padding:3px 6px;border-ra
   };
 
   const squareHTML = (s, i) => {
-    if (!s.path) return `<button class="glass press sq" data-i="${i}" aria-label="Empty square ${i + 1}"><div class="cap">${s.lock ? `<span>${esc(s.lock)}</span>${ICON_LOCK}` : ""}</div><div class="big"></div></button>`;
+    if (!s.path) return `<button class="glass press sq" data-i="${i}" aria-label="Empty card ${i + 1}"><div class="cap">${s.lock ? `<span>${esc(s.lock)}</span>${ICON_LOCK}` : ""}</div><div class="big"></div></button>`;
     const p = s.path, last = p[p.length - 1];
     const trail = p.length === 1 ? "Category" : p.slice(0, -1).filter(n => !TWISTS.includes(n)).map(n => n.name).join(" · ");
     const layer = visible(p).length;
@@ -290,10 +366,20 @@ kbd{font:600 12px/1 -apple-system,system-ui,sans-serif;padding:3px 6px;border-ra
   };
 
   // Pick for me: fresh categories, back at the top layer.
+  // One short line under the cards that tells a first-time visitor what to do next.
+  const touch = matchMedia("(hover: none)").matches;
+  let deeperUsed = false;
+  const hint = (html) => { $("hint").innerHTML = html; };
+  const nextHint = () => {
+    if (deeperUsed) hint("");
+    else hint(touch ? "Tap ↓ to go deeper for something specific." : "Press ↓ or the arrow to go deeper for something specific.");
+  };
+
   const pickAll = () => {
     const cats = chooseCategories();
     slots.forEach((s, i) => s.path = [cats[i]]);
     spin(slots.map((_, i) => i));
+    nextHint();
   };
 
   const pickOne = i => {
@@ -311,7 +397,7 @@ kbd{font:600 12px/1 -apple-system,system-ui,sans-serif;padding:3px 6px;border-ra
       const p = s.path && down(s.path);
       if (p) { s.path = p; moved.push(i); } else if (s.path) setTimeout(() => nudge(i, "nope"), 0);
     });
-    if (moved.length) spin(moved);
+    if (moved.length) { spin(moved); deeperUsed = true; nextHint(); }
   };
   const goUp = () => {
     const moved = [];
@@ -347,6 +433,7 @@ kbd{font:600 12px/1 -apple-system,system-ui,sans-serif;padding:3px 6px;border-ra
   const sq = e => e.target.closest(".sq");
   $("slots").addEventListener("pointerdown", e => { const el = sq(e); if (!el) return; pressTimer = setTimeout(() => openSheet(+el.dataset.i), 520); });
   ["pointerup", "pointerleave", "pointercancel"].forEach(t => $("slots").addEventListener(t, () => clearTimeout(pressTimer)));
+  $("slots").addEventListener("keydown", e => { const el = sq(e); if (el && e.key === "Enter") { e.preventDefault(); openSheet(+el.dataset.i); } });
   $("slots").addEventListener("contextmenu", e => { const el = sq(e); if (!el) return; e.preventDefault(); clearTimeout(pressTimer); openSheet(+el.dataset.i); });
   $("pick").addEventListener("click", pickAll);
   $("down").addEventListener("click", () => goDown());
@@ -366,12 +453,25 @@ kbd{font:600 12px/1 -apple-system,system-ui,sans-serif;padding:3px 6px;border-ra
   });
 
   render();
+  hint("Loading the deck…");
   Promise.all(["categories.json", "twists.json"].map(u => fetch(u).then(r => r.json()))).then(([d, t]) => {
     DB = d; TWISTS = t;
     const walk = (n, cat) => { if (!n.children) { LEAVES.push(n.name); REFS.push({ name: n.name, cat }); return; } if (!n.hide) MIDS.push(n.name); n.children.forEach(k => walk(k, cat)); };
     DB.forEach(c => c.children.forEach(k => walk(k, c.name)));
     try { BAG = JSON.parse(localStorage.getItem("olp-bag") || "[]").filter(n => byName(n)); } catch (e) { BAG = []; }
     $("pick").disabled = false;
-  }).catch(() => { $("slots").insertAdjacentHTML("afterend", `<p style="color:var(--muted);text-align:center">Couldn't load the category list</p>`); });
+    hint("Your first pick is a category.");
+    // /#drawing opens straight onto one specific drawing idea, with the card locked to Drawing
+    if (location.hash === "#drawing") {
+      const d = byName("Drawing"), subject = d && d.children.find(c => c.name === "Subject");
+      if (subject) {
+        setCount(1);
+        slots[0].lock = "Drawing";
+        slots[0].path = down(down([d, subject])) || [d, subject];
+        render();
+        hint("Here's something to draw. Step back ↑, then go deeper ↓ for another.");
+      }
+    }
+  }).catch(() => { hint(`The deck couldn't load. Reload the page or <a href="#creative-prompts">try one of the prompts below</a>.`); });
 }
 </script>

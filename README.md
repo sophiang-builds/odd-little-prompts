@@ -1,22 +1,30 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="brand/logo-horizontal-dark.svg">
-  <img src="brand/logo-horizontal.svg" alt="Three Word Brief" width="420">
+  <img src="brand/logo-horizontal.svg" alt="Odd Little Prompts" width="420">
 </picture>
 
-# Three Word Brief
+# Odd Little Prompts
 
-A random picker for things to make, do, cook, play and learn. Up to three Liquid Glass cards land on random categories, and you can step down layer by layer to the exact thing: a real phrase, song, dish, place or product.
+Deal up to three random prompts, then go deeper for something specific or back up for something broader. Every pick comes from a fixed list using the device's secure random generator. Nothing is chosen by AI when it runs, so playing costs no AI tokens.
 
-Every pick comes from a fixed list using the device's secure random generator. Nothing is chosen by AI when the app runs, so playing it costs no AI tokens.
+![The website, light and dark](docs/preview-web.png)
 
-![Three Word Brief in an iPhone 15 frame](docs/brand-preview.png)
+## How it works
 
-## Two versions
+- **Pick for me** deals a fresh category onto each card. It is the only thing that changes categories.
+- **Down arrow** (right) takes every card one layer deeper at random. **Up arrow** (left) steps back without re-rolling.
+- **Swipe or drag a card left** to swap just that card for another option at the same layer in the same category. Two swaps per card per layer; the counter in the card's corner resets when you change layer or pick again.
+- **Hold a card** to lock it to a category. The switch at the bottom sets 1, 2 or 3 cards.
+- On the website: <kbd>Space</kbd> picks, <kbd>↓</kbd> <kbd>↑</kbd> change layer, <kbd>1</kbd> <kbd>2</kbd> <kbd>3</kbd> set the number of cards.
 
-- `index.html`: tap **Pick for me** and each card lands on a specific thing. Tap a card to go one layer deeper.
-- `explore.html`: **Pick for me** deals categories only. The **down arrow** (right) takes every card one layer deeper at random, and the **up arrow** (left) steps back without re-rolling.
+## Pages
 
-Both: the switch at the bottom sets 1, 2 or 3 cards; hold a card to lock it to a category; cards in one pick never share a category.
+| File | What it is |
+|---|---|
+| `index.html` | The website: cards side by side on a laptop, stacked on a phone |
+| `app.html` | The phone app: Liquid Glass screen, shown inside an iPhone 15 frame on wider screens. "Add to Home Screen" opens this one |
+
+![The phone app](docs/preview-app.png)
 
 ## The database
 
@@ -26,31 +34,18 @@ Both: the switch at the bottom sets 1, 2 or 3 cards; hold a card to lock it to a
 | `more_categories.txt` | The other categories, one per line: `Category \| Facet: item, item \| Facet: item` |
 | `exact_items.txt` | Exact names under an item: `Category > Item: Name; Name` |
 | `deeper_items.txt` | The actual thing behind an instruction, with optional English notes: `Category > Item: Name \| note; Name` and `Category > Item = note` |
-| `categories.json` | Built output that the apps read. Don't edit by hand |
+| `categories.json` | Built output that the pages read. Don't edit by hand |
 
-After editing any `.txt` file:
-
-```
-python3 build_db.py
-```
-
-It prints anything it couldn't match. Currently 123 categories and about 1,730 end points.
-
-`picker.py` picks from the terminal and checks fairness:
-
-```
-python3 picker.py Music Drawing --depth 3
-python3 picker.py --test
-```
+After editing any `.txt` file, run `python3 build_db.py`. It prints anything it couldn't match. Currently 123 categories and about 1,730 end points. `python3 picker.py --test` checks the picks are even.
 
 ## Brand
 
-`brand/` holds the logo (light and dark horizontal versions) and the favicon. `icons/` holds the sizes made from it: a 32 px tab icon, the 180 px iPhone home-screen icon, and 192 and 512 px icons for `manifest.webmanifest`. The app uses the logo at the top of the screen and the logo's palette throughout: coral `#FF5A4E`, sun `#FFC23C`, teal `#2EC4B6`, navy `#1B1A2E` and cream `#FFF6E9`.
+`brand/` holds the logo (light and dark), the favicon and `make_logo.py`, which rebuilds them (the wordmark needs Inter ExtraBold and `pip install fonttools`). Logo colours: pink `#FF8FB1`, butter `#FFD45C`, lilac `#9B7BFF` cards on plum `#2B1F3D`. `icons/` holds the 32 px tab icon, the 180 px iPhone home-screen icon and the 192 and 512 px icons for `manifest.webmanifest`.
 
 ## Hosting on GitHub Pages
 
-Settings > Pages > Build and deployment > Deploy from a branch > `main` / root. The app is then live at `https://sophiang1227.github.io/three-word-brief/` (explore version at `/explore.html`). On iPhone, open it in Safari and use Share > Add to Home Screen.
+Settings > Pages > Build and deployment > Deploy from a branch > `main` / root. The site is then at `https://sophiang1227.github.io/three-word-brief/` and the phone app at `/app.html`.
 
 ## iOS app
 
-`ios/ThreeWordBrief/` is a SwiftUI version using Apple's Liquid Glass APIs (iOS 26, Xcode 26). It has the original pick mode; the explore mode and the note line are not ported yet. It has not been compiled yet. See its README for setup.
+`ios/OddLittlePrompts/` is a SwiftUI version using Apple's Liquid Glass APIs (iOS 26, Xcode 26). It has not been compiled yet and still uses the earlier pick mode. See its README.

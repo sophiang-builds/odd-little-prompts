@@ -12,13 +12,13 @@ struct ContentView: View {
             Wash(seed: pickTick).ignoresSafeArea()
 
             VStack(spacing: 0) {
-                // Three Word Brief logo. Add brand/logo-horizontal.svg (and the -dark one as its
+                // Odd Little Prompts logo. Add brand/logo-horizontal.svg (and the -dark one as its
                 // Dark appearance) to Assets as an image set named "Logo", with Preserve Vector Data on.
                 Image("Logo")
                     .resizable()
                     .scaledToFit()
                     .frame(height: 30)
-                    .accessibilityLabel("Three Word Brief")
+                    .accessibilityLabel("Odd Little Prompts")
                     .padding(.top, 8)
 
                 Spacer()
@@ -204,7 +204,7 @@ struct CategorySheet: View {
     }
 }
 
-/// The Three Word Brief colour wash that sits behind the glass. It drifts to a new spot on every pick.
+/// The colour wash that sits behind the glass. It drifts to a new spot on every pick.
 struct Wash: View {
     let seed: Int
     @Environment(\.colorScheme) private var scheme

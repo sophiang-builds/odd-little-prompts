@@ -1,14 +1,14 @@
 import SwiftUI
 
 @main
-struct ThreeWordBriefApp: App {
+struct OddLittlePromptsApp: App {
     var body: some Scene {
         WindowGroup { ContentView() }
     }
 }
 
 extension Color {
-    // Three Word Brief palette, taken from the logo
+    // App palette (coral, sun, teal on navy and cream)
     static let twbCoral = Color(red: 255 / 255, green: 90 / 255, blue: 78 / 255)    // #FF5A4E
     static let twbSun = Color(red: 255 / 255, green: 194 / 255, blue: 60 / 255)     // #FFC23C
     static let twbTeal = Color(red: 46 / 255, green: 196 / 255, blue: 182 / 255)    // #2EC4B6

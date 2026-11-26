@@ -1,0 +1,8516 @@
+[
+ {
+  "name": "Music",
+  "children": [
+   {
+    "name": "Instrument",
+    "children": [
+     {
+      "name": "Strings",
+      "children": [
+       {
+        "name": "Guitar",
+        "children": [
+         {
+          "name": "Fender Stratocaster"
+         },
+         {
+          "name": "Gibson Les Paul"
+         },
+         {
+          "name": "Yamaha FG800"
+         },
+         {
+          "name": "Taylor GS Mini"
+         },
+         {
+          "name": "Martin D-28"
+         }
+        ]
+       },
+       {
+        "name": "Ukulele",
+        "children": [
+         {
+          "name": "Kala KA-15S"
+         },
+         {
+          "name": "Martin S1 Uke"
+         },
+         {
+          "name": "Cordoba 15CM"
+         }
+        ]
+       },
+       {
+        "name": "Violin"
+       },
+       {
+        "name": "Cello"
+       },
+       {
+        "name": "Bass guitar"
+       },
+       {
+        "name": "Harp"
+       }
+      ]
+     },
+     {
+      "name": "Keys",
+      "children": [
+       {
+        "name": "Piano",
+        "children": [
+         {
+          "name": "Yamaha U1 upright"
+         },
+         {
+          "name": "Steinway Model D"
+         },
+         {
+          "name": "Roland FP-30X"
+         },
+         {
+          "name": "Casio Privia PX-S1100"
+         }
+        ]
+       },
+       {
+        "name": "Synthesiser",
+        "children": [
+         {
+          "name": "Korg Minilogue"
+         },
+         {
+          "name": "Arturia MicroFreak"
+         },
+         {
+          "name": "Roland Juno-60"
+         },
+         {
+          "name": "Teenage Engineering OP-1"
+         },
+         {
+          "name": "Moog Subsequent 37"
+         }
+        ]
+       },
+       {
+        "name": "Organ"
+       },
+       {
+        "name": "Accordion"
+       }
+      ]
+     },
+     {
+      "name": "Wind",
+      "children": [
+       {
+        "name": "Flute"
+       },
+       {
+        "name": "Saxophone",
+        "children": [
+         {
+          "name": "Selmer Mark VI"
+         },
+         {
+          "name": "Yamaha YAS-280"
+         }
+        ]
+       },
+       {
+        "name": "Trumpet"
+       },
+       {
+        "name": "Clarinet"
+       },
+       {
+        "name": "Harmonica",
+        "children": [
+         {
+          "name": "Hohner Special 20"
+         },
+         {
+          "name": "Hohner Marine Band"
+         },
+         {
+          "name": "Suzuki Manji"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Percussion",
+      "children": [
+       {
+        "name": "Drum kit",
+        "children": [
+         {
+          "name": "Pearl Export"
+         },
+         {
+          "name": "Ludwig Classic Maple"
+         },
+         {
+          "name": "Roland TD-17 V-Drums"
+         }
+        ]
+       },
+       {
+        "name": "Cajón"
+       },
+       {
+        "name": "Hand drums"
+       },
+       {
+        "name": "Marimba"
+       },
+       {
+        "name": "Body percussion"
+       }
+      ]
+     },
+     {
+      "name": "Voice",
+      "children": [
+       {
+        "name": "Lead vocal"
+       },
+       {
+        "name": "Harmony singing"
+       },
+       {
+        "name": "Beatboxing"
+       },
+       {
+        "name": "Whistling"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Genre",
+    "children": [
+     {
+      "name": "Pop",
+      "children": [
+       {
+        "name": "Synth-pop",
+        "children": [
+         {
+          "name": "Depeche Mode"
+         },
+         {
+          "name": "Pet Shop Boys"
+         },
+         {
+          "name": "CHVRCHES"
+         }
+        ]
+       },
+       {
+        "name": "City pop",
+        "children": [
+         {
+          "name": "Mariya Takeuchi, Plastic Love"
+         },
+         {
+          "name": "Tatsuro Yamashita, Ride on Time"
+         },
+         {
+          "name": "Anri, Remember Summer Days"
+         }
+        ]
+       },
+       {
+        "name": "K-pop",
+        "children": [
+         {
+          "name": "BTS"
+         },
+         {
+          "name": "BLACKPINK"
+         },
+         {
+          "name": "NewJeans"
+         },
+         {
+          "name": "SEVENTEEN"
+         }
+        ]
+       },
+       {
+        "name": "Cantopop",
+        "children": [
+         {
+          "name": "Leslie Cheung"
+         },
+         {
+          "name": "Anita Mui"
+         },
+         {
+          "name": "Eason Chan"
+         },
+         {
+          "name": "Beyond"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Rock",
+      "children": [
+       {
+        "name": "Indie rock"
+       },
+       {
+        "name": "Punk"
+       },
+       {
+        "name": "Shoegaze",
+        "children": [
+         {
+          "name": "My Bloody Valentine, Loveless"
+         },
+         {
+          "name": "Slowdive, Souvlaki"
+         }
+        ]
+       },
+       {
+        "name": "Classic rock"
+       }
+      ]
+     },
+     {
+      "name": "Electronic",
+      "children": [
+       {
+        "name": "House"
+       },
+       {
+        "name": "Drum and bass"
+       },
+       {
+        "name": "Lo-fi beats",
+        "children": [
+         {
+          "name": "Nujabes, Feather"
+         },
+         {
+          "name": "J Dilla, Donuts"
+         }
+        ]
+       },
+       {
+        "name": "Ambient",
+        "children": [
+         {
+          "name": "Brian Eno, Music for Airports"
+         },
+         {
+          "name": "Hiroshi Yoshimura, Music for Nine Post Cards"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Jazz",
+      "children": [
+       {
+        "name": "Bossa nova",
+        "children": [
+         {
+          "name": "João Gilberto"
+         },
+         {
+          "name": "Antônio Carlos Jobim"
+         },
+         {
+          "name": "Astrud Gilberto, The Girl from Ipanema"
+         }
+        ]
+       },
+       {
+        "name": "Swing"
+       },
+       {
+        "name": "Jazz fusion"
+       },
+       {
+        "name": "Bebop"
+       }
+      ]
+     },
+     {
+      "name": "Folk and roots",
+      "children": [
+       {
+        "name": "Singer-songwriter",
+        "children": [
+         {
+          "name": "Joni Mitchell, Blue"
+         },
+         {
+          "name": "Phoebe Bridgers, Punisher"
+         }
+        ]
+       },
+       {
+        "name": "Bluegrass"
+       },
+       {
+        "name": "Celtic folk"
+       },
+       {
+        "name": "Country"
+       }
+      ]
+     },
+     {
+      "name": "Hip-hop and R&B",
+      "children": [
+       {
+        "name": "Boom bap"
+       },
+       {
+        "name": "Neo-soul",
+        "children": [
+         {
+          "name": "D'Angelo, Voodoo"
+         },
+         {
+          "name": "Erykah Badu, Baduizm"
+         }
+        ]
+       },
+       {
+        "name": "Trap"
+       },
+       {
+        "name": "Classic R&B"
+       }
+      ]
+     },
+     {
+      "name": "Classical",
+      "children": [
+       {
+        "name": "Baroque",
+        "children": [
+         {
+          "name": "Bach, Goldberg Variations"
+         },
+         {
+          "name": "Vivaldi, The Four Seasons"
+         }
+        ]
+       },
+       {
+        "name": "Romantic era"
+       },
+       {
+        "name": "Minimalism",
+        "children": [
+         {
+          "name": "Steve Reich, Music for 18 Musicians"
+         },
+         {
+          "name": "Philip Glass, Glassworks"
+         }
+        ]
+       },
+       {
+        "name": "Film score",
+        "children": [
+         {
+          "name": "Joe Hisaishi, Spirited Away"
+         },
+         {
+          "name": "Hans Zimmer, Interstellar"
+         },
+         {
+          "name": "Ennio Morricone, The Good, the Bad and the Ugly"
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Activity",
+    "children": [
+     {
+      "name": "Write a song",
+      "children": [
+       {
+        "name": "About a smell"
+       },
+       {
+        "name": "Using only three chords"
+       },
+       {
+        "name": "As a lullaby"
+       },
+       {
+        "name": "From an object's point of view"
+       }
+      ]
+     },
+     {
+      "name": "Cover a song",
+      "children": [
+       {
+        "name": "In a different genre"
+       },
+       {
+        "name": "At half speed"
+       },
+       {
+        "name": "As a duet"
+       },
+       {
+        "name": "Unplugged"
+       }
+      ]
+     },
+     {
+      "name": "Make a beat",
+      "children": [
+       {
+        "name": "Using kitchen sounds"
+       },
+       {
+        "name": "Under 60 seconds"
+       },
+       {
+        "name": "At 90 BPM"
+       },
+       {
+        "name": "With one drum sound"
+       }
+      ]
+     },
+     {
+      "name": "Listen deeply",
+      "children": [
+       {
+        "name": "An album start to finish",
+        "children": [
+         {
+          "name": "Kind of Blue",
+          "note": "Miles Davis"
+         },
+         {
+          "name": "Random Access Memories",
+          "note": "Daft Punk"
+         },
+         {
+          "name": "To Pimp a Butterfly",
+          "note": "Kendrick Lamar"
+         },
+         {
+          "name": "Abbey Road",
+          "note": "The Beatles"
+         },
+         {
+          "name": "Rumours",
+          "note": "Fleetwood Mac"
+         }
+        ]
+       },
+       {
+        "name": "A genre you've never heard",
+        "children": [
+         {
+          "name": "Fado",
+          "note": "Portugal: mournful guitar ballads"
+         },
+         {
+          "name": "Enka",
+          "note": "Japan: dramatic, old-school ballads"
+         },
+         {
+          "name": "Highlife",
+          "note": "Ghana: bright guitars and horns"
+         },
+         {
+          "name": "Qawwali",
+          "note": "South Asia: Sufi devotional singing"
+         },
+         {
+          "name": "Gqom",
+          "note": "South Africa: dark, minimal club music"
+         }
+        ]
+       },
+       {
+        "name": "A song from the year you were born"
+       },
+       {
+        "name": "A friend's favourite track"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Mood",
+    "children": [
+     {
+      "name": "Rainy afternoon",
+      "children": [
+       {
+        "name": "Rainy Days and Mondays",
+        "note": "The Carpenters"
+       },
+       {
+        "name": "Riders on the Storm",
+        "note": "The Doors"
+       },
+       {
+        "name": "Here Comes the Rain Again",
+        "note": "Eurythmics"
+       }
+      ]
+     },
+     {
+      "name": "Road trip",
+      "children": [
+       {
+        "name": "Go Your Own Way",
+        "note": "Fleetwood Mac"
+       },
+       {
+        "name": "Mr. Blue Sky",
+        "note": "Electric Light Orchestra"
+       },
+       {
+        "name": "Born to Run",
+        "note": "Bruce Springsteen"
+       }
+      ]
+     },
+     {
+      "name": "Late night",
+      "children": [
+       {
+        "name": "Midnight City",
+        "note": "M83"
+       },
+       {
+        "name": "Nightcall",
+        "note": "Kavinsky"
+       },
+       {
+        "name": "Plastic Love",
+        "note": "Mariya Takeuchi"
+       }
+      ]
+     },
+     {
+      "name": "Sunday morning"
+     },
+     {
+      "name": "Party",
+      "children": [
+       {
+        "name": "September",
+        "note": "Earth, Wind & Fire"
+       },
+       {
+        "name": "Dancing Queen",
+        "note": "ABBA"
+       },
+       {
+        "name": "Uptown Funk",
+        "note": "Mark Ronson ft. Bruno Mars"
+       }
+      ]
+     },
+     {
+      "name": "Heartbreak",
+      "children": [
+       {
+        "name": "Someone Like You",
+        "note": "Adele"
+       },
+       {
+        "name": "Nothing Compares 2 U",
+        "note": "Sinéad O'Connor"
+       },
+       {
+        "name": "Back to Black",
+        "note": "Amy Winehouse"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Drawing",
+  "children": [
+   {
+    "name": "Medium",
+    "children": [
+     {
+      "name": "Dry",
+      "children": [
+       {
+        "name": "Graphite pencil",
+        "children": [
+         {
+          "name": "Staedtler Mars Lumograph"
+         },
+         {
+          "name": "Faber-Castell 9000"
+         },
+         {
+          "name": "Blackwing 602"
+         }
+        ]
+       },
+       {
+        "name": "Charcoal"
+       },
+       {
+        "name": "Coloured pencil",
+        "children": [
+         {
+          "name": "Faber-Castell Polychromos"
+         },
+         {
+          "name": "Caran d'Ache Luminance"
+         },
+         {
+          "name": "Prismacolor Premier"
+         }
+        ]
+       },
+       {
+        "name": "Oil pastel",
+        "children": [
+         {
+          "name": "Sennelier oil pastels"
+         },
+         {
+          "name": "Caran d'Ache Neopastel"
+         }
+        ]
+       },
+       {
+        "name": "Ballpoint pen",
+        "children": [
+         {
+          "name": "Bic Cristal"
+         },
+         {
+          "name": "Uni Jetstream"
+         },
+         {
+          "name": "Parker Jotter"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Wet",
+      "children": [
+       {
+        "name": "Watercolour",
+        "children": [
+         {
+          "name": "Winsor & Newton Cotman"
+         },
+         {
+          "name": "Daniel Smith Extra Fine"
+         },
+         {
+          "name": "Schmincke Horadam"
+         }
+        ]
+       },
+       {
+        "name": "Gouache",
+        "children": [
+         {
+          "name": "Holbein Artists' Gouache"
+         },
+         {
+          "name": "Winsor & Newton Designers Gouache"
+         },
+         {
+          "name": "Himi jelly gouache"
+         }
+        ]
+       },
+       {
+        "name": "Ink and brush",
+        "children": [
+         {
+          "name": "Pentel Pocket Brush Pen"
+         },
+         {
+          "name": "Kuretake No. 8 brush pen"
+         }
+        ]
+       },
+       {
+        "name": "Acrylic",
+        "children": [
+         {
+          "name": "Liquitex Basics"
+         },
+         {
+          "name": "Golden Heavy Body"
+         }
+        ]
+       },
+       {
+        "name": "Markers",
+        "children": [
+         {
+          "name": "Copic Sketch"
+         },
+         {
+          "name": "Posca"
+         },
+         {
+          "name": "Tombow Dual Brush Pen"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Digital",
+      "children": [
+       {
+        "name": "Pixel art",
+        "children": [
+         {
+          "name": "Aseprite"
+         },
+         {
+          "name": "Piskel"
+         }
+        ]
+       },
+       {
+        "name": "Vector shapes",
+        "children": [
+         {
+          "name": "Adobe Illustrator"
+         },
+         {
+          "name": "Affinity Designer"
+         },
+         {
+          "name": "Figma"
+         }
+        ]
+       },
+       {
+        "name": "Digital painting",
+        "children": [
+         {
+          "name": "Procreate"
+         },
+         {
+          "name": "Adobe Fresco"
+         },
+         {
+          "name": "Clip Studio Paint"
+         },
+         {
+          "name": "Krita"
+         }
+        ]
+       },
+       {
+        "name": "One-layer only"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Subject",
+    "children": [
+     {
+      "name": "People",
+      "children": [
+       {
+        "name": "Self-portrait"
+       },
+       {
+        "name": "A friend from memory"
+       },
+       {
+        "name": "Hands"
+       },
+       {
+        "name": "Someone across the room"
+       }
+      ]
+     },
+     {
+      "name": "Places",
+      "children": [
+       {
+        "name": "The view from a window"
+       },
+       {
+        "name": "An imaginary city"
+       },
+       {
+        "name": "Your bedroom"
+       },
+       {
+        "name": "A street corner"
+       }
+      ]
+     },
+     {
+      "name": "Things",
+      "children": [
+       {
+        "name": "The contents of a bag"
+       },
+       {
+        "name": "Your shoes"
+       },
+       {
+        "name": "A houseplant"
+       },
+       {
+        "name": "Breakfast"
+       }
+      ]
+     },
+     {
+      "name": "Creatures",
+      "children": [
+       {
+        "name": "A pet"
+       },
+       {
+        "name": "A bird"
+       },
+       {
+        "name": "A made-up animal"
+       },
+       {
+        "name": "A sea creature"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Style",
+    "children": [
+     {
+      "name": "Line only"
+     },
+     {
+      "name": "Silhouette"
+     },
+     {
+      "name": "Cartoon"
+     },
+     {
+      "name": "Botanical study"
+     },
+     {
+      "name": "Comic panel"
+     },
+     {
+      "name": "Isometric"
+     }
+    ]
+   },
+   {
+    "name": "Constraint",
+    "children": [
+     {
+      "name": "Non-dominant hand"
+     },
+     {
+      "name": "Under 5 minutes"
+     },
+     {
+      "name": "One continuous line"
+     },
+     {
+      "name": "Eyes closed"
+     },
+     {
+      "name": "Only three colours"
+     },
+     {
+      "name": "Upside down"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Cooking",
+  "children": [
+   {
+    "name": "Cuisine",
+    "children": [
+     {
+      "name": "Asian",
+      "children": [
+       {
+        "name": "Cantonese",
+        "children": [
+         {
+          "name": "Char siu"
+         },
+         {
+          "name": "Har gow"
+         },
+         {
+          "name": "Wonton noodles"
+         },
+         {
+          "name": "Claypot rice"
+         },
+         {
+          "name": "Steamed fish with ginger and spring onion"
+         }
+        ]
+       },
+       {
+        "name": "Japanese",
+        "children": [
+         {
+          "name": "Okonomiyaki"
+         },
+         {
+          "name": "Tonkatsu"
+         },
+         {
+          "name": "Oyakodon"
+         },
+         {
+          "name": "Miso soup"
+         }
+        ]
+       },
+       {
+        "name": "Thai",
+        "children": [
+         {
+          "name": "Pad kra pao"
+         },
+         {
+          "name": "Tom yum goong"
+         },
+         {
+          "name": "Som tam"
+         },
+         {
+          "name": "Massaman curry"
+         }
+        ]
+       },
+       {
+        "name": "Korean",
+        "children": [
+         {
+          "name": "Kimchi jjigae"
+         },
+         {
+          "name": "Bibimbap"
+         },
+         {
+          "name": "Tteokbokki"
+         },
+         {
+          "name": "Japchae"
+         }
+        ]
+       },
+       {
+        "name": "Vietnamese"
+       },
+       {
+        "name": "Indian"
+       }
+      ]
+     },
+     {
+      "name": "European",
+      "children": [
+       {
+        "name": "Italian",
+        "children": [
+         {
+          "name": "Cacio e pepe"
+         },
+         {
+          "name": "Risotto alla milanese"
+         },
+         {
+          "name": "Focaccia"
+         },
+         {
+          "name": "Tiramisu"
+         }
+        ]
+       },
+       {
+        "name": "French"
+       },
+       {
+        "name": "Spanish"
+       },
+       {
+        "name": "Greek"
+       }
+      ]
+     },
+     {
+      "name": "Americas",
+      "children": [
+       {
+        "name": "Mexican",
+        "children": [
+         {
+          "name": "Tacos al pastor"
+         },
+         {
+          "name": "Chilaquiles"
+         },
+         {
+          "name": "Pozole"
+         },
+         {
+          "name": "Guacamole"
+         }
+        ]
+       },
+       {
+        "name": "Peruvian"
+       },
+       {
+        "name": "Southern US"
+       },
+       {
+        "name": "Brazilian"
+       }
+      ]
+     },
+     {
+      "name": "Middle East and Africa",
+      "children": [
+       {
+        "name": "Lebanese"
+       },
+       {
+        "name": "Moroccan"
+       },
+       {
+        "name": "Ethiopian"
+       },
+       {
+        "name": "Turkish"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Dish type",
+    "children": [
+     {
+      "name": "Noodles",
+      "children": [
+       {
+        "name": "Dan dan noodles",
+        "note": "擔擔麵"
+       },
+       {
+        "name": "Dry-fried beef ho fun",
+        "note": "乾炒牛河"
+       },
+       {
+        "name": "Cold soba",
+        "note": "ざるそば"
+       },
+       {
+        "name": "Pad thai"
+       },
+       {
+        "name": "Spaghetti aglio e olio"
+       }
+      ]
+     },
+     {
+      "name": "Dumplings",
+      "children": [
+       {
+        "name": "Har gow",
+        "note": "蝦餃"
+       },
+       {
+        "name": "Xiaolongbao",
+        "note": "小籠包"
+       },
+       {
+        "name": "Gyoza",
+        "note": "餃子"
+       },
+       {
+        "name": "Momos"
+       },
+       {
+        "name": "Pierogi"
+       }
+      ]
+     },
+     {
+      "name": "Soup",
+      "children": [
+       {
+        "name": "Watercress and pork soup",
+        "note": "西洋菜湯"
+       },
+       {
+        "name": "Hong Kong borscht",
+        "note": "羅宋湯"
+       },
+       {
+        "name": "Miso soup"
+       },
+       {
+        "name": "Minestrone"
+       }
+      ]
+     },
+     {
+      "name": "Salad",
+      "children": [
+       {
+        "name": "Som tam",
+        "note": "Thai green papaya salad"
+       },
+       {
+        "name": "Greek salad"
+       },
+       {
+        "name": "Caesar salad"
+       },
+       {
+        "name": "Smashed cucumber salad",
+        "note": "拍青瓜"
+       }
+      ]
+     },
+     {
+      "name": "Flatbread",
+      "children": [
+       {
+        "name": "Scallion pancake",
+        "note": "蔥油餅"
+       },
+       {
+        "name": "Naan"
+       },
+       {
+        "name": "Pita"
+       },
+       {
+        "name": "Roti canai"
+       }
+      ]
+     },
+     {
+      "name": "Dessert"
+     },
+     {
+      "name": "Breakfast"
+     }
+    ]
+   },
+   {
+    "name": "Technique",
+    "children": [
+     {
+      "name": "Steaming",
+      "children": [
+       {
+        "name": "Steamed fish with ginger and spring onion",
+        "note": "清蒸魚"
+       },
+       {
+        "name": "Steamed egg custard",
+        "note": "蒸水蛋"
+       },
+       {
+        "name": "Spare ribs with black bean",
+        "note": "豉汁蒸排骨"
+       }
+      ]
+     },
+     {
+      "name": "Roasting",
+      "children": [
+       {
+        "name": "Lemon and garlic roast chicken"
+       },
+       {
+        "name": "Roasted root vegetables"
+       },
+       {
+        "name": "Char siu in the oven",
+        "note": "叉燒"
+       }
+      ]
+     },
+     {
+      "name": "Fermenting",
+      "children": [
+       {
+        "name": "Kimchi"
+       },
+       {
+        "name": "Sauerkraut"
+       },
+       {
+        "name": "Kombucha"
+       },
+       {
+        "name": "Quick pickled radish"
+       }
+      ]
+     },
+     {
+      "name": "Stir-frying",
+      "children": [
+       {
+        "name": "Tomato and egg",
+        "note": "番茄炒蛋"
+       },
+       {
+        "name": "Beef with broccoli"
+       },
+       {
+        "name": "Garlic choy sum",
+        "note": "蒜蓉炒菜心"
+       }
+      ]
+     },
+     {
+      "name": "Braising",
+      "children": [
+       {
+        "name": "Soy-braised chicken wings",
+        "note": "豉油雞翼"
+       },
+       {
+        "name": "Red-braised pork",
+        "note": "紅燒肉"
+       },
+       {
+        "name": "Osso buco"
+       }
+      ]
+     },
+     {
+      "name": "No cooking at all"
+     }
+    ]
+   },
+   {
+    "name": "Challenge",
+    "children": [
+     {
+      "name": "Five ingredients max"
+     },
+     {
+      "name": "Under 20 minutes"
+     },
+     {
+      "name": "Use what's in the fridge"
+     },
+     {
+      "name": "One pan only"
+     },
+     {
+      "name": "Make it for someone else"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Writing",
+  "children": [
+   {
+    "name": "Form",
+    "children": [
+     {
+      "name": "Poem",
+      "children": [
+       {
+        "name": "Haiku",
+        "children": [
+         {
+          "name": "The first cold morning"
+         },
+         {
+          "name": "A vending machine at night"
+         },
+         {
+          "name": "A cat on a windowsill"
+         },
+         {
+          "name": "The last day of summer"
+         }
+        ]
+       },
+       {
+        "name": "Sonnet"
+       },
+       {
+        "name": "Free verse"
+       },
+       {
+        "name": "Limerick",
+        "children": [
+         {
+          "name": "About a clumsy chef"
+         },
+         {
+          "name": "About a cat on the MTR"
+         },
+         {
+          "name": "About a sleepy dragon"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Story",
+      "children": [
+       {
+        "name": "Six-word story",
+        "children": [
+         {
+          "name": "About a lost key"
+         },
+         {
+          "name": "About moving out"
+         },
+         {
+          "name": "About a first date"
+         },
+         {
+          "name": "About a ghost"
+         }
+        ]
+       },
+       {
+        "name": "Flash fiction"
+       },
+       {
+        "name": "Fairy tale retold"
+       },
+       {
+        "name": "Letter-format story"
+       }
+      ]
+     },
+     {
+      "name": "Non-fiction",
+      "children": [
+       {
+        "name": "Diary entry"
+       },
+       {
+        "name": "Review of something tiny"
+       },
+       {
+        "name": "Letter to your past self",
+        "children": [
+         {
+          "name": "You at 10"
+         },
+         {
+          "name": "You on your first day of uni"
+         },
+         {
+          "name": "You a year ago"
+         }
+        ]
+       },
+       {
+        "name": "How-to guide"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Prompt",
+    "children": [
+     {
+      "name": "A door that wasn't there yesterday"
+     },
+     {
+      "name": "The last message on a phone"
+     },
+     {
+      "name": "A smell from childhood"
+     },
+     {
+      "name": "Two strangers stuck in a lift"
+     },
+     {
+      "name": "A city where it never stops raining"
+     }
+    ]
+   },
+   {
+    "name": "Constraint",
+    "children": [
+     {
+      "name": "No letter E"
+     },
+     {
+      "name": "Exactly 100 words"
+     },
+     {
+      "name": "Second person only"
+     },
+     {
+      "name": "All dialogue"
+     },
+     {
+      "name": "Start with the ending"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Movement",
+  "children": [
+   {
+    "name": "Activity",
+    "children": [
+     {
+      "name": "Dance",
+      "children": [
+       {
+        "name": "Hip-hop"
+       },
+       {
+        "name": "Salsa"
+       },
+       {
+        "name": "Freestyle"
+       },
+       {
+        "name": "Contemporary"
+       }
+      ]
+     },
+     {
+      "name": "Stretch",
+      "children": [
+       {
+        "name": "Yoga flow"
+       },
+       {
+        "name": "Desk stretches"
+       },
+       {
+        "name": "Mobility routine"
+       }
+      ]
+     },
+     {
+      "name": "Outdoors",
+      "children": [
+       {
+        "name": "Walk a new route"
+       },
+       {
+        "name": "Hike"
+       },
+       {
+        "name": "Cycle"
+       },
+       {
+        "name": "Swim"
+       }
+      ]
+     },
+     {
+      "name": "Play",
+      "children": [
+       {
+        "name": "Frisbee"
+       },
+       {
+        "name": "Badminton"
+       },
+       {
+        "name": "Skipping rope"
+       },
+       {
+        "name": "Hula hoop"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Duration",
+    "children": [
+     {
+      "name": "5 minutes"
+     },
+     {
+      "name": "15 minutes"
+     },
+     {
+      "name": "30 minutes"
+     },
+     {
+      "name": "An hour"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Photography",
+  "children": [
+   {
+    "name": "Subject",
+    "children": [
+     {
+      "name": "Shadows"
+     },
+     {
+      "name": "Reflections"
+     },
+     {
+      "name": "Strangers' hands"
+     },
+     {
+      "name": "Signs and lettering"
+     },
+     {
+      "name": "Something red"
+     },
+     {
+      "name": "Textures"
+     }
+    ]
+   },
+   {
+    "name": "Rule",
+    "children": [
+     {
+      "name": "Only from knee height"
+     },
+     {
+      "name": "Black and white"
+     },
+     {
+      "name": "Ten shots only"
+     },
+     {
+      "name": "Same spot, different times"
+     },
+     {
+      "name": "Macro, as close as you can"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Making",
+  "children": [
+   {
+    "name": "Paper",
+    "children": [
+     {
+      "name": "Origami"
+     },
+     {
+      "name": "Collage"
+     },
+     {
+      "name": "Zine"
+     },
+     {
+      "name": "Paper cutting"
+     }
+    ]
+   },
+   {
+    "name": "Fibre",
+    "children": [
+     {
+      "name": "Knitting"
+     },
+     {
+      "name": "Embroidery"
+     },
+     {
+      "name": "Crochet"
+     },
+     {
+      "name": "Weaving"
+     }
+    ]
+   },
+   {
+    "name": "Build",
+    "children": [
+     {
+      "name": "Clay sculpture"
+     },
+     {
+      "name": "Cardboard model"
+     },
+     {
+      "name": "Lego build"
+     },
+     {
+      "name": "Upcycle something old"
+     }
+    ]
+   },
+   {
+    "name": "Print",
+    "children": [
+     {
+      "name": "Potato stamp"
+     },
+     {
+      "name": "Linocut"
+     },
+     {
+      "name": "Cyanotype"
+     },
+     {
+      "name": "Stencil"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Baking",
+  "children": [
+   {
+    "name": "Bake",
+    "hide": true,
+    "children": [
+     {
+      "name": "Sourdough loaf"
+     },
+     {
+      "name": "Croissants"
+     },
+     {
+      "name": "Egg tarts"
+     },
+     {
+      "name": "Focaccia"
+     },
+     {
+      "name": "Cinnamon scrolls"
+     },
+     {
+      "name": "Basque cheesecake"
+     },
+     {
+      "name": "Pineapple buns"
+     },
+     {
+      "name": "Banana bread"
+     }
+    ]
+   },
+   {
+    "name": "Twist",
+    "hide": true,
+    "children": [
+     {
+      "name": "Add miso"
+     },
+     {
+      "name": "Make it tiny"
+     },
+     {
+      "name": "Bake it in a mug"
+     },
+     {
+      "name": "Use only a rice cooker"
+     },
+     {
+      "name": "Add matcha"
+     }
+    ]
+   },
+   {
+    "name": "Challenge",
+    "hide": true,
+    "children": [
+     {
+      "name": "No recipe"
+     },
+     {
+      "name": "Under an hour"
+     },
+     {
+      "name": "Decorate it like a painting"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Gardening",
+  "children": [
+   {
+    "name": "Grow",
+    "hide": true,
+    "children": [
+     {
+      "name": "Basil"
+     },
+     {
+      "name": "Cherry tomatoes"
+     },
+     {
+      "name": "Chillies"
+     },
+     {
+      "name": "Spring onions from scraps"
+     },
+     {
+      "name": "A succulent"
+     },
+     {
+      "name": "Mint"
+     },
+     {
+      "name": "Microgreens"
+     },
+     {
+      "name": "A pothos cutting"
+     }
+    ]
+   },
+   {
+    "name": "Project",
+    "hide": true,
+    "children": [
+     {
+      "name": "Propagate a cutting"
+     },
+     {
+      "name": "Build a terrarium"
+     },
+     {
+      "name": "Start a windowsill herb box"
+     },
+     {
+      "name": "Compost scraps"
+     },
+     {
+      "name": "Regrow vegetables in water"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Board games",
+  "children": [
+   {
+    "name": "Classic",
+    "hide": true,
+    "children": [
+     {
+      "name": "Chess"
+     },
+     {
+      "name": "Go"
+     },
+     {
+      "name": "Mahjong"
+     },
+     {
+      "name": "Chinese checkers"
+     },
+     {
+      "name": "Backgammon"
+     },
+     {
+      "name": "Scrabble"
+     }
+    ]
+   },
+   {
+    "name": "Modern",
+    "hide": true,
+    "children": [
+     {
+      "name": "Codenames",
+      "children": [
+       {
+        "name": "Codenames Duet"
+       },
+       {
+        "name": "Codenames Pictures"
+       }
+      ]
+     },
+     {
+      "name": "Ticket to Ride",
+      "children": [
+       {
+        "name": "Ticket to Ride Europe"
+       },
+       {
+        "name": "Ticket to Ride: First Journey"
+       }
+      ]
+     },
+     {
+      "name": "Catan",
+      "children": [
+       {
+        "name": "Catan Seafarers"
+       },
+       {
+        "name": "Catan Junior"
+       }
+      ]
+     },
+     {
+      "name": "Splendor"
+     },
+     {
+      "name": "Azul",
+      "children": [
+       {
+        "name": "Azul Summer Pavilion"
+       },
+       {
+        "name": "Azul Stained Glass of Sintra"
+       }
+      ]
+     },
+     {
+      "name": "Dixit",
+      "children": [
+       {
+        "name": "Dixit Odyssey"
+       }
+      ]
+     },
+     {
+      "name": "Wavelength"
+     }
+    ]
+   },
+   {
+    "name": "Twist",
+    "hide": true,
+    "children": [
+     {
+      "name": "Play with house rules"
+     },
+     {
+      "name": "Teach someone new"
+     },
+     {
+      "name": "Invent a variant"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Video games",
+  "children": [
+   {
+    "name": "Genre",
+    "hide": true,
+    "children": [
+     {
+      "name": "Cosy farming sim",
+      "children": [
+       {
+        "name": "Stardew Valley"
+       },
+       {
+        "name": "Animal Crossing: New Horizons"
+       },
+       {
+        "name": "Story of Seasons"
+       }
+      ]
+     },
+     {
+      "name": "Roguelike",
+      "children": [
+       {
+        "name": "Hades"
+       },
+       {
+        "name": "Slay the Spire"
+       },
+       {
+        "name": "Dead Cells"
+       },
+       {
+        "name": "Balatro"
+       }
+      ]
+     },
+     {
+      "name": "Rhythm game",
+      "children": [
+       {
+        "name": "Beat Saber"
+       },
+       {
+        "name": "Taiko no Tatsujin"
+       },
+       {
+        "name": "Rhythm Heaven"
+       }
+      ]
+     },
+     {
+      "name": "Puzzle platformer",
+      "children": [
+       {
+        "name": "Celeste"
+       },
+       {
+        "name": "Portal 2"
+       },
+       {
+        "name": "Inside"
+       },
+       {
+        "name": "Limbo"
+       }
+      ]
+     },
+     {
+      "name": "Co-op cooking chaos",
+      "children": [
+       {
+        "name": "Overcooked! 2"
+       },
+       {
+        "name": "PlateUp!"
+       }
+      ]
+     },
+     {
+      "name": "Open-world exploring",
+      "children": [
+       {
+        "name": "The Legend of Zelda: Breath of the Wild"
+       },
+       {
+        "name": "Elden Ring"
+       },
+       {
+        "name": "Outer Wilds"
+       }
+      ]
+     },
+     {
+      "name": "Party game",
+      "children": [
+       {
+        "name": "Mario Party Superstars"
+       },
+       {
+        "name": "The Jackbox Party Pack"
+       },
+       {
+        "name": "Fall Guys"
+       }
+      ]
+     },
+     {
+      "name": "Retro arcade",
+      "children": [
+       {
+        "name": "Pac-Man"
+       },
+       {
+        "name": "Street Fighter II"
+       },
+       {
+        "name": "Galaga"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Challenge",
+    "hide": true,
+    "children": [
+     {
+      "name": "Speedrun the first level"
+     },
+     {
+      "name": "Play only with one hand"
+     },
+     {
+      "name": "Swap controllers mid-game"
+     },
+     {
+      "name": "Finish one game you abandoned"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Card games",
+  "children": [
+   {
+    "name": "Game",
+    "hide": true,
+    "children": [
+     {
+      "name": "Big Two"
+     },
+     {
+      "name": "Uno"
+     },
+     {
+      "name": "Cheat"
+     },
+     {
+      "name": "Spit"
+     },
+     {
+      "name": "Snap"
+     },
+     {
+      "name": "Gin rummy"
+     },
+     {
+      "name": "Blackjack for matchsticks"
+     },
+     {
+      "name": "Solitaire race"
+     }
+    ]
+   },
+   {
+    "name": "Twist",
+    "hide": true,
+    "children": [
+     {
+      "name": "Invent a new rule each round"
+     },
+     {
+      "name": "Play in silence"
+     },
+     {
+      "name": "Loser picks the next game"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Puzzles",
+  "children": [
+   {
+    "name": "Type",
+    "hide": true,
+    "children": [
+     {
+      "name": "Jigsaw"
+     },
+     {
+      "name": "Crossword"
+     },
+     {
+      "name": "Sudoku"
+     },
+     {
+      "name": "Cryptic clue",
+      "children": [
+       {
+        "name": "GEGS (9, 4)",
+        "note": "Answer: scrambled eggs"
+       },
+       {
+        "name": "HIJKLMNO (5)",
+        "note": "Answer: water, \"H to O\""
+       }
+      ]
+     },
+     {
+      "name": "Rubik's cube",
+      "children": [
+       {
+        "name": "Rubik's Cube 3x3"
+       },
+       {
+        "name": "GAN 356 speed cube"
+       },
+       {
+        "name": "MoYu RS3M"
+       }
+      ]
+     },
+     {
+      "name": "Nonogram"
+     },
+     {
+      "name": "Logic grid"
+     },
+     {
+      "name": "Escape-room box"
+     }
+    ]
+   },
+   {
+    "name": "Challenge",
+    "hide": true,
+    "children": [
+     {
+      "name": "Race a friend"
+     },
+     {
+      "name": "Timer on"
+     },
+     {
+      "name": "Solve it together without talking"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Films",
+  "children": [
+   {
+    "name": "Genre",
+    "hide": true,
+    "children": [
+     {
+      "name": "Hong Kong action",
+      "children": [
+       {
+        "name": "Police Story"
+       },
+       {
+        "name": "Hard Boiled"
+       },
+       {
+        "name": "Kung Fu Hustle"
+       },
+       {
+        "name": "Infernal Affairs"
+       }
+      ]
+     },
+     {
+      "name": "Studio Ghibli",
+      "children": [
+       {
+        "name": "Spirited Away"
+       },
+       {
+        "name": "My Neighbor Totoro"
+       },
+       {
+        "name": "Kiki's Delivery Service"
+       },
+       {
+        "name": "Princess Mononoke"
+       }
+      ]
+     },
+     {
+      "name": "Wong Kar-wai mood",
+      "children": [
+       {
+        "name": "In the Mood for Love"
+       },
+       {
+        "name": "Chungking Express"
+       },
+       {
+        "name": "Fallen Angels"
+       },
+       {
+        "name": "Happy Together"
+       }
+      ]
+     },
+     {
+      "name": "Heist",
+      "children": [
+       {
+        "name": "Ocean's Eleven"
+       },
+       {
+        "name": "Heat"
+       },
+       {
+        "name": "Baby Driver"
+       }
+      ]
+     },
+     {
+      "name": "Whodunnit",
+      "children": [
+       {
+        "name": "Knives Out"
+       },
+       {
+        "name": "Murder on the Orient Express"
+       },
+       {
+        "name": "Clue"
+       }
+      ]
+     },
+     {
+      "name": "Documentary"
+     },
+     {
+      "name": "Silent film",
+      "children": [
+       {
+        "name": "Metropolis"
+       },
+       {
+        "name": "The General"
+       },
+       {
+        "name": "Modern Times"
+       }
+      ]
+     },
+     {
+      "name": "80s sci-fi",
+      "children": [
+       {
+        "name": "Blade Runner"
+       },
+       {
+        "name": "Back to the Future"
+       },
+       {
+        "name": "The Terminator"
+       },
+       {
+        "name": "E.T. the Extra-Terrestrial"
+       }
+      ]
+     },
+     {
+      "name": "Musical",
+      "children": [
+       {
+        "name": "Singin' in the Rain"
+       },
+       {
+        "name": "La La Land"
+       },
+       {
+        "name": "The Sound of Music"
+       }
+      ]
+     },
+     {
+      "name": "Animated short"
+     }
+    ]
+   },
+   {
+    "name": "Pick",
+    "hide": true,
+    "children": [
+     {
+      "name": "A film from the year you were born"
+     },
+     {
+      "name": "The oldest film you can find"
+     },
+     {
+      "name": "A film from a country you've never visited"
+     },
+     {
+      "name": "A friend's comfort film"
+     }
+    ]
+   },
+   {
+    "name": "Twist",
+    "hide": true,
+    "children": [
+     {
+      "name": "Watch with the sound off for ten minutes"
+     },
+     {
+      "name": "Rewrite the ending afterwards"
+     },
+     {
+      "name": "Rank the snacks"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "TV series",
+  "children": [
+   {
+    "name": "Kind",
+    "hide": true,
+    "children": [
+     {
+      "name": "Korean drama",
+      "children": [
+       {
+        "name": "Crash Landing on You"
+       },
+       {
+        "name": "Reply 1988"
+       },
+       {
+        "name": "Extraordinary Attorney Woo"
+       }
+      ]
+     },
+     {
+      "name": "Sitcom",
+      "children": [
+       {
+        "name": "Friends"
+       },
+       {
+        "name": "Brooklyn Nine-Nine"
+       },
+       {
+        "name": "The Office"
+       }
+      ]
+     },
+     {
+      "name": "Nature series",
+      "children": [
+       {
+        "name": "Planet Earth II"
+       },
+       {
+        "name": "Blue Planet II"
+       },
+       {
+        "name": "Our Planet"
+       }
+      ]
+     },
+     {
+      "name": "Cooking competition",
+      "children": [
+       {
+        "name": "The Great British Bake Off"
+       },
+       {
+        "name": "MasterChef"
+       },
+       {
+        "name": "Culinary Class Wars"
+       }
+      ]
+     },
+     {
+      "name": "True crime"
+     },
+     {
+      "name": "Anthology",
+      "children": [
+       {
+        "name": "Black Mirror"
+       },
+       {
+        "name": "Love, Death & Robots"
+       }
+      ]
+     },
+     {
+      "name": "TVB classic",
+      "children": [
+       {
+        "name": "Journey to the West (1996)"
+       },
+       {
+        "name": "War and Beauty"
+       },
+       {
+        "name": "Triumph in the Skies"
+       }
+      ]
+     },
+     {
+      "name": "Travel show",
+      "children": [
+       {
+        "name": "Street Food"
+       },
+       {
+        "name": "Somebody Feed Phil"
+       },
+       {
+        "name": "Anthony Bourdain: No Reservations"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Ritual",
+    "hide": true,
+    "children": [
+     {
+      "name": "Pilot episodes only"
+     },
+     {
+      "name": "Watch a finale first"
+     },
+     {
+      "name": "Binge three episodes with snacks"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Anime",
+  "children": [
+   {
+    "name": "Genre",
+    "hide": true,
+    "children": [
+     {
+      "name": "Slice of life",
+      "children": [
+       {
+        "name": "K-On!"
+       },
+       {
+        "name": "Barakamon"
+       },
+       {
+        "name": "Laid-Back Camp"
+       }
+      ]
+     },
+     {
+      "name": "Sports anime",
+      "children": [
+       {
+        "name": "Haikyu!!"
+       },
+       {
+        "name": "Slam Dunk"
+       },
+       {
+        "name": "Kuroko's Basketball"
+       }
+      ]
+     },
+     {
+      "name": "Mecha",
+      "children": [
+       {
+        "name": "Neon Genesis Evangelion"
+       },
+       {
+        "name": "Mobile Suit Gundam"
+       },
+       {
+        "name": "Code Geass"
+       }
+      ]
+     },
+     {
+      "name": "Isekai"
+     },
+     {
+      "name": "Shōjo romance",
+      "children": [
+       {
+        "name": "Fruits Basket"
+       },
+       {
+        "name": "Ouran High School Host Club"
+       },
+       {
+        "name": "Kimi ni Todoke"
+       }
+      ]
+     },
+     {
+      "name": "Cooking anime",
+      "children": [
+       {
+        "name": "Food Wars!"
+       },
+       {
+        "name": "Restaurant to Another World"
+       }
+      ]
+     },
+     {
+      "name": "Horror"
+     }
+    ]
+   },
+   {
+    "name": "Activity",
+    "hide": true,
+    "children": [
+     {
+      "name": "Watch a first episode"
+     },
+     {
+      "name": "Draw a character"
+     },
+     {
+      "name": "Cook a dish from an anime"
+     },
+     {
+      "name": "Learn the opening song"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Books",
+  "children": [
+   {
+    "name": "Genre",
+    "hide": true,
+    "children": [
+     {
+      "name": "Mystery",
+      "children": [
+       {
+        "name": "The Murder of Roger Ackroyd"
+       },
+       {
+        "name": "The Girl with the Dragon Tattoo"
+       }
+      ]
+     },
+     {
+      "name": "Sci-fi",
+      "children": [
+       {
+        "name": "Dune"
+       },
+       {
+        "name": "The Three-Body Problem"
+       },
+       {
+        "name": "Project Hail Mary"
+       }
+      ]
+     },
+     {
+      "name": "Poetry collection"
+     },
+     {
+      "name": "Memoir",
+      "children": [
+       {
+        "name": "Educated"
+       },
+       {
+        "name": "Born a Crime"
+       }
+      ]
+     },
+     {
+      "name": "Graphic novel",
+      "children": [
+       {
+        "name": "Persepolis"
+       },
+       {
+        "name": "Maus"
+       },
+       {
+        "name": "Watchmen"
+       }
+      ]
+     },
+     {
+      "name": "Fantasy"
+     },
+     {
+      "name": "Short stories"
+     },
+     {
+      "name": "Classic"
+     }
+    ]
+   },
+   {
+    "name": "Challenge",
+    "hide": true,
+    "children": [
+     {
+      "name": "Read the first chapter of five books"
+     },
+     {
+      "name": "Read a book in under a day"
+     },
+     {
+      "name": "Read in a café"
+     },
+     {
+      "name": "Swap books with a friend"
+     }
+    ]
+   },
+   {
+    "name": "Pick",
+    "hide": true,
+    "children": [
+     {
+      "name": "An author from another continent"
+     },
+     {
+      "name": "A book under 150 pages"
+     },
+     {
+      "name": "The oldest book on your shelf"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Podcasts",
+  "children": [
+   {
+    "name": "Topic",
+    "hide": true,
+    "children": [
+     {
+      "name": "History",
+      "children": [
+       {
+        "name": "The Rest Is History"
+       },
+       {
+        "name": "Dan Carlin's Hardcore History"
+       }
+      ]
+     },
+     {
+      "name": "True crime",
+      "children": [
+       {
+        "name": "Serial"
+       }
+      ]
+     },
+     {
+      "name": "Comedy",
+      "children": [
+       {
+        "name": "Conan O'Brien Needs a Friend"
+       }
+      ]
+     },
+     {
+      "name": "Design",
+      "children": [
+       {
+        "name": "99% Invisible"
+       }
+      ]
+     },
+     {
+      "name": "Science",
+      "children": [
+       {
+        "name": "Radiolab"
+       }
+      ]
+     },
+     {
+      "name": "Interviews"
+     },
+     {
+      "name": "Language learning"
+     },
+     {
+      "name": "Sleep stories"
+     }
+    ]
+   },
+   {
+    "name": "Twist",
+    "hide": true,
+    "children": [
+     {
+      "name": "Listen at 1.5x on a walk"
+     },
+     {
+      "name": "Share a favourite episode"
+     },
+     {
+      "name": "Make a one-minute podcast yourself"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Comedy",
+  "children": [
+   {
+    "name": "Do",
+    "hide": true,
+    "children": [
+     {
+      "name": "Write five jokes"
+     },
+     {
+      "name": "Try improv games",
+      "children": [
+       {
+        "name": "Yes, and..."
+       },
+       {
+        "name": "Freeze"
+       },
+       {
+        "name": "One-word story"
+       },
+       {
+        "name": "Expert interview"
+       }
+      ]
+     },
+     {
+      "name": "Tell an embarrassing story"
+     },
+     {
+      "name": "Make a parody advert"
+     },
+     {
+      "name": "Roast your houseplant"
+     }
+    ]
+   },
+   {
+    "name": "Watch",
+    "hide": true,
+    "children": [
+     {
+      "name": "Stand-up special"
+     },
+     {
+      "name": "Sketch show"
+     },
+     {
+      "name": "Clown show"
+     },
+     {
+      "name": "Sitcom bloopers"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Theatre",
+  "children": [
+   {
+    "name": "Do",
+    "hide": true,
+    "children": [
+     {
+      "name": "Act out a scene"
+     },
+     {
+      "name": "Write a one-minute play"
+     },
+     {
+      "name": "Perform a monologue",
+      "children": [
+       {
+        "name": "To be, or not to be",
+        "note": "Hamlet"
+       },
+       {
+        "name": "All the world's a stage",
+        "note": "As You Like It"
+       },
+       {
+        "name": "Tomorrow, and tomorrow, and tomorrow",
+        "note": "Macbeth"
+       }
+      ]
+     },
+     {
+      "name": "Shadow puppetry"
+     },
+     {
+      "name": "Mime a job"
+     }
+    ]
+   },
+   {
+    "name": "Watch",
+    "hide": true,
+    "children": [
+     {
+      "name": "Musical"
+     },
+     {
+      "name": "Cantonese opera"
+     },
+     {
+      "name": "Street performance"
+     },
+     {
+      "name": "Improv show"
+     },
+     {
+      "name": "Ballet"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Languages",
+  "children": [
+   {
+    "name": "Learn",
+    "hide": true,
+    "children": [
+     {
+      "name": "Ten words in Japanese",
+      "children": [
+       {
+        "name": "おはよう",
+        "note": "ohayō · Good morning"
+       },
+       {
+        "name": "ありがとう",
+        "note": "arigatō · Thank you"
+       },
+       {
+        "name": "いただきます",
+        "note": "itadakimasu · Said before eating"
+       },
+       {
+        "name": "お疲れ様",
+        "note": "otsukaresama · Thanks for your hard work"
+       },
+       {
+        "name": "大丈夫",
+        "note": "daijōbu · It's okay, I'm fine"
+       },
+       {
+        "name": "美味しい",
+        "note": "oishii · Delicious"
+       },
+       {
+        "name": "かわいい",
+        "note": "kawaii · Cute"
+       },
+       {
+        "name": "乾杯",
+        "note": "kanpai · Cheers"
+       }
+      ]
+     },
+     {
+      "name": "A greeting in Swahili",
+      "children": [
+       {
+        "name": "Jambo",
+        "note": "Hello"
+       },
+       {
+        "name": "Habari?",
+        "note": "How are you? (literally \"What news?\")"
+       },
+       {
+        "name": "Karibu",
+        "note": "Welcome"
+       },
+       {
+        "name": "Asante",
+        "note": "Thank you"
+       },
+       {
+        "name": "Hakuna matata",
+        "note": "No worries"
+       }
+      ]
+     },
+     {
+      "name": "A Cantonese slang phrase",
+      "children": [
+       {
+        "name": "食花生",
+        "note": "sik6 faa1 sang1 · \"Eat peanuts\": sit back and watch the drama"
+       },
+       {
+        "name": "放飛機",
+        "note": "fong3 fei1 gei1 · \"Fly a plane\": stand someone up"
+       },
+       {
+        "name": "炒魷魚",
+        "note": "caau2 jau4 jyu4 · \"Fry squid\": get fired"
+       },
+       {
+        "name": "煲電話粥",
+        "note": "bou1 din6 waa2 zuk1 · \"Boil phone congee\": talk on the phone for ages"
+       },
+       {
+        "name": "吹水",
+        "note": "ceoi1 seoi2 · \"Blow water\": chit-chat, shoot the breeze"
+       },
+       {
+        "name": "拍拖",
+        "note": "paak3 to1 · To date someone"
+       },
+       {
+        "name": "搞掂",
+        "note": "gaau2 dim6 · Done, sorted"
+       },
+       {
+        "name": "呃like",
+        "note": "ak1 laik1 · Fishing for likes"
+       },
+       {
+        "name": "心大心細",
+        "note": "sam1 daai6 sam1 sai3 · Can't make up your mind"
+       },
+       {
+        "name": "好鬼正",
+        "note": "hou2 gwai2 zeng3 · Really awesome"
+       }
+      ]
+     },
+     {
+      "name": "Numbers in Korean",
+      "children": [
+       {
+        "name": "하나, 둘, 셋",
+        "note": "hana, dul, set · One, two, three (native Korean, for counting things)"
+       },
+       {
+        "name": "일, 이, 삼",
+        "note": "il, i, sam · One, two, three (Sino-Korean, for dates, money, phone numbers)"
+       }
+      ]
+     },
+     {
+      "name": "A French tongue twister",
+      "children": [
+       {
+        "name": "Un chasseur sachant chasser doit savoir chasser sans son chien",
+        "note": "A hunter who knows how to hunt must know how to hunt without his dog"
+       },
+       {
+        "name": "Les chaussettes de l'archiduchesse sont-elles sèches, archi-sèches ?",
+        "note": "Are the archduchess's socks dry, extra dry?"
+       }
+      ]
+     },
+     {
+      "name": "Sign language alphabet",
+      "children": [
+       {
+        "name": "ASL fingerspelling",
+        "note": "American Sign Language"
+       },
+       {
+        "name": "BSL fingerspelling",
+        "note": "British Sign Language, uses two hands"
+       },
+       {
+        "name": "Hong Kong Sign Language numbers",
+        "note": "香港手語"
+       }
+      ]
+     },
+     {
+      "name": "A toast in Italian",
+      "children": [
+       {
+        "name": "Salute!",
+        "note": "To your health"
+       },
+       {
+        "name": "Cin cin!",
+        "note": "Cheers"
+       },
+       {
+        "name": "Alla nostra!",
+        "note": "To us"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Activity",
+    "hide": true,
+    "children": [
+     {
+      "name": "Label things at home"
+     },
+     {
+      "name": "Sing a song in it"
+     },
+     {
+      "name": "Order food in it"
+     },
+     {
+      "name": "Write a postcard in it"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "History",
+  "children": [
+   {
+    "name": "Era",
+    "hide": true,
+    "children": [
+     {
+      "name": "Ancient Egypt"
+     },
+     {
+      "name": "Tang dynasty"
+     },
+     {
+      "name": "Roman Empire"
+     },
+     {
+      "name": "Edo Japan"
+     },
+     {
+      "name": "The Silk Road"
+     },
+     {
+      "name": "The 1960s"
+     },
+     {
+      "name": "The Renaissance"
+     }
+    ]
+   },
+   {
+    "name": "Activity",
+    "hide": true,
+    "children": [
+     {
+      "name": "Find one weird fact"
+     },
+     {
+      "name": "Recreate a historic recipe"
+     },
+     {
+      "name": "Dress like the era"
+     },
+     {
+      "name": "Explain it in one minute"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Science experiments",
+  "children": [
+   {
+    "name": "Kitchen",
+    "hide": true,
+    "children": [
+     {
+      "name": "Grow crystals"
+     },
+     {
+      "name": "Make a volcano"
+     },
+     {
+      "name": "Red cabbage pH test"
+     },
+     {
+      "name": "Egg in vinegar"
+     },
+     {
+      "name": "Oobleck"
+     },
+     {
+      "name": "Invisible ink"
+     }
+    ]
+   },
+   {
+    "name": "Try",
+    "hide": true,
+    "children": [
+     {
+      "name": "Build a paper bridge"
+     },
+     {
+      "name": "Egg drop challenge"
+     },
+     {
+      "name": "Measure your reaction time"
+     },
+     {
+      "name": "Make a sundial"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Astronomy",
+  "children": [
+   {
+    "name": "Spot",
+    "hide": true,
+    "children": [
+     {
+      "name": "The Moon's craters"
+     },
+     {
+      "name": "Jupiter"
+     },
+     {
+      "name": "The Orion constellation"
+     },
+     {
+      "name": "The International Space Station"
+     },
+     {
+      "name": "A meteor shower"
+     },
+     {
+      "name": "Venus at dusk"
+     }
+    ]
+   },
+   {
+    "name": "Do",
+    "hide": true,
+    "children": [
+     {
+      "name": "Draw the moon phases for a week"
+     },
+     {
+      "name": "Find your star sign stars"
+     },
+     {
+      "name": "Learn one constellation story"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Wildlife",
+  "children": [
+   {
+    "name": "Spot",
+    "hide": true,
+    "children": [
+     {
+      "name": "A bird you can't name"
+     },
+     {
+      "name": "A butterfly"
+     },
+     {
+      "name": "A crab on the shore"
+     },
+     {
+      "name": "A gecko"
+     },
+     {
+      "name": "A dragonfly"
+     },
+     {
+      "name": "A squirrel"
+     }
+    ]
+   },
+   {
+    "name": "Do",
+    "hide": true,
+    "children": [
+     {
+      "name": "Sketch it"
+     },
+     {
+      "name": "Look it up and learn three facts"
+     },
+     {
+      "name": "Photograph it"
+     },
+     {
+      "name": "Make a sound map of what you hear"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Ocean",
+  "children": [
+   {
+    "name": "Do",
+    "hide": true,
+    "children": [
+     {
+      "name": "Rock pooling"
+     },
+     {
+      "name": "Beach clean-up"
+     },
+     {
+      "name": "Snorkelling"
+     },
+     {
+      "name": "Collect sea glass"
+     },
+     {
+      "name": "Watch the sunrise at the beach"
+     },
+     {
+      "name": "Paddleboard"
+     }
+    ]
+   },
+   {
+    "name": "Learn",
+    "hide": true,
+    "children": [
+     {
+      "name": "A deep-sea creature"
+     },
+     {
+      "name": "How tides work"
+     },
+     {
+      "name": "A sea shanty"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Hong Kong outings",
+  "children": [
+   {
+    "name": "Area",
+    "hide": true,
+    "children": [
+     {
+      "name": "Sham Shui Po",
+      "children": [
+       {
+        "name": "Apliu Street",
+        "note": "鴨寮街 · Flea market and electronics"
+       },
+       {
+        "name": "Kung Wo Tofu",
+        "note": "公和荳品廠 · Tofu pudding since 1893"
+       },
+       {
+        "name": "Mei Ho House",
+        "note": "美荷樓 · Restored public housing block"
+       }
+      ]
+     },
+     {
+      "name": "Tai O",
+      "children": [
+       {
+        "name": "Stilt houses",
+        "note": "棚屋"
+       },
+       {
+        "name": "Pink dolphin boat trip"
+       },
+       {
+        "name": "Shrimp paste stalls",
+        "note": "蝦醬"
+       }
+      ]
+     },
+     {
+      "name": "Cheung Chau",
+      "children": [
+       {
+        "name": "Mini Great Wall trail",
+        "note": "小長城"
+       },
+       {
+        "name": "Cheung Po Tsai Cave",
+        "note": "張保仔洞"
+       },
+       {
+        "name": "Giant fish balls"
+       }
+      ]
+     },
+     {
+      "name": "Sai Kung",
+      "children": [
+       {
+        "name": "Sharp Island tombolo",
+        "note": "橋咀洲"
+       },
+       {
+        "name": "Geopark boat tour",
+        "note": "地質公園"
+       },
+       {
+        "name": "Seafood pier"
+       }
+      ]
+     },
+     {
+      "name": "Lamma Island",
+      "children": [
+       {
+        "name": "Family Trail",
+        "note": "Yung Shue Wan to Sok Kwu Wan"
+       },
+       {
+        "name": "Tofu flower in Yung Shue Wan",
+        "note": "豆腐花"
+       }
+      ]
+     },
+     {
+      "name": "Tai Hang",
+      "children": [
+       {
+        "name": "Lin Fa Kung temple",
+        "note": "蓮花宮"
+       },
+       {
+        "name": "Fire Dragon Heritage Centre",
+        "note": "大坑火龍文化館"
+       }
+      ]
+     },
+     {
+      "name": "Kennedy Town"
+     },
+     {
+      "name": "Peng Chau"
+     },
+     {
+      "name": "Lai Chi Wo",
+      "children": [
+       {
+        "name": "Hakka walled village",
+        "note": "荔枝窩客家圍村"
+       },
+       {
+        "name": "Fung shui woodland",
+        "note": "風水林"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Mission",
+    "hide": true,
+    "children": [
+     {
+      "name": "Find the best egg waffle"
+     },
+     {
+      "name": "Ride the tram end to end"
+     },
+     {
+      "name": "Take the Star Ferry at night"
+     },
+     {
+      "name": "Eat at a dai pai dong"
+     },
+     {
+      "name": "Visit a temple"
+     },
+     {
+      "name": "Find a hidden rooftop view"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Hiking",
+  "children": [
+   {
+    "name": "Hong Kong trail",
+    "hide": true,
+    "children": [
+     {
+      "name": "Dragon's Back"
+     },
+     {
+      "name": "Lion Rock"
+     },
+     {
+      "name": "Lantau Peak"
+     },
+     {
+      "name": "Sharp Peak"
+     },
+     {
+      "name": "High Junk Peak"
+     },
+     {
+      "name": "MacLehose Stage 2"
+     },
+     {
+      "name": "Tai Mo Shan"
+     },
+     {
+      "name": "Pat Sin Leng"
+     },
+     {
+      "name": "Suicide Cliff"
+     }
+    ]
+   },
+   {
+    "name": "Style",
+    "hide": true,
+    "children": [
+     {
+      "name": "Sunrise hike"
+     },
+     {
+      "name": "Night hike"
+     },
+     {
+      "name": "Picnic at the top"
+     },
+     {
+      "name": "Photo every 15 minutes"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Street food",
+  "children": [
+   {
+    "name": "Hong Kong",
+    "hide": true,
+    "children": [
+     {
+      "name": "Egg waffles",
+      "note": "雞蛋仔 · gai1 daan6 zai2"
+     },
+     {
+      "name": "Curry fish balls",
+      "note": "咖喱魚蛋 · gaa3 lei1 jyu4 daan2"
+     },
+     {
+      "name": "Siu mai",
+      "note": "燒賣 · siu1 maai2"
+     },
+     {
+      "name": "Stinky tofu",
+      "note": "臭豆腐 · cau3 dau6 fu6"
+     },
+     {
+      "name": "Pineapple bun with butter",
+      "note": "菠蘿油 · bo1 lo4 jau4"
+     },
+     {
+      "name": "Cheung fun",
+      "note": "腸粉 · Rice noodle rolls"
+     },
+     {
+      "name": "Milk tea",
+      "note": "奶茶 · Hong Kong-style milk tea"
+     }
+    ]
+   },
+   {
+    "name": "World",
+    "hide": true,
+    "children": [
+     {
+      "name": "Tacos"
+     },
+     {
+      "name": "Bánh mì"
+     },
+     {
+      "name": "Takoyaki"
+     },
+     {
+      "name": "Arepas"
+     },
+     {
+      "name": "Falafel"
+     },
+     {
+      "name": "Churros"
+     },
+     {
+      "name": "Satay"
+     }
+    ]
+   },
+   {
+    "name": "Mission",
+    "hide": true,
+    "children": [
+     {
+      "name": "Rate three stalls"
+     },
+     {
+      "name": "Try something you've never eaten"
+     },
+     {
+      "name": "Find the oldest stall nearby"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Coffee",
+  "children": [
+   {
+    "name": "Brew",
+    "hide": true,
+    "children": [
+     {
+      "name": "Pour-over",
+      "children": [
+       {
+        "name": "Hario V60"
+       },
+       {
+        "name": "Kalita Wave"
+       },
+       {
+        "name": "Chemex"
+       }
+      ]
+     },
+     {
+      "name": "AeroPress",
+      "children": [
+       {
+        "name": "AeroPress Original"
+       },
+       {
+        "name": "AeroPress Go"
+       }
+      ]
+     },
+     {
+      "name": "Cold brew"
+     },
+     {
+      "name": "Moka pot",
+      "children": [
+       {
+        "name": "Bialetti Moka Express"
+       }
+      ]
+     },
+     {
+      "name": "French press",
+      "children": [
+       {
+        "name": "Bodum Chambord"
+       }
+      ]
+     },
+     {
+      "name": "Dalgona"
+     },
+     {
+      "name": "Yuenyeung"
+     }
+    ]
+   },
+   {
+    "name": "Mission",
+    "hide": true,
+    "children": [
+     {
+      "name": "Try a new café"
+     },
+     {
+      "name": "Latte art attempt"
+     },
+     {
+      "name": "Blind taste test"
+     },
+     {
+      "name": "Coffee and dessert pairing"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Tea",
+  "children": [
+   {
+    "name": "Kind",
+    "hide": true,
+    "children": [
+     {
+      "name": "Oolong",
+      "children": [
+       {
+        "name": "Tieguanyin"
+       },
+       {
+        "name": "Da Hong Pao"
+       },
+       {
+        "name": "Dong Ding"
+       }
+      ]
+     },
+     {
+      "name": "Pu-erh",
+      "children": [
+       {
+        "name": "Menghai 7572 ripe cake"
+       }
+      ]
+     },
+     {
+      "name": "Jasmine"
+     },
+     {
+      "name": "Matcha",
+      "children": [
+       {
+        "name": "Ippodo"
+       },
+       {
+        "name": "Marukyu Koyamaen"
+       }
+      ]
+     },
+     {
+      "name": "Milk tea"
+     },
+     {
+      "name": "Chrysanthemum"
+     },
+     {
+      "name": "Rooibos"
+     },
+     {
+      "name": "Masala chai"
+     }
+    ]
+   },
+   {
+    "name": "Do",
+    "hide": true,
+    "children": [
+     {
+      "name": "Gongfu tea session"
+     },
+     {
+      "name": "Make bubble tea at home"
+     },
+     {
+      "name": "Tea tasting with notes"
+     },
+     {
+      "name": "Visit a tea house"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Drinks",
+  "children": [
+   {
+    "name": "Make",
+    "hide": true,
+    "children": [
+     {
+      "name": "Mocktail with herbs"
+     },
+     {
+      "name": "Lemonade three ways"
+     },
+     {
+      "name": "Homemade soda"
+     },
+     {
+      "name": "Smoothie bowl"
+     },
+     {
+      "name": "Kombucha"
+     },
+     {
+      "name": "Hot chocolate from scratch"
+     }
+    ]
+   },
+   {
+    "name": "Twist",
+    "hide": true,
+    "children": [
+     {
+      "name": "Colour theme"
+     },
+     {
+      "name": "Name it after a friend"
+     },
+     {
+      "name": "Garnish competition"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Desserts",
+  "children": [
+   {
+    "name": "Make",
+    "hide": true,
+    "children": [
+     {
+      "name": "Mango pomelo sago"
+     },
+     {
+      "name": "Mochi"
+     },
+     {
+      "name": "Tiramisu"
+     },
+     {
+      "name": "Tong sui"
+     },
+     {
+      "name": "Crème brûlée"
+     },
+     {
+      "name": "Pavlova"
+     },
+     {
+      "name": "Grass jelly"
+     },
+     {
+      "name": "Ice cream without a machine"
+     }
+    ]
+   },
+   {
+    "name": "Twist",
+    "hide": true,
+    "children": [
+     {
+      "name": "Only three ingredients"
+     },
+     {
+      "name": "Plate it like a restaurant"
+     },
+     {
+      "name": "Make a mini version"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Fashion",
+  "children": [
+   {
+    "name": "Do",
+    "hide": true,
+    "children": [
+     {
+      "name": "Style one item three ways"
+     },
+     {
+      "name": "Monochrome outfit"
+     },
+     {
+      "name": "Dress as a decade"
+     },
+     {
+      "name": "Swap outfits with a friend"
+     },
+     {
+      "name": "Sketch an outfit"
+     },
+     {
+      "name": "Wear your boldest colour"
+     }
+    ]
+   },
+   {
+    "name": "Theme",
+    "hide": true,
+    "children": [
+     {
+      "name": "90s"
+     },
+     {
+      "name": "Minimalist"
+     },
+     {
+      "name": "Streetwear"
+     },
+     {
+      "name": "Old-money"
+     },
+     {
+      "name": "Y2K"
+     },
+     {
+      "name": "Workwear"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Thrifting",
+  "children": [
+   {
+    "name": "Find",
+    "hide": true,
+    "children": [
+     {
+      "name": "A jacket under $100"
+     },
+     {
+      "name": "A vintage plate"
+     },
+     {
+      "name": "An odd book"
+     },
+     {
+      "name": "A scarf to turn into a top"
+     },
+     {
+      "name": "The weirdest object"
+     }
+    ]
+   },
+   {
+    "name": "Rule",
+    "hide": true,
+    "children": [
+     {
+      "name": "Ten-minute dash"
+     },
+     {
+      "name": "Pick for a friend"
+     },
+     {
+      "name": "Only one colour"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Beauty",
+  "children": [
+   {
+    "name": "Try",
+    "hide": true,
+    "children": [
+     {
+      "name": "A graphic liner"
+     },
+     {
+      "name": "A new hairstyle",
+      "children": [
+       {
+        "name": "Space buns"
+       },
+       {
+        "name": "Low messy bun"
+       },
+       {
+        "name": "Half-up top knot"
+       },
+       {
+        "name": "Braided crown"
+       },
+       {
+        "name": "Slicked-back low ponytail"
+       }
+      ]
+     },
+     {
+      "name": "A face mask night"
+     },
+     {
+      "name": "Nail art",
+      "children": [
+       {
+        "name": "French tips in a bright colour"
+       },
+       {
+        "name": "Tiny smiley faces"
+       },
+       {
+        "name": "Chrome nails"
+       },
+       {
+        "name": "Tortoiseshell"
+       },
+       {
+        "name": "One accent nail with glitter"
+       }
+      ]
+     },
+     {
+      "name": "A fragrance layering test",
+      "children": [
+       {
+        "name": "Vanilla and sandalwood"
+       },
+       {
+        "name": "Citrus and vetiver"
+       },
+       {
+        "name": "Rose and oud"
+       },
+       {
+        "name": "Fig and cedar"
+       }
+      ]
+     },
+     {
+      "name": "A skincare routine reset",
+      "children": [
+       {
+        "name": "Three-step week",
+        "note": "Cleanser, moisturiser, SPF in the morning. Nothing else for 7 days"
+       },
+       {
+        "name": "Night double cleanse",
+        "note": "Oil cleanser, then a gentle cleanser, then moisturiser"
+       },
+       {
+        "name": "Fragrance-free week",
+        "note": "Swap everything for fragrance-free basics and see how your skin feels"
+       },
+       {
+        "name": "Patch-test one new product",
+        "note": "Test it on a small patch of skin for a few days before your face"
+       },
+       {
+        "name": "Hydration focus",
+        "note": "Hydrating toner, then a hyaluronic serum, then moisturiser"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Theme",
+    "hide": true,
+    "children": [
+     {
+      "name": "Festival look"
+     },
+     {
+      "name": "No-makeup makeup"
+     },
+     {
+      "name": "Film character look"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Home styling",
+  "children": [
+   {
+    "name": "Do",
+    "hide": true,
+    "children": [
+     {
+      "name": "Rearrange one room"
+     },
+     {
+      "name": "Make a gallery wall"
+     },
+     {
+      "name": "Style a shelf"
+     },
+     {
+      "name": "Build a reading nook"
+     },
+     {
+      "name": "Add plants to one corner"
+     },
+     {
+      "name": "Colour-sort your books"
+     }
+    ]
+   },
+   {
+    "name": "Budget",
+    "hide": true,
+    "children": [
+     {
+      "name": "Zero dollars"
+     },
+     {
+      "name": "$200"
+     },
+     {
+      "name": "Only what you already own"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Architecture",
+  "children": [
+   {
+    "name": "Spot",
+    "hide": true,
+    "children": [
+     {
+      "name": "A staircase"
+     },
+     {
+      "name": "A window you love"
+     },
+     {
+      "name": "A tong lau building"
+     },
+     {
+      "name": "A brutalist building"
+     },
+     {
+      "name": "A temple roof"
+     },
+     {
+      "name": "A neon sign"
+     }
+    ]
+   },
+   {
+    "name": "Do",
+    "hide": true,
+    "children": [
+     {
+      "name": "Sketch a facade"
+     },
+     {
+      "name": "Design your dream house on paper"
+     },
+     {
+      "name": "Photograph doors"
+     },
+     {
+      "name": "Build a cardboard model"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Graphic design",
+  "children": [
+   {
+    "name": "Make",
+    "hide": true,
+    "children": [
+     {
+      "name": "A poster for an imaginary film"
+     },
+     {
+      "name": "A logo for a friend"
+     },
+     {
+      "name": "A band T-shirt"
+     },
+     {
+      "name": "A menu"
+     },
+     {
+      "name": "A sticker set"
+     },
+     {
+      "name": "A zine cover"
+     }
+    ]
+   },
+   {
+    "name": "Rule",
+    "hide": true,
+    "children": [
+     {
+      "name": "One font only"
+     },
+     {
+      "name": "Two colours"
+     },
+     {
+      "name": "Type only"
+     },
+     {
+      "name": "No straight lines"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Lettering",
+  "children": [
+   {
+    "name": "Style",
+    "hide": true,
+    "children": [
+     {
+      "name": "Brush calligraphy"
+     },
+     {
+      "name": "Chinese calligraphy"
+     },
+     {
+      "name": "Graffiti tag style"
+     },
+     {
+      "name": "Blackletter"
+     },
+     {
+      "name": "Bubble letters"
+     },
+     {
+      "name": "Neon sign lettering"
+     }
+    ]
+   },
+   {
+    "name": "Write",
+    "hide": true,
+    "children": [
+     {
+      "name": "Your name"
+     },
+     {
+      "name": "A favourite lyric"
+     },
+     {
+      "name": "A friend's nickname"
+     },
+     {
+      "name": "A motivational word"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Painting",
+  "children": [
+   {
+    "name": "Medium",
+    "hide": true,
+    "children": [
+     {
+      "name": "Acrylic pour"
+     },
+     {
+      "name": "Watercolour wash"
+     },
+     {
+      "name": "Gouache"
+     },
+     {
+      "name": "Oil sticks"
+     },
+     {
+      "name": "Spray paint"
+     },
+     {
+      "name": "Finger painting"
+     }
+    ]
+   },
+   {
+    "name": "Subject",
+    "hide": true,
+    "children": [
+     {
+      "name": "Sunset"
+     },
+     {
+      "name": "Abstract feelings"
+     },
+     {
+      "name": "A still life"
+     },
+     {
+      "name": "A portrait of a pet"
+     },
+     {
+      "name": "Your street"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Sculpture",
+  "children": [
+   {
+    "name": "Material",
+    "hide": true,
+    "children": [
+     {
+      "name": "Air-dry clay"
+     },
+     {
+      "name": "Wire"
+     },
+     {
+      "name": "Soap carving"
+     },
+     {
+      "name": "Papier-mâché"
+     },
+     {
+      "name": "Found objects"
+     },
+     {
+      "name": "Ice"
+     }
+    ]
+   },
+   {
+    "name": "Make",
+    "hide": true,
+    "children": [
+     {
+      "name": "A tiny creature"
+     },
+     {
+      "name": "A self-portrait head"
+     },
+     {
+      "name": "A hand"
+     },
+     {
+      "name": "An abstract form"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Pottery",
+  "children": [
+   {
+    "name": "Make",
+    "hide": true,
+    "children": [
+     {
+      "name": "A pinch pot"
+     },
+     {
+      "name": "A coil vase"
+     },
+     {
+      "name": "A tiny plate"
+     },
+     {
+      "name": "A mug"
+     },
+     {
+      "name": "An incense holder"
+     },
+     {
+      "name": "A ring dish"
+     }
+    ]
+   },
+   {
+    "name": "Twist",
+    "hide": true,
+    "children": [
+     {
+      "name": "Eyes closed"
+     },
+     {
+      "name": "Make a matching set"
+     },
+     {
+      "name": "Glaze in a gradient"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Sewing",
+  "children": [
+   {
+    "name": "Make",
+    "hide": true,
+    "children": [
+     {
+      "name": "A tote bag"
+     },
+     {
+      "name": "A scrunchie"
+     },
+     {
+      "name": "A patch"
+     },
+     {
+      "name": "A pillowcase"
+     },
+     {
+      "name": "A pouch"
+     },
+     {
+      "name": "Mend a hole visibly"
+     }
+    ]
+   },
+   {
+    "name": "Technique",
+    "hide": true,
+    "children": [
+     {
+      "name": "Sashiko"
+     },
+     {
+      "name": "Embroidery"
+     },
+     {
+      "name": "Appliqué"
+     },
+     {
+      "name": "Hand-stitched hem"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Woodworking",
+  "children": [
+   {
+    "name": "Make",
+    "hide": true,
+    "children": [
+     {
+      "name": "A spoon"
+     },
+     {
+      "name": "A phone stand"
+     },
+     {
+      "name": "A bird house"
+     },
+     {
+      "name": "A cutting board"
+     },
+     {
+      "name": "A small shelf"
+     },
+     {
+      "name": "A whittled animal"
+     }
+    ]
+   },
+   {
+    "name": "Tool",
+    "hide": true,
+    "children": [
+     {
+      "name": "Knife only"
+     },
+     {
+      "name": "Hand saw"
+     },
+     {
+      "name": "Sandpaper and patience"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Coding",
+  "children": [
+   {
+    "name": "Build",
+    "hide": true,
+    "children": [
+     {
+      "name": "A tiny game",
+      "children": [
+       {
+        "name": "Godot"
+       },
+       {
+        "name": "PICO-8"
+       },
+       {
+        "name": "Phaser"
+       },
+       {
+        "name": "Unity"
+       }
+      ]
+     },
+     {
+      "name": "A personal website",
+      "children": [
+       {
+        "name": "Astro"
+       },
+       {
+        "name": "Next.js"
+       },
+       {
+        "name": "Framer"
+       },
+       {
+        "name": "GitHub Pages"
+       }
+      ]
+     },
+     {
+      "name": "A bot that tells jokes",
+      "children": [
+       {
+        "name": "Discord bot"
+       },
+       {
+        "name": "Telegram bot"
+       }
+      ]
+     },
+     {
+      "name": "A to-do app"
+     },
+     {
+      "name": "A random generator"
+     },
+     {
+      "name": "A weather display"
+     }
+    ]
+   },
+   {
+    "name": "Twist",
+    "hide": true,
+    "children": [
+     {
+      "name": "In one hour"
+     },
+     {
+      "name": "In a language you've never used"
+     },
+     {
+      "name": "With a friend pair-programming"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Electronics",
+  "children": [
+   {
+    "name": "Build",
+    "hide": true,
+    "children": [
+     {
+      "name": "An LED circuit",
+      "children": [
+       {
+        "name": "Arduino Uno"
+       },
+       {
+        "name": "Raspberry Pi Pico"
+       },
+       {
+        "name": "BBC micro:bit"
+       }
+      ]
+     },
+     {
+      "name": "A buzzer alarm"
+     },
+     {
+      "name": "A plant moisture sensor",
+      "children": [
+       {
+        "name": "Arduino Uno"
+       },
+       {
+        "name": "ESP32"
+       },
+       {
+        "name": "Raspberry Pi Pico W"
+       }
+      ]
+     },
+     {
+      "name": "A mini fan"
+     },
+     {
+      "name": "A light-up card"
+     }
+    ]
+   },
+   {
+    "name": "Learn",
+    "hide": true,
+    "children": [
+     {
+      "name": "Soldering"
+     },
+     {
+      "name": "Ohm's law"
+     },
+     {
+      "name": "How a speaker works"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Video making",
+  "children": [
+   {
+    "name": "Make",
+    "hide": true,
+    "children": [
+     {
+      "name": "A one-minute vlog",
+      "children": [
+       {
+        "name": "CapCut"
+       },
+       {
+        "name": "DaVinci Resolve"
+       },
+       {
+        "name": "iMovie"
+       }
+      ]
+     },
+     {
+      "name": "A stop-motion clip"
+     },
+     {
+      "name": "A mini documentary of a friend"
+     },
+     {
+      "name": "A cooking video"
+     },
+     {
+      "name": "A music video"
+     },
+     {
+      "name": "A trailer for your week"
+     }
+    ]
+   },
+   {
+    "name": "Rule",
+    "hide": true,
+    "children": [
+     {
+      "name": "One take only"
+     },
+     {
+      "name": "No talking"
+     },
+     {
+      "name": "Shot on the floor"
+     },
+     {
+      "name": "Vertical only"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Animation",
+  "children": [
+   {
+    "name": "Style",
+    "hide": true,
+    "children": [
+     {
+      "name": "Flipbook",
+      "children": [
+       {
+        "name": "FlipaClip"
+       }
+      ]
+     },
+     {
+      "name": "Stop motion",
+      "children": [
+       {
+        "name": "Stop Motion Studio"
+       }
+      ]
+     },
+     {
+      "name": "Pixel animation",
+      "children": [
+       {
+        "name": "Aseprite"
+       }
+      ]
+     },
+     {
+      "name": "Rotoscope"
+     },
+     {
+      "name": "Claymation"
+     },
+     {
+      "name": "Whiteboard doodle"
+     }
+    ]
+   },
+   {
+    "name": "Subject",
+    "hide": true,
+    "children": [
+     {
+      "name": "A bouncing ball"
+     },
+     {
+      "name": "A walking cat"
+     },
+     {
+      "name": "A growing plant"
+     },
+     {
+      "name": "A face changing moods"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Music production",
+  "children": [
+   {
+    "name": "Make",
+    "hide": true,
+    "children": [
+     {
+      "name": "A beat from kitchen sounds"
+     },
+     {
+      "name": "A lo-fi loop",
+      "children": [
+       {
+        "name": "Ableton Live"
+       },
+       {
+        "name": "FL Studio"
+       },
+       {
+        "name": "GarageBand"
+       },
+       {
+        "name": "Koala Sampler"
+       }
+      ]
+     },
+     {
+      "name": "A remix of a voice memo"
+     },
+     {
+      "name": "A jingle for a friend"
+     },
+     {
+      "name": "An ambient track"
+     }
+    ]
+   },
+   {
+    "name": "Constraint",
+    "hide": true,
+    "children": [
+     {
+      "name": "8 bars only"
+     },
+     {
+      "name": "One synth"
+     },
+     {
+      "name": "120 BPM"
+     },
+     {
+      "name": "No drums"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "DJing",
+  "children": [
+   {
+    "name": "Do",
+    "hide": true,
+    "children": [
+     {
+      "name": "A 15-minute set"
+     },
+     {
+      "name": "A two-song transition"
+     },
+     {
+      "name": "A mood playlist"
+     },
+     {
+      "name": "A decade mix"
+     }
+    ]
+   },
+   {
+    "name": "Theme",
+    "hide": true,
+    "children": [
+     {
+      "name": "Sunset vibes"
+     },
+     {
+      "name": "2000s throwbacks"
+     },
+     {
+      "name": "Songs in other languages"
+     },
+     {
+      "name": "Songs with colours in the title"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Karaoke",
+  "children": [
+   {
+    "name": "Sing",
+    "hide": true,
+    "children": [
+     {
+      "name": "A Cantopop classic",
+      "children": [
+       {
+        "name": "海闊天空",
+        "note": "Beyond · Boundless Oceans, Vast Skies"
+       },
+       {
+        "name": "喜歡你",
+        "note": "Beyond · I Like You"
+       },
+       {
+        "name": "富士山下",
+        "note": "Eason Chan · Under Mount Fuji"
+       },
+       {
+        "name": "浮誇",
+        "note": "Eason Chan · Exaggerated"
+       },
+       {
+        "name": "紅日",
+        "note": "Hacken Lee · Red Sun"
+       },
+       {
+        "name": "千千闕歌",
+        "note": "Priscilla Chan · A Thousand Songs"
+       }
+      ]
+     },
+     {
+      "name": "A power ballad",
+      "children": [
+       {
+        "name": "I Will Always Love You",
+        "note": "Whitney Houston"
+       },
+       {
+        "name": "Total Eclipse of the Heart",
+        "note": "Bonnie Tyler"
+       },
+       {
+        "name": "My Heart Will Go On",
+        "note": "Céline Dion"
+       },
+       {
+        "name": "Bohemian Rhapsody",
+        "note": "Queen"
+       }
+      ]
+     },
+     {
+      "name": "A duet",
+      "children": [
+       {
+        "name": "Shallow",
+        "note": "Lady Gaga and Bradley Cooper"
+       },
+       {
+        "name": "Don't Go Breaking My Heart",
+        "note": "Elton John and Kiki Dee"
+       },
+       {
+        "name": "A Whole New World",
+        "note": "Aladdin"
+       }
+      ]
+     },
+     {
+      "name": "A rap verse",
+      "children": [
+       {
+        "name": "Lose Yourself",
+        "note": "Eminem"
+       },
+       {
+        "name": "Juicy",
+        "note": "The Notorious B.I.G."
+       },
+       {
+        "name": "Rapper's Delight",
+        "note": "The Sugarhill Gang"
+       }
+      ]
+     },
+     {
+      "name": "A Disney song",
+      "children": [
+       {
+        "name": "Let It Go",
+        "note": "Frozen"
+       },
+       {
+        "name": "How Far I'll Go",
+        "note": "Moana"
+       },
+       {
+        "name": "Under the Sea",
+        "note": "The Little Mermaid"
+       },
+       {
+        "name": "We Don't Talk About Bruno",
+        "note": "Encanto"
+       }
+      ]
+     },
+     {
+      "name": "A song in a language you don't speak",
+      "children": [
+       {
+        "name": "Despacito",
+        "note": "Spanish · Luis Fonsi"
+       },
+       {
+        "name": "Gangnam Style",
+        "note": "Korean · PSY"
+       },
+       {
+        "name": "Plastic Love",
+        "note": "Japanese · Mariya Takeuchi"
+       },
+       {
+        "name": "La Vie en rose",
+        "note": "French · Édith Piaf"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Rule",
+    "hide": true,
+    "children": [
+     {
+      "name": "In a different voice"
+     },
+     {
+      "name": "Swap songs with a friend"
+     },
+     {
+      "name": "Slow it right down"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Dance",
+  "children": [
+   {
+    "name": "Style",
+    "hide": true,
+    "children": [
+     {
+      "name": "K-pop choreography"
+     },
+     {
+      "name": "Salsa"
+     },
+     {
+      "name": "Waacking"
+     },
+     {
+      "name": "Swing"
+     },
+     {
+      "name": "Hip-hop"
+     },
+     {
+      "name": "Contemporary"
+     },
+     {
+      "name": "Line dancing"
+     },
+     {
+      "name": "Tap"
+     }
+    ]
+   },
+   {
+    "name": "Do",
+    "hide": true,
+    "children": [
+     {
+      "name": "Learn a TikTok dance"
+     },
+     {
+      "name": "Freestyle for one song"
+     },
+     {
+      "name": "Film a dance in public"
+     },
+     {
+      "name": "Teach a friend"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Martial arts",
+  "children": [
+   {
+    "name": "Try",
+    "hide": true,
+    "children": [
+     {
+      "name": "Tai chi"
+     },
+     {
+      "name": "Wing Chun basics"
+     },
+     {
+      "name": "Boxing combos"
+     },
+     {
+      "name": "Muay Thai kicks"
+     },
+     {
+      "name": "Capoeira"
+     },
+     {
+      "name": "Kendo footwork"
+     }
+    ]
+   },
+   {
+    "name": "Do",
+    "hide": true,
+    "children": [
+     {
+      "name": "Watch a kung fu film"
+     },
+     {
+      "name": "Learn one form"
+     },
+     {
+      "name": "Shadow boxing round"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Ball sports",
+  "children": [
+   {
+    "name": "Play",
+    "hide": true,
+    "children": [
+     {
+      "name": "Basketball"
+     },
+     {
+      "name": "Football"
+     },
+     {
+      "name": "Volleyball"
+     },
+     {
+      "name": "Dodgeball"
+     },
+     {
+      "name": "Handball"
+     },
+     {
+      "name": "Futsal"
+     }
+    ]
+   },
+   {
+    "name": "Challenge",
+    "hide": true,
+    "children": [
+     {
+      "name": "Shoot 10 free throws"
+     },
+     {
+      "name": "Keepie-uppies record"
+     },
+     {
+      "name": "Play with your weaker side"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Racket sports",
+  "children": [
+   {
+    "name": "Play",
+    "hide": true,
+    "children": [
+     {
+      "name": "Badminton",
+      "children": [
+       {
+        "name": "Yonex Astrox 88S"
+       },
+       {
+        "name": "Yonex Arcsaber 11"
+       },
+       {
+        "name": "Victor Thruster K"
+       }
+      ]
+     },
+     {
+      "name": "Table tennis",
+      "children": [
+       {
+        "name": "Butterfly Viscaria blade"
+       },
+       {
+        "name": "DHS Hurricane 3 rubber"
+       }
+      ]
+     },
+     {
+      "name": "Tennis",
+      "children": [
+       {
+        "name": "Wilson Pro Staff"
+       },
+       {
+        "name": "Babolat Pure Drive"
+       },
+       {
+        "name": "Head Speed"
+       }
+      ]
+     },
+     {
+      "name": "Pickleball"
+     },
+     {
+      "name": "Squash"
+     },
+     {
+      "name": "Padel"
+     }
+    ]
+   },
+   {
+    "name": "Challenge",
+    "hide": true,
+    "children": [
+     {
+      "name": "Longest rally"
+     },
+     {
+      "name": "Serve practice"
+     },
+     {
+      "name": "Play left-handed"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Water sports",
+  "children": [
+   {
+    "name": "Try",
+    "hide": true,
+    "children": [
+     {
+      "name": "Kayaking"
+     },
+     {
+      "name": "Stand-up paddleboarding"
+     },
+     {
+      "name": "Snorkelling"
+     },
+     {
+      "name": "Swimming laps"
+     },
+     {
+      "name": "Dragon boat"
+     },
+     {
+      "name": "Wakeboarding"
+     }
+    ]
+   },
+   {
+    "name": "Place",
+    "hide": true,
+    "children": [
+     {
+      "name": "Sai Kung"
+     },
+     {
+      "name": "Repulse Bay"
+     },
+     {
+      "name": "Shek O"
+     },
+     {
+      "name": "Tung Chung"
+     },
+     {
+      "name": "A local pool"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Workouts",
+  "children": [
+   {
+    "name": "Type",
+    "hide": true,
+    "children": [
+     {
+      "name": "HIIT",
+      "children": [
+       {
+        "name": "Tabata",
+        "note": "20 s on, 10 s off, 8 rounds"
+       },
+       {
+        "name": "EMOM",
+        "note": "10 squats every minute for 10 minutes"
+       },
+       {
+        "name": "30-30",
+        "note": "30 s jumping jacks, 30 s rest, 10 rounds"
+       }
+      ]
+     },
+     {
+      "name": "Kettlebell"
+     },
+     {
+      "name": "Bodyweight circuit",
+      "children": [
+       {
+        "name": "20 squats, 10 push-ups, 30 s plank",
+        "note": "3 rounds"
+       },
+       {
+        "name": "10 lunges each leg, 15 glute bridges, 20 mountain climbers",
+        "note": "3 rounds"
+       }
+      ]
+     },
+     {
+      "name": "Stair climb"
+     },
+     {
+      "name": "Pilates"
+     },
+     {
+      "name": "Resistance bands"
+     },
+     {
+      "name": "Mobility flow"
+     }
+    ]
+   },
+   {
+    "name": "Duration",
+    "hide": true,
+    "children": [
+     {
+      "name": "7 minutes"
+     },
+     {
+      "name": "20 minutes"
+     },
+     {
+      "name": "45 minutes"
+     }
+    ]
+   },
+   {
+    "name": "Twist",
+    "hide": true,
+    "children": [
+     {
+      "name": "With a friend"
+     },
+     {
+      "name": "Outdoors"
+     },
+     {
+      "name": "To one album"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Yoga",
+  "children": [
+   {
+    "name": "Pose",
+    "hide": true,
+    "children": [
+     {
+      "name": "Downward dog"
+     },
+     {
+      "name": "Tree pose"
+     },
+     {
+      "name": "Warrior II"
+     },
+     {
+      "name": "Crow pose"
+     },
+     {
+      "name": "Pigeon pose"
+     },
+     {
+      "name": "Headstand prep"
+     },
+     {
+      "name": "Bridge"
+     },
+     {
+      "name": "Child's pose"
+     }
+    ]
+   },
+   {
+    "name": "Session",
+    "hide": true,
+    "children": [
+     {
+      "name": "Morning flow"
+     },
+     {
+      "name": "Bedtime stretch"
+     },
+     {
+      "name": "Yin yoga"
+     },
+     {
+      "name": "Partner yoga"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Running",
+  "children": [
+   {
+    "name": "Type",
+    "hide": true,
+    "children": [
+     {
+      "name": "5 km"
+     },
+     {
+      "name": "Intervals",
+      "children": [
+       {
+        "name": "6 × 400 m",
+        "note": "90 s walk between"
+       },
+       {
+        "name": "10 × 1 min fast",
+        "note": "1 min easy between"
+       }
+      ]
+     },
+     {
+      "name": "Hill repeats",
+      "children": [
+       {
+        "name": "8 × 30 s uphill",
+        "note": "Walk back down"
+       }
+      ]
+     },
+     {
+      "name": "Slow long run"
+     },
+     {
+      "name": "Night run"
+     },
+     {
+      "name": "Parkrun"
+     }
+    ]
+   },
+   {
+    "name": "Route",
+    "hide": true,
+    "children": [
+     {
+      "name": "Waterfront"
+     },
+     {
+      "name": "A new neighbourhood"
+     },
+     {
+      "name": "Track laps"
+     },
+     {
+      "name": "A park loop"
+     }
+    ]
+   },
+   {
+    "name": "Twist",
+    "hide": true,
+    "children": [
+     {
+      "name": "Run without music"
+     },
+     {
+      "name": "Run to a café"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Cycling",
+  "children": [
+   {
+    "name": "Route",
+    "hide": true,
+    "children": [
+     {
+      "name": "Tolo Harbour"
+     },
+     {
+      "name": "Tai Wai to Tai Mei Tuk"
+     },
+     {
+      "name": "A city loop"
+     },
+     {
+      "name": "A coastal path"
+     },
+     {
+      "name": "A park loop"
+     }
+    ]
+   },
+   {
+    "name": "Do",
+    "hide": true,
+    "children": [
+     {
+      "name": "Ride somewhere for breakfast"
+     },
+     {
+      "name": "Fix a puncture"
+     },
+     {
+      "name": "Try a bike-share"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Meditation",
+  "children": [
+   {
+    "name": "Type",
+    "hide": true,
+    "children": [
+     {
+      "name": "Body scan"
+     },
+     {
+      "name": "Breath counting"
+     },
+     {
+      "name": "Walking meditation"
+     },
+     {
+      "name": "Loving-kindness"
+     },
+     {
+      "name": "Sound bath"
+     },
+     {
+      "name": "Candle gazing"
+     }
+    ]
+   },
+   {
+    "name": "Duration",
+    "hide": true,
+    "children": [
+     {
+      "name": "3 minutes"
+     },
+     {
+      "name": "10 minutes"
+     },
+     {
+      "name": "20 minutes"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Journaling",
+  "children": [
+   {
+    "name": "Prompt",
+    "hide": true,
+    "children": [
+     {
+      "name": "What surprised me today"
+     },
+     {
+      "name": "Three tiny wins"
+     },
+     {
+      "name": "A letter to future me"
+     },
+     {
+      "name": "What I'm avoiding"
+     },
+     {
+      "name": "My perfect ordinary day"
+     },
+     {
+      "name": "A list of 20 small joys"
+     }
+    ]
+   },
+   {
+    "name": "Format",
+    "hide": true,
+    "children": [
+     {
+      "name": "Bullet journal"
+     },
+     {
+      "name": "Morning pages"
+     },
+     {
+      "name": "Scrapbook"
+     },
+     {
+      "name": "Voice memo diary"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Self-care",
+  "children": [
+   {
+    "name": "Do",
+    "hide": true,
+    "children": [
+     {
+      "name": "A digital detox hour",
+      "children": [
+       {
+        "name": "Phone in a drawer, read a paper book"
+       },
+       {
+        "name": "Walk with no headphones"
+       },
+       {
+        "name": "Write a letter by hand"
+       },
+       {
+        "name": "Sketch whatever is in front of you"
+       }
+      ]
+     },
+     {
+      "name": "A long bath"
+     },
+     {
+      "name": "A solo date"
+     },
+     {
+      "name": "An early night"
+     },
+     {
+      "name": "Cook yourself something nice",
+      "children": [
+       {
+        "name": "Tomato and egg on rice",
+        "note": "番茄炒蛋飯"
+       },
+       {
+        "name": "Instant noodles with a soft egg and spring onion"
+       },
+       {
+        "name": "Kaya butter toast",
+        "note": "咖央牛油多"
+       },
+       {
+        "name": "Miso soup with tofu"
+       },
+       {
+        "name": "Avocado toast with chilli flakes"
+       }
+      ]
+     },
+     {
+      "name": "Tidy one drawer",
+      "children": [
+       {
+        "name": "The kitchen junk drawer"
+       },
+       {
+        "name": "Your bedside drawer"
+       },
+       {
+        "name": "The cable and charger drawer"
+       },
+       {
+        "name": "Your make-up bag"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Plan",
+    "hide": true,
+    "children": [
+     {
+      "name": "A lazy Sunday"
+     },
+     {
+      "name": "A reset day"
+     },
+     {
+      "name": "A mini retreat at home"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Kindness",
+  "children": [
+   {
+    "name": "Do",
+    "hide": true,
+    "children": [
+     {
+      "name": "Write a thank-you note"
+     },
+     {
+      "name": "Compliment a stranger"
+     },
+     {
+      "name": "Cook for a neighbour"
+     },
+     {
+      "name": "Leave a kind review"
+     },
+     {
+      "name": "Donate clothes"
+     },
+     {
+      "name": "Call a grandparent"
+     }
+    ]
+   },
+   {
+    "name": "Size",
+    "hide": true,
+    "children": [
+     {
+      "name": "Tiny"
+     },
+     {
+      "name": "Medium"
+     },
+     {
+      "name": "Big gesture"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Volunteering",
+  "children": [
+   {
+    "name": "Cause",
+    "hide": true,
+    "children": [
+     {
+      "name": "Animal shelter"
+     },
+     {
+      "name": "Food bank"
+     },
+     {
+      "name": "Beach clean-up"
+     },
+     {
+      "name": "Elderly visits"
+     },
+     {
+      "name": "Tutoring"
+     },
+     {
+      "name": "Community garden"
+     }
+    ]
+   },
+   {
+    "name": "Do",
+    "hide": true,
+    "children": [
+     {
+      "name": "One afternoon"
+     },
+     {
+      "name": "A skill you can donate"
+     },
+     {
+      "name": "Organise friends to join"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Conversation",
+  "children": [
+   {
+    "name": "Ask",
+    "hide": true,
+    "children": [
+     {
+      "name": "What's a hill you'd die on"
+     },
+     {
+      "name": "Your strangest skill"
+     },
+     {
+      "name": "A food you'd ban"
+     },
+     {
+      "name": "Your dream job at age 7"
+     },
+     {
+      "name": "The best advice you ignored"
+     },
+     {
+      "name": "Your perfect day"
+     }
+    ]
+   },
+   {
+    "name": "Format",
+    "hide": true,
+    "children": [
+     {
+      "name": "One question each"
+     },
+     {
+      "name": "Answer in one word"
+     },
+     {
+      "name": "Hot takes round"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Party games",
+  "children": [
+   {
+    "name": "Game",
+    "hide": true,
+    "children": [
+     {
+      "name": "Charades"
+     },
+     {
+      "name": "Two truths and a lie",
+      "children": [
+       {
+        "name": "About your childhood"
+       },
+       {
+        "name": "About food"
+       },
+       {
+        "name": "About travel"
+       },
+       {
+        "name": "About school"
+       }
+      ]
+     },
+     {
+      "name": "Mafia"
+     },
+     {
+      "name": "Werewolf",
+      "children": [
+       {
+        "name": "One Night Ultimate Werewolf"
+       }
+      ]
+     },
+     {
+      "name": "Pictionary"
+     },
+     {
+      "name": "Heads Up",
+      "children": [
+       {
+        "name": "Heads Up! app"
+       }
+      ]
+     },
+     {
+      "name": "The hat game"
+     },
+     {
+      "name": "Would you rather",
+      "children": [
+       {
+        "name": "Always be 10 minutes late, or always 20 minutes early?"
+       },
+       {
+        "name": "Fight one horse-sized duck, or 100 duck-sized horses?"
+       },
+       {
+        "name": "Lose your phone, or lose your wallet?"
+       },
+       {
+        "name": "Only eat Cantonese food, or never eat it again?"
+       },
+       {
+        "name": "Read minds, or be invisible?"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Twist",
+    "hide": true,
+    "children": [
+     {
+      "name": "Themed rounds"
+     },
+     {
+      "name": "Losers pick the music"
+     },
+     {
+      "name": "Teams by birthday month"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Date ideas",
+  "children": [
+   {
+    "name": "Plan",
+    "hide": true,
+    "children": [
+     {
+      "name": "Cook a new cuisine"
+     },
+     {
+      "name": "Night market"
+     },
+     {
+      "name": "Sunrise picnic"
+     },
+     {
+      "name": "Pottery class"
+     },
+     {
+      "name": "Museum then dessert"
+     },
+     {
+      "name": "Arcade"
+     },
+     {
+      "name": "Stargazing"
+     },
+     {
+      "name": "Plan a fake trip"
+     }
+    ]
+   },
+   {
+    "name": "Budget",
+    "hide": true,
+    "children": [
+     {
+      "name": "Free"
+     },
+     {
+      "name": "Under $200"
+     },
+     {
+      "name": "Splurge"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Hangouts",
+  "children": [
+   {
+    "name": "Plan",
+    "hide": true,
+    "children": [
+     {
+      "name": "Hot pot night"
+     },
+     {
+      "name": "Movie marathon"
+     },
+     {
+      "name": "Board game café"
+     },
+     {
+      "name": "Karaoke"
+     },
+     {
+      "name": "Beach BBQ"
+     },
+     {
+      "name": "Craft night"
+     },
+     {
+      "name": "Cook-off"
+     },
+     {
+      "name": "Photo walk"
+     }
+    ]
+   },
+   {
+    "name": "Twist",
+    "hide": true,
+    "children": [
+     {
+      "name": "Everyone brings one dish"
+     },
+     {
+      "name": "No phones"
+     },
+     {
+      "name": "Themed dress code"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Picnics",
+  "children": [
+   {
+    "name": "Spot",
+    "hide": true,
+    "children": [
+     {
+      "name": "Victoria Park"
+     },
+     {
+      "name": "A beach"
+     },
+     {
+      "name": "A rooftop"
+     },
+     {
+      "name": "A hilltop"
+     },
+     {
+      "name": "A harbourfront promenade"
+     },
+     {
+      "name": "A country park"
+     }
+    ]
+   },
+   {
+    "name": "Theme",
+    "hide": true,
+    "children": [
+     {
+      "name": "All one colour"
+     },
+     {
+      "name": "Bento only"
+     },
+     {
+      "name": "Snacks from a convenience store"
+     },
+     {
+      "name": "Dessert picnic"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Camping",
+  "children": [
+   {
+    "name": "Spot",
+    "hide": true,
+    "children": [
+     {
+      "name": "Ham Tin"
+     },
+     {
+      "name": "Tai Long Wan"
+     },
+     {
+      "name": "Cheung Chau campsite"
+     },
+     {
+      "name": "A balcony"
+     },
+     {
+      "name": "The living room floor"
+     }
+    ]
+   },
+   {
+    "name": "Do",
+    "hide": true,
+    "children": [
+     {
+      "name": "Cook over a camp stove"
+     },
+     {
+      "name": "Tell ghost stories"
+     },
+     {
+      "name": "Stargaze"
+     },
+     {
+      "name": "Make s'mores"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Magic",
+  "children": [
+   {
+    "name": "Learn",
+    "hide": true,
+    "children": [
+     {
+      "name": "A coin vanish",
+      "children": [
+       {
+        "name": "French drop"
+       },
+       {
+        "name": "Classic palm"
+       },
+       {
+        "name": "Retention vanish"
+       }
+      ]
+     },
+     {
+      "name": "A card force",
+      "children": [
+       {
+        "name": "Cross-cut force"
+       },
+       {
+        "name": "Hindu shuffle force"
+       },
+       {
+        "name": "Riffle force"
+       }
+      ]
+     },
+     {
+      "name": "A mind-reading trick",
+      "children": [
+       {
+        "name": "The 21-card trick"
+       },
+       {
+        "name": "A book test"
+       }
+      ]
+     },
+     {
+      "name": "A rope trick"
+     },
+     {
+      "name": "A disappearing pen"
+     }
+    ]
+   },
+   {
+    "name": "Do",
+    "hide": true,
+    "children": [
+     {
+      "name": "Perform for a friend"
+     },
+     {
+      "name": "Make your own trick"
+     },
+     {
+      "name": "Learn one sleight of hand"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Circus skills",
+  "children": [
+   {
+    "name": "Learn",
+    "hide": true,
+    "children": [
+     {
+      "name": "Juggling three balls"
+     },
+     {
+      "name": "Spinning a plate"
+     },
+     {
+      "name": "Diabolo"
+     },
+     {
+      "name": "Poi"
+     },
+     {
+      "name": "Balancing on a board"
+     },
+     {
+      "name": "A cartwheel"
+     }
+    ]
+   },
+   {
+    "name": "Goal",
+    "hide": true,
+    "children": [
+     {
+      "name": "10 catches"
+     },
+     {
+      "name": "30 seconds"
+     },
+     {
+      "name": "Film a trick"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Memory",
+  "children": [
+   {
+    "name": "Challenge",
+    "hide": true,
+    "children": [
+     {
+      "name": "Memorise a poem",
+      "children": [
+       {
+        "name": "靜夜思",
+        "note": "Li Bai · Quiet Night Thought: \"Before my bed, the bright moonlight\""
+       },
+       {
+        "name": "Stopping by Woods on a Snowy Evening",
+        "note": "Robert Frost"
+       },
+       {
+        "name": "Do not go gentle into that good night",
+        "note": "Dylan Thomas"
+       }
+      ]
+     },
+     {
+      "name": "Learn pi to 20 digits",
+      "children": [
+       {
+        "name": "3.14159265358979323846"
+       }
+      ]
+     },
+     {
+      "name": "Remember a shopping list"
+     },
+     {
+      "name": "A deck of cards order"
+     },
+     {
+      "name": "Everyone's birthdays"
+     }
+    ]
+   },
+   {
+    "name": "Technique",
+    "hide": true,
+    "children": [
+     {
+      "name": "Memory palace"
+     },
+     {
+      "name": "Chunking"
+     },
+     {
+      "name": "Rhymes"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Maths fun",
+  "children": [
+   {
+    "name": "Try",
+    "hide": true,
+    "children": [
+     {
+      "name": "A magic square"
+     },
+     {
+      "name": "The Monty Hall puzzle"
+     },
+     {
+      "name": "Fold paper 7 times"
+     },
+     {
+      "name": "Fibonacci in nature"
+     },
+     {
+      "name": "A tangram"
+     },
+     {
+      "name": "A Möbius strip"
+     }
+    ]
+   },
+   {
+    "name": "Do",
+    "hide": true,
+    "children": [
+     {
+      "name": "Explain it to a friend"
+     },
+     {
+      "name": "Draw it"
+     },
+     {
+      "name": "Test it"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Philosophy",
+  "children": [
+   {
+    "name": "Question",
+    "hide": true,
+    "children": [
+     {
+      "name": "Is a hot dog a sandwich"
+     },
+     {
+      "name": "Would you plug into a dream machine"
+     },
+     {
+      "name": "The ship of Theseus"
+     },
+     {
+      "name": "Is free will real"
+     },
+     {
+      "name": "The trolley problem"
+     },
+     {
+      "name": "What makes a good life"
+     }
+    ]
+   },
+   {
+    "name": "Format",
+    "hide": true,
+    "children": [
+     {
+      "name": "Debate it"
+     },
+     {
+      "name": "Sleep on it"
+     },
+     {
+      "name": "Write a one-page answer"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Debate",
+  "children": [
+   {
+    "name": "Topic",
+    "hide": true,
+    "children": [
+     {
+      "name": "Pineapple on pizza"
+     },
+     {
+      "name": "Cats vs dogs"
+     },
+     {
+      "name": "Cities vs countryside"
+     },
+     {
+      "name": "Should homework exist"
+     },
+     {
+      "name": "Morning vs night people"
+     },
+     {
+      "name": "Sequels vs originals"
+     }
+    ]
+   },
+   {
+    "name": "Rule",
+    "hide": true,
+    "children": [
+     {
+      "name": "Argue the side you disagree with"
+     },
+     {
+      "name": "Two minutes each"
+     },
+     {
+      "name": "Audience votes"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Mythology",
+  "children": [
+   {
+    "name": "Myth",
+    "hide": true,
+    "children": [
+     {
+      "name": "Chang'e and the Moon"
+     },
+     {
+      "name": "Medusa"
+     },
+     {
+      "name": "Thor's hammer"
+     },
+     {
+      "name": "The Monkey King"
+     },
+     {
+      "name": "Anansi the spider"
+     },
+     {
+      "name": "Pandora's box"
+     },
+     {
+      "name": "The Nine-tailed fox"
+     }
+    ]
+   },
+   {
+    "name": "Do",
+    "hide": true,
+    "children": [
+     {
+      "name": "Retell it in modern times"
+     },
+     {
+      "name": "Draw the creature"
+     },
+     {
+      "name": "Make a comic"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Fairy tales",
+  "children": [
+   {
+    "name": "Tale",
+    "hide": true,
+    "children": [
+     {
+      "name": "Cinderella"
+     },
+     {
+      "name": "Red Riding Hood"
+     },
+     {
+      "name": "The Little Mermaid"
+     },
+     {
+      "name": "Hansel and Gretel"
+     },
+     {
+      "name": "The Frog Prince"
+     },
+     {
+      "name": "The Cowherd and the Weaver Girl"
+     }
+    ]
+   },
+   {
+    "name": "Twist",
+    "hide": true,
+    "children": [
+     {
+      "name": "Villain's point of view"
+     },
+     {
+      "name": "Set in Hong Kong"
+     },
+     {
+      "name": "As a news report"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Superpowers",
+  "children": [
+   {
+    "name": "Power",
+    "hide": true,
+    "children": [
+     {
+      "name": "Teleporting"
+     },
+     {
+      "name": "Talking to animals"
+     },
+     {
+      "name": "Pausing time"
+     },
+     {
+      "name": "Reading minds"
+     },
+     {
+      "name": "Invisibility"
+     },
+     {
+      "name": "Shape-shifting"
+     }
+    ]
+   },
+   {
+    "name": "Do",
+    "hide": true,
+    "children": [
+     {
+      "name": "Draw your hero"
+     },
+     {
+      "name": "Write the origin story"
+     },
+     {
+      "name": "Decide the weakness"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Inventions",
+  "children": [
+   {
+    "name": "Invent",
+    "hide": true,
+    "children": [
+     {
+      "name": "A gadget for lazy mornings"
+     },
+     {
+      "name": "A new sport"
+     },
+     {
+      "name": "A holiday"
+     },
+     {
+      "name": "A flavour of crisps"
+     },
+     {
+      "name": "A better umbrella"
+     },
+     {
+      "name": "A new emoji"
+     }
+    ]
+   },
+   {
+    "name": "Do",
+    "hide": true,
+    "children": [
+     {
+      "name": "Sketch it"
+     },
+     {
+      "name": "Pitch it in 30 seconds"
+     },
+     {
+      "name": "Make a prototype from junk"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Business ideas",
+  "children": [
+   {
+    "name": "Idea",
+    "hide": true,
+    "children": [
+     {
+      "name": "A café concept"
+     },
+     {
+      "name": "A subscription box"
+     },
+     {
+      "name": "A weird app"
+     },
+     {
+      "name": "A pop-up shop"
+     },
+     {
+      "name": "A tiny online course"
+     }
+    ]
+   },
+   {
+    "name": "Do",
+    "hide": true,
+    "children": [
+     {
+      "name": "Name it"
+     },
+     {
+      "name": "Make a logo"
+     },
+     {
+      "name": "Write the first post"
+     },
+     {
+      "name": "Price it"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Money",
+  "children": [
+   {
+    "name": "Challenge",
+    "hide": true,
+    "children": [
+     {
+      "name": "No-spend weekend"
+     },
+     {
+      "name": "Cook with $50 for a week"
+     },
+     {
+      "name": "Sell one thing you don't use"
+     },
+     {
+      "name": "Track every dollar for a week"
+     },
+     {
+      "name": "Find a free activity"
+     }
+    ]
+   },
+   {
+    "name": "Learn",
+    "hide": true,
+    "children": [
+     {
+      "name": "Compound interest"
+     },
+     {
+      "name": "Budgeting apps"
+     },
+     {
+      "name": "Investing basics"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Skills",
+  "children": [
+   {
+    "name": "Learn",
+    "hide": true,
+    "children": [
+     {
+      "name": "Touch typing"
+     },
+     {
+      "name": "Knot tying",
+      "children": [
+       {
+        "name": "Bowline"
+       },
+       {
+        "name": "Reef knot"
+       },
+       {
+        "name": "Clove hitch"
+       },
+       {
+        "name": "Figure-eight knot"
+       }
+      ]
+     },
+     {
+      "name": "Basic first aid",
+      "children": [
+       {
+        "name": "Recovery position"
+       },
+       {
+        "name": "Cool a minor burn under running water for 20 minutes"
+       },
+       {
+        "name": "Find your nearest defibrillator"
+       }
+      ]
+     },
+     {
+      "name": "Changing a tyre"
+     },
+     {
+      "name": "Ironing a shirt"
+     },
+     {
+      "name": "Sewing a button"
+     },
+     {
+      "name": "Whistling with fingers"
+     }
+    ]
+   },
+   {
+    "name": "Time",
+    "hide": true,
+    "children": [
+     {
+      "name": "In 30 minutes"
+     },
+     {
+      "name": "Practise for a week"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Space",
+  "children": [
+   {
+    "name": "Topic",
+    "hide": true,
+    "children": [
+     {
+      "name": "Black holes"
+     },
+     {
+      "name": "Mars rovers"
+     },
+     {
+      "name": "The Moon landing"
+     },
+     {
+      "name": "Life on Europa"
+     },
+     {
+      "name": "The James Webb telescope"
+     },
+     {
+      "name": "The Big Bang"
+     }
+    ]
+   },
+   {
+    "name": "Do",
+    "hide": true,
+    "children": [
+     {
+      "name": "Watch a launch"
+     },
+     {
+      "name": "Make a model solar system"
+     },
+     {
+      "name": "Write a letter to an alien"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Dinosaurs",
+  "children": [
+   {
+    "name": "Dino",
+    "hide": true,
+    "children": [
+     {
+      "name": "Triceratops"
+     },
+     {
+      "name": "Spinosaurus"
+     },
+     {
+      "name": "Velociraptor"
+     },
+     {
+      "name": "Ankylosaurus"
+     },
+     {
+      "name": "Brachiosaurus"
+     },
+     {
+      "name": "Pteranodon"
+     }
+    ]
+   },
+   {
+    "name": "Do",
+    "hide": true,
+    "children": [
+     {
+      "name": "Draw it"
+     },
+     {
+      "name": "Guess its sound"
+     },
+     {
+      "name": "Find its real size"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Animals",
+  "children": [
+   {
+    "name": "Animal",
+    "hide": true,
+    "children": [
+     {
+      "name": "Axolotl"
+     },
+     {
+      "name": "Red panda"
+     },
+     {
+      "name": "Octopus"
+     },
+     {
+      "name": "Pangolin"
+     },
+     {
+      "name": "Capybara"
+     },
+     {
+      "name": "Mantis shrimp"
+     },
+     {
+      "name": "Quokka"
+     },
+     {
+      "name": "Chinese white dolphin"
+     }
+    ]
+   },
+   {
+    "name": "Do",
+    "hide": true,
+    "children": [
+     {
+      "name": "Learn three facts"
+     },
+     {
+      "name": "Draw it"
+     },
+     {
+      "name": "Adopt one at a zoo virtually"
+     },
+     {
+      "name": "Do an impression"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Plants",
+  "children": [
+   {
+    "name": "Plant",
+    "hide": true,
+    "children": [
+     {
+      "name": "Bonsai"
+     },
+     {
+      "name": "Monstera"
+     },
+     {
+      "name": "Carnivorous plant"
+     },
+     {
+      "name": "Bamboo"
+     },
+     {
+      "name": "Orchid"
+     },
+     {
+      "name": "Cactus"
+     }
+    ]
+   },
+   {
+    "name": "Do",
+    "hide": true,
+    "children": [
+     {
+      "name": "Press flowers"
+     },
+     {
+      "name": "Draw a leaf"
+     },
+     {
+      "name": "Visit a flower market"
+     },
+     {
+      "name": "Identify five trees"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Weather",
+  "children": [
+   {
+    "name": "Do",
+    "hide": true,
+    "children": [
+     {
+      "name": "Photograph clouds"
+     },
+     {
+      "name": "Measure rain in a cup"
+     },
+     {
+      "name": "Watch a storm safely from inside"
+     },
+     {
+      "name": "Catch the sunset"
+     },
+     {
+      "name": "Track temperature for a week"
+     }
+    ]
+   },
+   {
+    "name": "Mood",
+    "hide": true,
+    "children": [
+     {
+      "name": "Rainy day film"
+     },
+     {
+      "name": "Sunny picnic"
+     },
+     {
+      "name": "Foggy walk"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Countries",
+  "children": [
+   {
+    "name": "Country",
+    "hide": true,
+    "children": [
+     {
+      "name": "Peru"
+     },
+     {
+      "name": "Georgia"
+     },
+     {
+      "name": "Vietnam"
+     },
+     {
+      "name": "Iceland"
+     },
+     {
+      "name": "Morocco"
+     },
+     {
+      "name": "Mongolia"
+     },
+     {
+      "name": "Portugal"
+     },
+     {
+      "name": "Ethiopia"
+     },
+     {
+      "name": "Japan"
+     },
+     {
+      "name": "Mexico"
+     }
+    ]
+   },
+   {
+    "name": "Do",
+    "hide": true,
+    "children": [
+     {
+      "name": "Cook a dish from it"
+     },
+     {
+      "name": "Learn the flag"
+     },
+     {
+      "name": "Listen to its music"
+     },
+     {
+      "name": "Plan a dream trip"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Festivals",
+  "children": [
+   {
+    "name": "Festival",
+    "hide": true,
+    "children": [
+     {
+      "name": "Mid-Autumn"
+     },
+     {
+      "name": "Lunar New Year"
+     },
+     {
+      "name": "Diwali"
+     },
+     {
+      "name": "Día de los Muertos"
+     },
+     {
+      "name": "Holi"
+     },
+     {
+      "name": "Cheung Chau Bun Festival"
+     },
+     {
+      "name": "Hanami"
+     }
+    ]
+   },
+   {
+    "name": "Do",
+    "hide": true,
+    "children": [
+     {
+      "name": "Make a lantern"
+     },
+     {
+      "name": "Cook a festival food"
+     },
+     {
+      "name": "Learn the story"
+     },
+     {
+      "name": "Throw a mini version"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Art movements",
+  "children": [
+   {
+    "name": "Movement",
+    "hide": true,
+    "children": [
+     {
+      "name": "Impressionism"
+     },
+     {
+      "name": "Pop art"
+     },
+     {
+      "name": "Bauhaus"
+     },
+     {
+      "name": "Surrealism"
+     },
+     {
+      "name": "Cubism"
+     },
+     {
+      "name": "Art Nouveau"
+     },
+     {
+      "name": "Ukiyo-e"
+     },
+     {
+      "name": "Memphis design"
+     }
+    ]
+   },
+   {
+    "name": "Do",
+    "hide": true,
+    "children": [
+     {
+      "name": "Make something in that style"
+     },
+     {
+      "name": "Read one artist"
+     },
+     {
+      "name": "Recreate a famous piece",
+      "children": [
+       {
+        "name": "The Great Wave off Kanagawa",
+        "note": "Hokusai"
+       },
+       {
+        "name": "The Starry Night",
+        "note": "Van Gogh"
+       },
+       {
+        "name": "The Son of Man",
+        "note": "Magritte"
+       },
+       {
+        "name": "Campbell's Soup Cans",
+        "note": "Warhol"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Museums",
+  "children": [
+   {
+    "name": "Place",
+    "hide": true,
+    "children": [
+     {
+      "name": "M+"
+     },
+     {
+      "name": "Hong Kong Museum of Art"
+     },
+     {
+      "name": "Hong Kong Science Museum"
+     },
+     {
+      "name": "Tai Kwun"
+     },
+     {
+      "name": "A gallery you've never been to"
+     },
+     {
+      "name": "An online museum tour"
+     }
+    ]
+   },
+   {
+    "name": "Mission",
+    "hide": true,
+    "children": [
+     {
+      "name": "Find your favourite piece"
+     },
+     {
+      "name": "Sketch one work"
+     },
+     {
+      "name": "Ask a question to staff"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Dares",
+  "children": [
+   {
+    "name": "Do",
+    "hide": true,
+    "children": [
+     {
+      "name": "Talk to a stranger"
+     },
+     {
+      "name": "Wear something bold"
+     },
+     {
+      "name": "Sing in public"
+     },
+     {
+      "name": "Try a food you hate"
+     },
+     {
+      "name": "Go somewhere alone"
+     },
+     {
+      "name": "Say yes to everything for an hour"
+     }
+    ]
+   },
+   {
+    "name": "Level",
+    "hide": true,
+    "children": [
+     {
+      "name": "Mild"
+     },
+     {
+      "name": "Spicy"
+     },
+     {
+      "name": "Wild"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Colours",
+  "children": [
+   {
+    "name": "Colour",
+    "hide": true,
+    "children": [
+     {
+      "name": "Cobalt blue"
+     },
+     {
+      "name": "Tangerine"
+     },
+     {
+      "name": "Mint"
+     },
+     {
+      "name": "Lilac"
+     },
+     {
+      "name": "Mustard"
+     },
+     {
+      "name": "Crimson"
+     },
+     {
+      "name": "Sage"
+     },
+     {
+      "name": "Hot pink"
+     }
+    ]
+   },
+   {
+    "name": "Do",
+    "hide": true,
+    "children": [
+     {
+      "name": "Wear only it"
+     },
+     {
+      "name": "Find ten things in it"
+     },
+     {
+      "name": "Cook a dish in it"
+     },
+     {
+      "name": "Paint with only it"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Scents",
+  "children": [
+   {
+    "name": "Do",
+    "hide": true,
+    "children": [
+     {
+      "name": "Blind smell test"
+     },
+     {
+      "name": "Make a scent from spices"
+     },
+     {
+      "name": "Visit a perfume counter"
+     },
+     {
+      "name": "Describe a memory smell"
+     },
+     {
+      "name": "Make potpourri"
+     }
+    ]
+   },
+   {
+    "name": "Note",
+    "hide": true,
+    "children": [
+     {
+      "name": "Citrus"
+     },
+     {
+      "name": "Sandalwood"
+     },
+     {
+      "name": "Jasmine"
+     },
+     {
+      "name": "Rain"
+     },
+     {
+      "name": "Coffee"
+     },
+     {
+      "name": "Sea salt"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Sound",
+  "children": [
+   {
+    "name": "Do",
+    "hide": true,
+    "children": [
+     {
+      "name": "Record a sound walk"
+     },
+     {
+      "name": "Make a field recording"
+     },
+     {
+      "name": "Build a shaker"
+     },
+     {
+      "name": "Listen with eyes closed for 5 minutes"
+     },
+     {
+      "name": "Find the quietest place nearby"
+     }
+    ]
+   },
+   {
+    "name": "Theme",
+    "hide": true,
+    "children": [
+     {
+      "name": "City noise"
+     },
+     {
+      "name": "Nature"
+     },
+     {
+      "name": "Kitchen"
+     },
+     {
+      "name": "Water"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Declutter",
+  "children": [
+   {
+    "name": "Area",
+    "hide": true,
+    "children": [
+     {
+      "name": "One drawer"
+     },
+     {
+      "name": "Your wardrobe"
+     },
+     {
+      "name": "Phone photos"
+     },
+     {
+      "name": "Email inbox"
+     },
+     {
+      "name": "Your desk"
+     },
+     {
+      "name": "The fridge"
+     }
+    ]
+   },
+   {
+    "name": "Rule",
+    "hide": true,
+    "children": [
+     {
+      "name": "15 minutes"
+     },
+     {
+      "name": "Keep only what you love"
+     },
+     {
+      "name": "Donate five things"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Breakfast",
+  "children": [
+   {
+    "name": "Make",
+    "hide": true,
+    "children": [
+     {
+      "name": "Congee"
+     },
+     {
+      "name": "French toast"
+     },
+     {
+      "name": "Shakshuka"
+     },
+     {
+      "name": "Pancakes"
+     },
+     {
+      "name": "Kaya toast"
+     },
+     {
+      "name": "Açaí bowl"
+     },
+     {
+      "name": "A full fry-up"
+     },
+     {
+      "name": "Macaroni soup"
+     }
+    ]
+   },
+   {
+    "name": "Twist",
+    "hide": true,
+    "children": [
+     {
+      "name": "Make it for dinner"
+     },
+     {
+      "name": "Eat it outside"
+     },
+     {
+      "name": "Plate it beautifully"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Hot pot",
+  "children": [
+   {
+    "name": "Broth",
+    "hide": true,
+    "children": [
+     {
+      "name": "Tomato"
+     },
+     {
+      "name": "Satay"
+     },
+     {
+      "name": "Mala"
+     },
+     {
+      "name": "Pork bone"
+     },
+     {
+      "name": "Sukiyaki"
+     },
+     {
+      "name": "Coconut chicken"
+     }
+    ]
+   },
+   {
+    "name": "Twist",
+    "hide": true,
+    "children": [
+     {
+      "name": "Everyone brings a mystery ingredient"
+     },
+     {
+      "name": "Make your own sauce"
+     },
+     {
+      "name": "Dessert hot pot"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Ice cream",
+  "children": [
+   {
+    "name": "Flavour",
+    "hide": true,
+    "children": [
+     {
+      "name": "Black sesame"
+     },
+     {
+      "name": "Earl grey"
+     },
+     {
+      "name": "Durian"
+     },
+     {
+      "name": "Salted caramel"
+     },
+     {
+      "name": "Pandan"
+     },
+     {
+      "name": "Olive oil"
+     },
+     {
+      "name": "Mango"
+     }
+    ]
+   },
+   {
+    "name": "Do",
+    "hide": true,
+    "children": [
+     {
+      "name": "Make no-churn ice cream"
+     },
+     {
+      "name": "Taste test brands"
+     },
+     {
+      "name": "Invent a flavour"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Picture books",
+  "children": [
+   {
+    "name": "Do",
+    "hide": true,
+    "children": [
+     {
+      "name": "Write a picture book for a kid you know"
+     },
+     {
+      "name": "Illustrate a page"
+     },
+     {
+      "name": "Read one aloud with voices"
+     },
+     {
+      "name": "Rewrite a classic"
+     }
+    ]
+   },
+   {
+    "name": "Theme",
+    "hide": true,
+    "children": [
+     {
+      "name": "A lost sock"
+     },
+     {
+      "name": "A brave cloud"
+     },
+     {
+      "name": "A shy dragon"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Comics",
+  "children": [
+   {
+    "name": "Make",
+    "hide": true,
+    "children": [
+     {
+      "name": "A four-panel strip"
+     },
+     {
+      "name": "A webtoon scroll"
+     },
+     {
+      "name": "A superhero cover"
+     },
+     {
+      "name": "A diary comic"
+     },
+     {
+      "name": "A silent comic"
+     }
+    ]
+   },
+   {
+    "name": "Character",
+    "hide": true,
+    "children": [
+     {
+      "name": "Yourself as a cat"
+     },
+     {
+      "name": "A talking plant"
+     },
+     {
+      "name": "A tired robot"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Fan fiction",
+  "children": [
+   {
+    "name": "Fandom",
+    "hide": true,
+    "children": [
+     {
+      "name": "Your favourite show"
+     },
+     {
+      "name": "A video game"
+     },
+     {
+      "name": "A band"
+     },
+     {
+      "name": "A classic novel"
+     }
+    ]
+   },
+   {
+    "name": "Prompt",
+    "hide": true,
+    "children": [
+     {
+      "name": "A coffee shop AU"
+     },
+     {
+      "name": "The villain wins"
+     },
+     {
+      "name": "The side character's story"
+     },
+     {
+      "name": "Swap two characters"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Worldbuilding",
+  "children": [
+   {
+    "name": "Build",
+    "hide": true,
+    "children": [
+     {
+      "name": "A map of an island"
+     },
+     {
+      "name": "A made-up language"
+     },
+     {
+      "name": "A creature"
+     },
+     {
+      "name": "A city's laws"
+     },
+     {
+      "name": "A religion's festival"
+     },
+     {
+      "name": "A currency"
+     }
+    ]
+   },
+   {
+    "name": "Twist",
+    "hide": true,
+    "children": [
+     {
+      "name": "The sky is green"
+     },
+     {
+      "name": "There's no night"
+     },
+     {
+      "name": "Everyone flies"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Role-play games",
+  "children": [
+   {
+    "name": "Game",
+    "hide": true,
+    "children": [
+     {
+      "name": "A one-shot Dungeons & Dragons"
+     },
+     {
+      "name": "A murder mystery party"
+     },
+     {
+      "name": "A LARP"
+     },
+     {
+      "name": "A solo journaling RPG"
+     }
+    ]
+   },
+   {
+    "name": "Do",
+    "hide": true,
+    "children": [
+     {
+      "name": "Make a character"
+     },
+     {
+      "name": "Run a session"
+     },
+     {
+      "name": "Design a monster"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Escape rooms",
+  "children": [
+   {
+    "name": "Do",
+    "hide": true,
+    "children": [
+     {
+      "name": "Book one with friends"
+     },
+     {
+      "name": "Design a mini one at home"
+     },
+     {
+      "name": "Solve an online one"
+     },
+     {
+      "name": "Make a treasure hunt"
+     }
+    ]
+   },
+   {
+    "name": "Theme",
+    "hide": true,
+    "children": [
+     {
+      "name": "Haunted house"
+     },
+     {
+      "name": "Spy mission"
+     },
+     {
+      "name": "Pirate ship"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Treasure hunts",
+  "children": [
+   {
+    "name": "Hide",
+    "hide": true,
+    "children": [
+     {
+      "name": "A snack"
+     },
+     {
+      "name": "A note"
+     },
+     {
+      "name": "A small gift"
+     },
+     {
+      "name": "A puzzle piece"
+     }
+    ]
+   },
+   {
+    "name": "Clue style",
+    "hide": true,
+    "children": [
+     {
+      "name": "Riddles"
+     },
+     {
+      "name": "Photos"
+     },
+     {
+      "name": "Maps"
+     },
+     {
+      "name": "Emoji only"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Letters",
+  "children": [
+   {
+    "name": "Write",
+    "hide": true,
+    "children": [
+     {
+      "name": "A letter to your future self"
+     },
+     {
+      "name": "A postcard to a friend"
+     },
+     {
+      "name": "A thank-you to a teacher"
+     },
+     {
+      "name": "A pen pal letter"
+     },
+     {
+      "name": "A love letter to your city"
+     }
+    ]
+   },
+   {
+    "name": "Form",
+    "hide": true,
+    "children": [
+     {
+      "name": "Handwritten"
+     },
+     {
+      "name": "Typed and posted"
+     },
+     {
+      "name": "A voice letter"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Nostalgia",
+  "children": [
+   {
+    "name": "Do",
+    "hide": true,
+    "children": [
+     {
+      "name": "Rewatch a childhood cartoon"
+     },
+     {
+      "name": "Play a childhood game"
+     },
+     {
+      "name": "Cook a school lunch"
+     },
+     {
+      "name": "Listen to the first album you owned"
+     },
+     {
+      "name": "Look at old photos"
+     }
+    ]
+   },
+   {
+    "name": "Era",
+    "hide": true,
+    "children": [
+     {
+      "name": "Primary school"
+     },
+     {
+      "name": "High school"
+     },
+     {
+      "name": "The year you turned 18"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Pets",
+  "children": [
+   {
+    "name": "Do",
+    "hide": true,
+    "children": [
+     {
+      "name": "Teach a trick"
+     },
+     {
+      "name": "Make a toy"
+     },
+     {
+      "name": "Take a portrait"
+     },
+     {
+      "name": "Plan a pet party"
+     },
+     {
+      "name": "Volunteer to walk a dog"
+     },
+     {
+      "name": "Visit a cat café"
+     }
+    ]
+   },
+   {
+    "name": "Pet",
+    "hide": true,
+    "children": [
+     {
+      "name": "Dog"
+     },
+     {
+      "name": "Cat"
+     },
+     {
+      "name": "Rabbit"
+     },
+     {
+      "name": "Hamster"
+     },
+     {
+      "name": "Fish"
+     },
+     {
+      "name": "A friend's pet"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Babysitting play",
+  "children": [
+   {
+    "name": "Activity",
+    "hide": true,
+    "children": [
+     {
+      "name": "Fort building"
+     },
+     {
+      "name": "Finger painting"
+     },
+     {
+      "name": "A puppet show"
+     },
+     {
+      "name": "A scavenger hunt"
+     },
+     {
+      "name": "Baking cookies"
+     },
+     {
+      "name": "Playdough"
+     }
+    ]
+   },
+   {
+    "name": "Theme",
+    "hide": true,
+    "children": [
+     {
+      "name": "Dinosaurs"
+     },
+     {
+      "name": "Space"
+     },
+     {
+      "name": "Under the sea"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Photography walks",
+  "children": [
+   {
+    "name": "Theme",
+    "hide": true,
+    "children": [
+     {
+      "name": "Doors"
+     },
+     {
+      "name": "Cats"
+     },
+     {
+      "name": "Shadows at noon"
+     },
+     {
+      "name": "People's shoes"
+     },
+     {
+      "name": "Signs"
+     },
+     {
+      "name": "Reflections in puddles"
+     },
+     {
+      "name": "The colour yellow"
+     }
+    ]
+   },
+   {
+    "name": "Rule",
+    "hide": true,
+    "children": [
+     {
+      "name": "One lens only"
+     },
+     {
+      "name": "Twenty shots"
+     },
+     {
+      "name": "Square crop only"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Collecting",
+  "children": [
+   {
+    "name": "Collect",
+    "hide": true,
+    "children": [
+     {
+      "name": "Postcards"
+     },
+     {
+      "name": "Stickers"
+     },
+     {
+      "name": "Leaves"
+     },
+     {
+      "name": "Bottle caps"
+     },
+     {
+      "name": "Transit tickets"
+     },
+     {
+      "name": "Stamps"
+     },
+     {
+      "name": "Receipts from good days"
+     }
+    ]
+   },
+   {
+    "name": "Do",
+    "hide": true,
+    "children": [
+     {
+      "name": "Start a collection"
+     },
+     {
+      "name": "Display it"
+     },
+     {
+      "name": "Trade with a friend"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Spa at home",
+  "children": [
+   {
+    "name": "Do",
+    "hide": true,
+    "children": [
+     {
+      "name": "Foot soak"
+     },
+     {
+      "name": "Face mask"
+     },
+     {
+      "name": "Hair oil treatment"
+     },
+     {
+      "name": "Candlelight bath"
+     },
+     {
+      "name": "DIY body scrub"
+     },
+     {
+      "name": "Gua sha"
+     }
+    ]
+   },
+   {
+    "name": "Mood",
+    "hide": true,
+    "children": [
+     {
+      "name": "Playlist on"
+     },
+     {
+      "name": "Phone off"
+     },
+     {
+      "name": "Matching robes"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Night activities",
+  "children": [
+   {
+    "name": "Do",
+    "hide": true,
+    "children": [
+     {
+      "name": "Stargaze"
+     },
+     {
+      "name": "Night market"
+     },
+     {
+      "name": "Late cinema"
+     },
+     {
+      "name": "Night swim"
+     },
+     {
+      "name": "Rooftop chat"
+     },
+     {
+      "name": "Midnight snack run"
+     },
+     {
+      "name": "Glow-in-the-dark painting"
+     }
+    ]
+   },
+   {
+    "name": "Place",
+    "hide": true,
+    "children": [
+     {
+      "name": "The harbourfront"
+     },
+     {
+      "name": "A rooftop"
+     },
+     {
+      "name": "The Peak"
+     },
+     {
+      "name": "A beach"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Rainy day",
+  "children": [
+   {
+    "name": "Do",
+    "hide": true,
+    "children": [
+     {
+      "name": "Board game marathon"
+     },
+     {
+      "name": "Baking"
+     },
+     {
+      "name": "Puzzle"
+     },
+     {
+      "name": "Film double feature"
+     },
+     {
+      "name": "Write a story"
+     },
+     {
+      "name": "Build a blanket fort"
+     }
+    ]
+   },
+   {
+    "name": "Mood",
+    "hide": true,
+    "children": [
+     {
+      "name": "Cosy"
+     },
+     {
+      "name": "Productive"
+     },
+     {
+      "name": "Lazy"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Mini adventures",
+  "children": [
+   {
+    "name": "Do",
+    "hide": true,
+    "children": [
+     {
+      "name": "Take the first bus that comes"
+     },
+     {
+      "name": "Get off one stop early"
+     },
+     {
+      "name": "Eat at the restaurant with the longest queue"
+     },
+     {
+      "name": "Follow a stranger's recommendation"
+     },
+     {
+      "name": "Walk with no map"
+     }
+    ]
+   },
+   {
+    "name": "Time",
+    "hide": true,
+    "children": [
+     {
+      "name": "One hour"
+     },
+     {
+      "name": "Half a day"
+     },
+     {
+      "name": "A whole day"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Gift making",
+  "children": [
+   {
+    "name": "Make",
+    "hide": true,
+    "children": [
+     {
+      "name": "A playlist"
+     },
+     {
+      "name": "A jar of reasons"
+     },
+     {
+      "name": "A photo book"
+     },
+     {
+      "name": "A hand-painted mug"
+     },
+     {
+      "name": "A recipe card set"
+     },
+     {
+      "name": "A knitted scarf"
+     }
+    ]
+   },
+   {
+    "name": "For",
+    "hide": true,
+    "children": [
+     {
+      "name": "A best friend"
+     },
+     {
+      "name": "A parent"
+     },
+     {
+      "name": "A stranger"
+     },
+     {
+      "name": "Yourself"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Planning",
+  "children": [
+   {
+    "name": "Plan",
+    "hide": true,
+    "children": [
+     {
+      "name": "A dream trip"
+     },
+     {
+      "name": "Your perfect weekend"
+     },
+     {
+      "name": "A five-year vision board"
+     },
+     {
+      "name": "A surprise party"
+     },
+     {
+      "name": "A monthly challenge"
+     }
+    ]
+   },
+   {
+    "name": "Format",
+    "hide": true,
+    "children": [
+     {
+      "name": "Mood board"
+     },
+     {
+      "name": "Spreadsheet"
+     },
+     {
+      "name": "Scrapbook"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Reading aloud",
+  "children": [
+   {
+    "name": "Read",
+    "hide": true,
+    "children": [
+     {
+      "name": "A poem"
+     },
+     {
+      "name": "A children's book"
+     },
+     {
+      "name": "A news story in a silly voice"
+     },
+     {
+      "name": "A play scene"
+     },
+     {
+      "name": "A recipe like a drama"
+     }
+    ]
+   },
+   {
+    "name": "For",
+    "hide": true,
+    "children": [
+     {
+      "name": "A friend"
+     },
+     {
+      "name": "A voice memo"
+     },
+     {
+      "name": "A sibling"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Tiny challenges",
+  "children": [
+   {
+    "name": "Do",
+    "hide": true,
+    "children": [
+     {
+      "name": "100 push-ups in a day"
+     },
+     {
+      "name": "No sugar for a day"
+     },
+     {
+      "name": "Drink 2 litres of water"
+     },
+     {
+      "name": "10 000 steps"
+     },
+     {
+      "name": "No phone at meals"
+     },
+     {
+      "name": "Wake up at sunrise"
+     }
+    ]
+   },
+   {
+    "name": "Length",
+    "hide": true,
+    "children": [
+     {
+      "name": "One day"
+     },
+     {
+      "name": "Three days"
+     },
+     {
+      "name": "One week"
+     }
+    ]
+   }
+  ]
+ }
+]

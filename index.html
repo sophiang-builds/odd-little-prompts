@@ -1,0 +1,268 @@
+<meta charset="utf-8">
+<title>Try Your Luck</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Try Your Luck">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="theme-color" content="#FBF5EE">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+/* VOICE occasion, a party toy played with friends, quiet until you tap
+   IDEA an iOS 26 Liquid Glass screen: glass squares floating over the jomud colour wash
+   PICTURE the 1 to 3 glass squares themselves, centred, landing on a pick like a slot reel
+   COLOUR cream ground with peach, lilac and jomud blue light behind the glass; blue for the one action
+   TYPE SF Pro on iPhone (system-ui), Inter as the stand-in elsewhere
+   LAYOUT phone: tiny title, squares and Pick centred, count switch above the home bar; wider: the same screen inside an iPhone 15 frame */
+:root{color-scheme:light dark;--bg:light-dark(#FBF5EE,#0A0E1F);--ink:light-dark(#16181D,#F2F4F8);--muted:light-dark(rgba(22,24,29,.55),rgba(242,244,248,.6));--brand:light-dark(#0F66DB,#3D86F5);--peach:#F07A3A;--lilac:#7A3FE0;--rose:#E8506A;--sky:#3273F2;--gfill:light-dark(rgba(255,255,255,.4),rgba(255,255,255,.1));--ghi:light-dark(rgba(255,255,255,.9),rgba(255,255,255,.38));--glo:light-dark(rgba(255,255,255,.35),rgba(255,255,255,.1));--gshadow:light-dark(rgba(40,25,80,.22),rgba(0,0,0,.5));--blob:light-dark(1,.8);--stage:light-dark(#E9E6EF,#05070F)}
+:root[data-theme=light]{color-scheme:light}:root[data-theme=dark]{color-scheme:dark}
+*{box-sizing:border-box;min-width:0}
+html,body{height:100%}
+body{margin:0;background:var(--stage);color:var(--ink);font:16px/1.4 -apple-system,BlinkMacSystemFont,"SF Pro Text","Inter",system-ui,sans-serif;overflow:hidden;-webkit-tap-highlight-color:transparent;-webkit-user-select:none;user-select:none}
+button{font:inherit;color:inherit;border:0;background:none;padding:0;cursor:pointer}
+
+/* stage + iPhone 15 frame (393 x 852 pt screen) */
+.stage{height:100%;display:grid;place-items:center;overflow:hidden}
+.device{zoom:var(--s,1);width:417px;height:876px;padding:12px;border-radius:67px;background:linear-gradient(145deg,#3a3d44,#17181c 40%,#2b2d33);box-shadow:0 0 0 2px #55585f,0 40px 80px -20px rgba(0,0,0,.45),inset 0 0 0 1.5px #0c0c0e}
+.screen{position:relative;width:393px;height:852px;border-radius:55px;overflow:clip;background:var(--bg);display:flex;flex-direction:column;--top:59px;--bot:34px}
+.status{position:absolute;top:0;left:0;right:0;height:54px;display:flex;align-items:center;justify-content:space-between;padding:4px 34px 0 52px;font:600 17px/1 -apple-system,"SF Pro Text","Inter",sans-serif;z-index:5}
+.status svg{fill:var(--ink)}
+.island{position:absolute;top:11px;left:50%;width:126px;height:37px;margin-left:-63px;border-radius:20px;background:#000;z-index:6}
+.homebar{position:absolute;bottom:8px;left:50%;width:134px;height:5px;margin-left:-67px;border-radius:3px;background:var(--ink);opacity:.85;z-index:6}
+@media (max-width:440px){
+  body{background:var(--bg)}
+  .device{zoom:1;width:100%;height:100%;padding:0;border-radius:0;background:none;box-shadow:none}
+  .screen{width:100%;height:100%;border-radius:0;--top:max(env(safe-area-inset-top,0px),20px);--bot:max(env(safe-area-inset-bottom,0px),16px)}
+  .status,.island,.homebar{display:none}
+}
+
+/* colour wash behind the glass */
+.wash{position:absolute;inset:-20%;background:light-dark(#F6D9C6,#1A1238);pointer-events:none;opacity:var(--blob)}
+.wash i{position:absolute;width:72%;aspect-ratio:1;border-radius:50%;transition:transform 1.6s cubic-bezier(.2,.8,.2,1)}
+.wash i:nth-child(1){left:-6%;top:12%;background:radial-gradient(closest-side,var(--peach) 35%,transparent)}
+.wash i:nth-child(2){right:-4%;top:28%;background:radial-gradient(closest-side,var(--lilac) 35%,transparent)}
+.wash i:nth-child(3){left:14%;bottom:10%;background:radial-gradient(closest-side,var(--sky) 35%,transparent)}
+.wash i:nth-child(4){right:10%;top:2%;width:40%;background:radial-gradient(closest-side,var(--rose) 35%,transparent)}
+
+/* Liquid Glass */
+.glass{position:relative;isolation:isolate;background:var(--gfill);-webkit-backdrop-filter:blur(22px) saturate(185%);backdrop-filter:blur(22px) saturate(185%);box-shadow:inset 0 1.5px 0 var(--ghi),inset 1.5px 0 0 var(--glo),inset -1px 0 0 var(--glo),inset 0 -1px 0 var(--glo),0 18px 40px -14px var(--gshadow);transition:transform .35s cubic-bezier(.3,1.5,.5,1),background .2s}
+.glass::before{content:"";position:absolute;inset:0;border-radius:inherit;pointer-events:none;z-index:-1;background:linear-gradient(155deg,rgba(255,255,255,.5),rgba(255,255,255,0) 34%,rgba(255,255,255,0) 72%,rgba(255,255,255,.16))}
+.glass.press:active{transform:scale(1.04)}
+
+/* layout inside the screen */
+.title{position:relative;z-index:2;margin:calc(var(--top) + 10px) 0 0;text-align:center;font-weight:600;font-size:15px;letter-spacing:-.01em;color:var(--muted)}
+.title{color:var(--ink)}
+.title svg{width:21px;height:21px;vertical-align:-5px;margin:0 0 0 2px}
+.middle{position:relative;z-index:2;flex:1;min-height:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:26px;padding:22px 20px 26px}
+.slots{width:100%;display:flex;flex-direction:column;align-items:center;gap:12px;min-height:0}
+.slots[data-n="2"],.slots[data-n="3"]{flex:1}
+.cell{container-type:size;width:100%;min-height:0;display:flex;justify-content:center}
+.slots[data-n="1"] .cell{width:min(86%,340px);aspect-ratio:1}
+.slots[data-n="2"] .cell,.slots[data-n="3"] .cell{flex:1}
+.sq{position:relative;width:100%;height:100%;border-radius:clamp(22px,11cqmin,38px);display:flex;flex-direction:column;padding:9cqmin;text-align:left;animation:pop .5s cubic-bezier(.3,1.5,.5,1)}
+.slots[data-n="2"] .sq{width:auto;aspect-ratio:1}
+.slots[data-n="3"] .sq{border-radius:30px;padding:clamp(16px,11cqmin,24px) 22px}
+@keyframes pop{from{transform:scale(.6);opacity:0}}
+.cap{font-size:clamp(11px,5.4cqmin,14px);font-weight:600;color:var(--muted);line-height:1.25;display:flex;gap:6px;justify-content:space-between}
+.cap span{flex:1;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
+.slots[data-n="3"] .cap span{-webkit-line-clamp:1}
+.big{flex:1;display:flex;flex-direction:column;justify-content:safe center;align-items:flex-start;gap:6px;font-weight:600;font-size:clamp(16px,12cqmin,40px);line-height:1.08;letter-spacing:-.02em;hyphens:auto;overflow-wrap:break-word;overflow:hidden}
+.slots[data-n="3"] .big{font-size:clamp(18px,14cqmin,28px)}
+.big.tick{animation:roll .09s ease-out}
+.note{font-size:clamp(12px,4.6cqmin,15px);font-weight:500;letter-spacing:0;line-height:1.3;color:var(--muted);hyphens:none;overflow:hidden;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical}
+.slots[data-n="3"] .note{-webkit-line-clamp:2}
+@keyframes roll{from{transform:translateY(-35%);opacity:.2;filter:blur(1.5px)}}
+.foot{position:absolute;right:7cqmin;bottom:6cqmin;height:clamp(12px,7cqmin,18px);color:var(--muted)}
+.slots[data-n="3"] .foot{right:20px;bottom:14px}
+.foot svg{height:100%;width:auto}
+.sq.nope{animation:nope .4s}
+@keyframes nope{25%{transform:translateX(-6px)}50%{transform:translateX(5px)}75%{transform:translateX(-3px)}}
+.pick{height:56px;padding:0 34px;border-radius:28px;font-size:18px;font-weight:600;color:#fff;--gfill:color-mix(in srgb,var(--brand) 88%,transparent);--ghi:rgba(255,255,255,.55);--glo:rgba(255,255,255,.18)}
+.count{position:relative;z-index:2;align-self:center;margin-bottom:calc(var(--bot) + 18px);display:flex;padding:4px;gap:2px;border-radius:24px}
+.count button{width:54px;height:40px;border-radius:20px;display:grid;place-items:center;color:var(--muted);transition:background .25s,color .25s}
+.count button[aria-pressed=true]{background:light-dark(rgba(255,255,255,.75),rgba(255,255,255,.18));color:var(--ink)}
+.count svg{height:20px;fill:currentColor}
+:focus-visible{outline:3px solid color-mix(in srgb,var(--brand) 55%,transparent);outline-offset:3px}
+
+/* category sheet */
+.scrim{position:absolute;inset:0;z-index:8;background:rgba(0,0,0,.18)}
+.sheet{position:absolute;left:8px;right:8px;bottom:8px;height:68%;z-index:9;border-radius:38px;display:flex;flex-direction:column;padding:8px 16px 0;--gfill:light-dark(rgba(255,255,255,.62),rgba(30,32,44,.7));animation:up .35s cubic-bezier(.2,.9,.3,1)}
+@keyframes up{from{transform:translateY(105%)}}
+.grab{width:36px;height:5px;border-radius:3px;background:var(--muted);opacity:.5;margin:0 auto 10px}
+.shead{display:flex;justify-content:space-between;align-items:center;margin-bottom:10px}
+.shead b{font-size:17px}
+.done{font-weight:600;color:var(--brand);min-height:44px;padding:0 6px}
+.search{width:100%;font:inherit;font-size:16px;height:40px;border-radius:12px;border:0;padding:0 14px;background:light-dark(rgba(118,118,128,.14),rgba(118,118,128,.28));color:var(--ink);margin-bottom:8px}
+.list{flex:1;overflow-y:auto;margin:0 -16px;padding:0 16px calc(var(--bot) + 8px);-webkit-overflow-scrolling:touch}
+.list button{display:flex;width:100%;justify-content:space-between;align-items:center;min-height:46px;text-align:left;font-size:16px;border-bottom:.5px solid light-dark(rgba(0,0,0,.1),rgba(255,255,255,.12))}
+.list button[aria-current=true]{color:var(--brand);font-weight:600}
+@media (prefers-reduced-motion:reduce){.wash i,.glass{transition:none}.sq,.sheet,.big.tick{animation:none}}
+</style>
+
+<div class="stage">
+  <div class="device">
+    <div class="screen" id="screen">
+      <div class="wash" id="wash"><i></i><i></i><i></i><i></i></div>
+      <div class="status"><span>9:41</span><span style="display:flex;gap:6px;align-items:center">
+        <svg width="18" height="12" viewBox="0 0 18 12"><rect x="0" y="8" width="3" height="4" rx="1"/><rect x="5" y="5.5" width="3" height="6.5" rx="1"/><rect x="10" y="3" width="3" height="9" rx="1"/><rect x="15" y="0" width="3" height="12" rx="1"/></svg>
+        <svg width="16" height="12" viewBox="0 0 16 12"><path d="M8 2.2c2.3 0 4.4.9 6 2.4l1.2-1.3A10.4 10.4 0 0 0 8 .4 10.4 10.4 0 0 0 .8 3.3L2 4.6a8.6 8.6 0 0 1 6-2.4zm0 3.6c1.3 0 2.6.5 3.5 1.4l1.3-1.3A6.7 6.7 0 0 0 8 4a6.7 6.7 0 0 0-4.8 1.9l1.3 1.3C5.4 6.3 6.7 5.8 8 5.8zm0 3.5a1.4 1.4 0 0 0-1 .4L8 11.9l1-2.2a1.4 1.4 0 0 0-1-.4z"/></svg>
+        <svg width="27" height="13" viewBox="0 0 27 13"><rect x=".5" y=".5" width="23" height="12" rx="3.8" fill="none" stroke="currentColor" opacity=".4" style="stroke:var(--ink)"/><rect x="2" y="2" width="17" height="9" rx="2.4"/><path d="M25 4.5v4a2 2 0 0 0 0-4z" opacity=".45"/></svg>
+      </span></div>
+      <div class="island"></div>
+
+      <h1 class="title" aria-label="Try your luck">Try <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.5 15.5H18a4 4 0 0 0 .6-7.95A6 6 0 0 0 7 6.6 4.5 4.5 0 0 0 6.5 15.5H8" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/><path d="M13.6 10.5l-3.8 6h3.6l-2 5.5 6.2-7.6h-3.7l2.4-3.9z" fill="var(--peach)"/></svg>our luck</h1>
+
+      <div class="middle">
+        <div class="slots" id="slots" data-n="1" style="--n:1"></div>
+        <button class="glass press pick" id="pick" disabled>Pick for me</button>
+      </div>
+
+      <div class="glass count" id="count" role="group" aria-label="How many picks">
+        <button data-n="1" aria-label="One square"><svg viewBox="0 0 12 24"><rect y="6" width="12" height="12" rx="3"/></svg></button>
+        <button data-n="2" aria-label="Two squares"><svg viewBox="0 0 12 24"><rect x="1" y="1" width="10" height="10" rx="2.5"/><rect x="1" y="13" width="10" height="10" rx="2.5"/></svg></button>
+        <button data-n="3" aria-label="Three squares"><svg viewBox="0 0 16 24"><rect width="16" height="7" rx="2"/><rect y="8.5" width="16" height="7" rx="2"/><rect y="17" width="16" height="7" rx="2"/></svg></button>
+      </div>
+      <div class="homebar"></div>
+      <div id="sheetHost"></div>
+    </div>
+  </div>
+</div>
+
+<script>
+{
+  // Unbiased integer in [0, n) from the secure generator, by rejection sampling.
+  const buf = new Uint32Array(1);
+  const randBelow = n => { const lim = Math.floor(2 ** 32 / n) * n; let x; do { crypto.getRandomValues(buf); x = buf[0]; } while (x >= lim); return x % n; };
+  const esc = s => String(s).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+  const calm = matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const $ = id => document.getElementById(id);
+  const ICON_DEEPER = '<svg viewBox="0 0 24 24"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+  const ICON_LOCK = '<svg viewBox="0 0 24 24" style="height:1em;flex:none"><path d="M7 10V7a5 5 0 0 1 10 0v3h1a1 1 0 0 1 1 1v9a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1v-9a1 1 0 0 1 1-1zm2 0h6V7a3 3 0 0 0-6 0z" fill="currentColor"/></svg>';
+
+  let DB = [], ALL = [];
+  // each slot: { path: [node,...] | null, lock: categoryName | null }
+  let slots = [{ path: null, lock: null }];
+  try { const n = +localStorage.getItem("tyl-n"); if (n >= 1 && n <= 3) slots = Array.from({ length: n }, () => ({ path: null, lock: null })); } catch (e) {}
+
+  const descend = (path, steps) => { const p = path.slice(); for (let i = 0; i < steps; i++) { const k = p[p.length - 1].children; if (!k) break; p.push(k[randBelow(k.length)]); } return p; };
+  const byName = n => DB.find(c => c.name === n);
+
+  // Different categories across squares in one pick (sampling without replacement).
+  const chooseCategories = () => {
+    const taken = new Set(slots.filter(s => s.lock).map(s => s.lock));
+    return slots.map(s => {
+      if (s.lock) return byName(s.lock);
+      const pool = DB.filter(c => !taken.has(c.name));
+      const c = pool[randBelow(pool.length)];
+      taken.add(c.name);
+      return c;
+    });
+  };
+
+  const squareHTML = (s, i) => {
+    if (!s.path) return `<button class="glass press sq" data-i="${i}" aria-label="Empty square ${i + 1}"><div class="cap">${s.lock ? `<span>${esc(s.lock)}</span>${ICON_LOCK}` : ""}</div><div class="big"></div><div class="foot"></div></button>`;
+    const p = s.path, last = p[p.length - 1], trail = p.slice(0, -1).map(n => n.name).join(" · ");
+    const capTxt = `${esc(p[0].name)}<span class="f">${p.length > 2 ? " · " + p.slice(1, -1).map(n => esc(n.name)).join(" · ") : ""}</span>`;
+    return `<button class="glass press sq" data-i="${i}" aria-label="${esc(trail + ": " + last.name)}"><div class="cap"><span>${esc(trail)}</span>${s.lock ? ICON_LOCK : ""}</div><div class="big"><span>${esc(last.name)}</span>${last.note ? `<small class="note">${esc(last.note)}</small>` : ""}</div><div class="foot">${last.children ? ICON_DEEPER : ""}</div></button>`;
+  };
+
+  const render = () => {
+    const el = $("slots");
+    el.dataset.n = slots.length; el.style.setProperty("--n", slots.length);
+    el.innerHTML = slots.map((s, i) => `<div class="cell">${squareHTML(s, i)}</div>`).join("");
+    document.querySelectorAll("#count button").forEach(b => b.setAttribute("aria-pressed", +b.dataset.n === slots.length));
+  };
+
+  const shiftWash = () => document.querySelectorAll("#wash i").forEach(i => {
+    i.style.transform = `translate(${randBelow(41) - 20}%, ${randBelow(41) - 20}%) scale(${0.85 + randBelow(40) / 100})`;
+  });
+
+  // Slot-reel reveal: results are decided first, the flicker is only decoration.
+  const spin = (indices) => {
+    shiftWash();
+    render();
+    if (calm) return;
+    indices.forEach((i, order) => {
+      const big = document.querySelector(`.sq[data-i="${i}"] .big`);
+      const cap = null;
+      if (!big) return;
+      const final = big.innerHTML, finalCap = cap ? cap.textContent : "";
+      const ticks = 10 + order * 4;
+      let t = 0;
+      const step = () => {
+        if (t++ < ticks) {
+          const r = ALL[randBelow(ALL.length)];
+          big.textContent = r[1]; if (cap) cap.textContent = r[0];
+          big.classList.remove("tick"); void big.offsetWidth; big.classList.add("tick");
+          setTimeout(step, 40 + t * t * 0.55);
+        } else { big.innerHTML = final; if (cap) cap.textContent = finalCap; big.classList.remove("tick"); void big.offsetWidth; big.classList.add("tick"); }
+      };
+      step();
+    });
+  };
+
+  const pickAll = () => {
+    const cats = chooseCategories();
+    slots.forEach((s, i) => s.path = descend([cats[i]], 2));
+    spin(slots.map((_, i) => i));
+  };
+
+  const pickOne = i => {
+    const others = new Set(slots.filter((s, j) => j !== i && s.path).map(s => s.path[0].name));
+    const pool = slots[i].lock ? [byName(slots[i].lock)] : DB.filter(c => !others.has(c.name));
+    slots[i].path = descend([pool[randBelow(pool.length)]], 2);
+    spin([i]);
+  };
+
+  const deeper = i => {
+    const s = slots[i], last = s.path[s.path.length - 1];
+    if (!last.children) { const el = document.querySelector(`.sq[data-i="${i}"]`); el.classList.remove("nope"); void el.offsetWidth; el.classList.add("nope"); return; }
+    s.path = descend(s.path, 1);
+    spin([i]);
+  };
+
+  const setCount = n => {
+    while (slots.length < n) slots.push({ path: null, lock: null });
+    slots.length = n;
+    try { localStorage.setItem("tyl-n", n); } catch (e) {}
+    render();
+  };
+
+  // Category sheet (long-press a square)
+  const openSheet = i => {
+    const host = $("sheetHost"), cur = slots[i].lock;
+    const names = DB.map(c => c.name).sort((a, b) => a.localeCompare(b));
+    const rows = q => [`<button data-c="">Any category${!cur ? " ✓" : ""}</button>`]
+      .concat(names.filter(n => n.toLowerCase().includes(q)).map(n => `<button data-c="${esc(n)}" aria-current="${n === cur}"><span>${esc(n)}</span>${n === cur ? "<span>✓</span>" : ""}</button>`)).join("");
+    host.innerHTML = `<div class="scrim" id="scrim"></div><div class="glass sheet" role="dialog" aria-label="Choose a category">
+      <div class="grab"></div><div class="shead"><b>Square ${i + 1}</b><button class="done" id="done">Done</button></div>
+      <input class="search" id="q" type="search" placeholder="Search ${names.length} categories" autocomplete="off"><div class="list" id="list">${rows("")}</div></div>`;
+    const close = () => host.innerHTML = "";
+    $("scrim").onclick = close; $("done").onclick = close;
+    $("q").oninput = e => $("list").innerHTML = rows(e.target.value.trim().toLowerCase());
+    $("list").onclick = e => { const b = e.target.closest("button"); if (!b) return; slots[i].lock = b.dataset.c || null; close(); pickOne(i); };
+  };
+
+  // Square gestures: tap = pick or go deeper, long-press = choose category
+  let pressTimer = null, longFired = false;
+  const sq = e => e.target.closest(".sq");
+  $("slots").addEventListener("pointerdown", e => { const el = sq(e); if (!el) return; longFired = false; pressTimer = setTimeout(() => { longFired = true; openSheet(+el.dataset.i); }, 520); });
+  ["pointerup", "pointerleave", "pointercancel"].forEach(t => $("slots").addEventListener(t, () => clearTimeout(pressTimer)));
+  $("slots").addEventListener("contextmenu", e => { const el = sq(e); if (!el) return; e.preventDefault(); clearTimeout(pressTimer); if (!longFired) openSheet(+el.dataset.i); longFired = true; });
+  $("slots").addEventListener("click", e => { const el = sq(e); if (!el || longFired) return; const i = +el.dataset.i; slots[i].path ? deeper(i) : pickOne(i); });
+  $("pick").addEventListener("click", pickAll);
+  $("count").addEventListener("click", e => { const b = e.target.closest("button"); if (b) setCount(+b.dataset.n); });
+
+  // Fit the iPhone 15 frame to the window on larger screens
+  const fit = () => document.documentElement.style.setProperty("--s", Math.min(1, (innerHeight - 32) / 876, (innerWidth - 24) / 417).toFixed(3));
+  addEventListener("resize", fit); fit();
+
+  render();
+  fetch("categories.json").then(r => r.json()).then(d => {
+    DB = d;
+    const walk = (n, cat) => n.children ? n.children.forEach(k => walk(k, cat)) : ALL.push([cat, n.name]);
+    DB.forEach(c => walk(c, c.name));
+    $("pick").disabled = false;
+  }).catch(() => { $("slots").insertAdjacentHTML("afterend", `<p style="color:var(--muted);text-align:center">Couldn't load categories.json</p>`); });
+}
+</script>

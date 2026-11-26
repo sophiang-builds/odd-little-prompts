@@ -1,0 +1,93 @@
+# One more layer: the actual thing behind an instruction ("a Cantonese slang phrase" -> the phrase).
+# Two kinds of line:
+#   Category > Item: Name | note; Name | note      adds children under that item (note is optional)
+#   Category > Item = note                          adds a note (translation, romanisation) to the item itself
+# Notes show as a small second line under the pick. Use them for English translations and Jyutping.
+
+# Languages
+Languages > A Cantonese slang phrase: 食花生 | sik6 faa1 sang1 · "Eat peanuts": sit back and watch the drama; 放飛機 | fong3 fei1 gei1 · "Fly a plane": stand someone up; 炒魷魚 | caau2 jau4 jyu4 · "Fry squid": get fired; 煲電話粥 | bou1 din6 waa2 zuk1 · "Boil phone congee": talk on the phone for ages; 吹水 | ceoi1 seoi2 · "Blow water": chit-chat, shoot the breeze; 拍拖 | paak3 to1 · To date someone; 搞掂 | gaau2 dim6 · Done, sorted; 呃like | ak1 laik1 · Fishing for likes; 心大心細 | sam1 daai6 sam1 sai3 · Can't make up your mind; 好鬼正 | hou2 gwai2 zeng3 · Really awesome
+Languages > Ten words in Japanese: おはよう | ohayō · Good morning; ありがとう | arigatō · Thank you; いただきます | itadakimasu · Said before eating; お疲れ様 | otsukaresama · Thanks for your hard work; 大丈夫 | daijōbu · It's okay, I'm fine; 美味しい | oishii · Delicious; かわいい | kawaii · Cute; 乾杯 | kanpai · Cheers
+Languages > A greeting in Swahili: Jambo | Hello; Habari? | How are you? (literally "What news?"); Karibu | Welcome; Asante | Thank you; Hakuna matata | No worries
+Languages > Numbers in Korean: 하나, 둘, 셋 | hana, dul, set · One, two, three (native Korean, for counting things); 일, 이, 삼 | il, i, sam · One, two, three (Sino-Korean, for dates, money, phone numbers)
+Languages > A French tongue twister: Un chasseur sachant chasser doit savoir chasser sans son chien | A hunter who knows how to hunt must know how to hunt without his dog; Les chaussettes de l'archiduchesse sont-elles sèches, archi-sèches ? | Are the archduchess's socks dry, extra dry?
+Languages > A toast in Italian: Salute! | To your health; Cin cin! | Cheers; Alla nostra! | To us
+Languages > Sign language alphabet: ASL fingerspelling | American Sign Language; BSL fingerspelling | British Sign Language, uses two hands; Hong Kong Sign Language numbers | 香港手語
+
+# Beauty and self-care
+Beauty > A skincare routine reset: Three-step week | Cleanser, moisturiser, SPF in the morning. Nothing else for 7 days; Night double cleanse | Oil cleanser, then a gentle cleanser, then moisturiser; Fragrance-free week | Swap everything for fragrance-free basics and see how your skin feels; Patch-test one new product | Test it on a small patch of skin for a few days before your face; Hydration focus | Hydrating toner, then a hyaluronic serum, then moisturiser
+Beauty > A new hairstyle: Space buns; Low messy bun; Half-up top knot; Braided crown; Slicked-back low ponytail
+Beauty > Nail art: French tips in a bright colour; Tiny smiley faces; Chrome nails; Tortoiseshell; One accent nail with glitter
+Beauty > A fragrance layering test: Vanilla and sandalwood; Citrus and vetiver; Rose and oud; Fig and cedar
+Self-care > Cook yourself something nice: Tomato and egg on rice | 番茄炒蛋飯; Instant noodles with a soft egg and spring onion; Kaya butter toast | 咖央牛油多; Miso soup with tofu; Avocado toast with chilli flakes
+Self-care > A digital detox hour: Phone in a drawer, read a paper book; Walk with no headphones; Write a letter by hand; Sketch whatever is in front of you
+Self-care > Tidy one drawer: The kitchen junk drawer; Your bedside drawer; The cable and charger drawer; Your make-up bag
+
+# Karaoke and music
+Karaoke > A Cantopop classic: 海闊天空 | Beyond · Boundless Oceans, Vast Skies; 喜歡你 | Beyond · I Like You; 富士山下 | Eason Chan · Under Mount Fuji; 浮誇 | Eason Chan · Exaggerated; 紅日 | Hacken Lee · Red Sun; 千千闕歌 | Priscilla Chan · A Thousand Songs
+Karaoke > A power ballad: I Will Always Love You | Whitney Houston; Total Eclipse of the Heart | Bonnie Tyler; My Heart Will Go On | Céline Dion; Bohemian Rhapsody | Queen
+Karaoke > A duet: Shallow | Lady Gaga and Bradley Cooper; Don't Go Breaking My Heart | Elton John and Kiki Dee; A Whole New World | Aladdin
+Karaoke > A Disney song: Let It Go | Frozen; How Far I'll Go | Moana; Under the Sea | The Little Mermaid; We Don't Talk About Bruno | Encanto
+Karaoke > A rap verse: Lose Yourself | Eminem; Juicy | The Notorious B.I.G.; Rapper's Delight | The Sugarhill Gang
+Karaoke > A song in a language you don't speak: Despacito | Spanish · Luis Fonsi; Gangnam Style | Korean · PSY; Plastic Love | Japanese · Mariya Takeuchi; La Vie en rose | French · Édith Piaf
+Music > An album start to finish: Kind of Blue | Miles Davis; Random Access Memories | Daft Punk; To Pimp a Butterfly | Kendrick Lamar; Abbey Road | The Beatles; Rumours | Fleetwood Mac
+Music > A genre you've never heard: Fado | Portugal: mournful guitar ballads; Enka | Japan: dramatic, old-school ballads; Highlife | Ghana: bright guitars and horns; Qawwali | South Asia: Sufi devotional singing; Gqom | South Africa: dark, minimal club music
+Music > Rainy afternoon: Rainy Days and Mondays | The Carpenters; Riders on the Storm | The Doors; Here Comes the Rain Again | Eurythmics
+Music > Party: September | Earth, Wind & Fire; Dancing Queen | ABBA; Uptown Funk | Mark Ronson ft. Bruno Mars
+Music > Late night: Midnight City | M83; Nightcall | Kavinsky; Plastic Love | Mariya Takeuchi
+Music > Road trip: Go Your Own Way | Fleetwood Mac; Mr. Blue Sky | Electric Light Orchestra; Born to Run | Bruce Springsteen
+Music > Heartbreak: Someone Like You | Adele; Nothing Compares 2 U | Sinéad O'Connor; Back to Black | Amy Winehouse
+
+# Cooking
+Cooking > Noodles: Dan dan noodles | 擔擔麵; Dry-fried beef ho fun | 乾炒牛河; Cold soba | ざるそば; Pad thai; Spaghetti aglio e olio
+Cooking > Dumplings: Har gow | 蝦餃; Xiaolongbao | 小籠包; Gyoza | 餃子; Momos; Pierogi
+Cooking > Soup: Watercress and pork soup | 西洋菜湯; Hong Kong borscht | 羅宋湯; Miso soup; Minestrone
+Cooking > Salad: Som tam | Thai green papaya salad; Greek salad; Caesar salad; Smashed cucumber salad | 拍青瓜
+Cooking > Flatbread: Scallion pancake | 蔥油餅; Naan; Pita; Roti canai
+Cooking > Steaming: Steamed fish with ginger and spring onion | 清蒸魚; Steamed egg custard | 蒸水蛋; Spare ribs with black bean | 豉汁蒸排骨
+Cooking > Fermenting: Kimchi; Sauerkraut; Kombucha; Quick pickled radish
+Cooking > Stir-frying: Tomato and egg | 番茄炒蛋; Beef with broccoli; Garlic choy sum | 蒜蓉炒菜心
+Cooking > Braising: Soy-braised chicken wings | 豉油雞翼; Red-braised pork | 紅燒肉; Osso buco
+Cooking > Roasting: Lemon and garlic roast chicken; Roasted root vegetables; Char siu in the oven | 叉燒
+
+# Hong Kong (Chinese names as notes)
+Hong Kong outings > Sham Shui Po: Apliu Street | 鴨寮街 · Flea market and electronics; Kung Wo Tofu | 公和荳品廠 · Tofu pudding since 1893; Mei Ho House | 美荷樓 · Restored public housing block
+Hong Kong outings > Tai O: Stilt houses | 棚屋; Pink dolphin boat trip; Shrimp paste stalls | 蝦醬
+Hong Kong outings > Cheung Chau: Mini Great Wall trail | 小長城; Cheung Po Tsai Cave | 張保仔洞; Giant fish balls
+Hong Kong outings > Sai Kung: Sharp Island tombolo | 橋咀洲; Geopark boat tour | 地質公園; Seafood pier
+Hong Kong outings > Lamma Island: Family Trail | Yung Shue Wan to Sok Kwu Wan; Tofu flower in Yung Shue Wan | 豆腐花
+Hong Kong outings > Tai Hang: Lin Fa Kung temple | 蓮花宮; Fire Dragon Heritage Centre | 大坑火龍文化館
+Hong Kong outings > Lai Chi Wo: Hakka walled village | 荔枝窩客家圍村; Fung shui woodland | 風水林
+Street food > Egg waffles = 雞蛋仔 · gai1 daan6 zai2
+Street food > Curry fish balls = 咖喱魚蛋 · gaa3 lei1 jyu4 daan2
+Street food > Siu mai = 燒賣 · siu1 maai2
+Street food > Stinky tofu = 臭豆腐 · cau3 dau6 fu6
+Street food > Pineapple bun with butter = 菠蘿油 · bo1 lo4 jau4
+Street food > Cheung fun = 腸粉 · Rice noodle rolls
+Street food > Milk tea = 奶茶 · Hong Kong-style milk tea
+
+# Games and talk
+Party games > Would you rather: Always be 10 minutes late, or always 20 minutes early?; Fight one horse-sized duck, or 100 duck-sized horses?; Lose your phone, or lose your wallet?; Only eat Cantonese food, or never eat it again?; Read minds, or be invisible?
+Party games > Two truths and a lie: About your childhood; About food; About travel; About school
+Puzzles > Cryptic clue: GEGS (9, 4) | Answer: scrambled eggs; HIJKLMNO (5) | Answer: water, "H to O"
+Magic > A coin vanish: French drop; Classic palm; Retention vanish
+Magic > A card force: Cross-cut force; Hindu shuffle force; Riffle force
+Magic > A mind-reading trick: The 21-card trick; A book test
+Skills > Knot tying: Bowline; Reef knot; Clove hitch; Figure-eight knot
+Skills > Basic first aid: Recovery position; Cool a minor burn under running water for 20 minutes; Find your nearest defibrillator
+Comedy > Try improv games: Yes, and...; Freeze; One-word story; Expert interview
+Theatre > Perform a monologue: To be, or not to be | Hamlet; All the world's a stage | As You Like It; Tomorrow, and tomorrow, and tomorrow | Macbeth
+Memory > Memorise a poem: 靜夜思 | Li Bai · Quiet Night Thought: "Before my bed, the bright moonlight"; Stopping by Woods on a Snowy Evening | Robert Frost; Do not go gentle into that good night | Dylan Thomas
+Memory > Learn pi to 20 digits: 3.14159265358979323846
+Art movements > Recreate a famous piece: The Great Wave off Kanagawa | Hokusai; The Starry Night | Van Gogh; The Son of Man | Magritte; Campbell's Soup Cans | Warhol
+
+# Writing prompts that need a subject
+Writing > Haiku: The first cold morning; A vending machine at night; A cat on a windowsill; The last day of summer
+Writing > Six-word story: About a lost key; About moving out; About a first date; About a ghost
+Writing > Limerick: About a clumsy chef; About a cat on the MTR; About a sleepy dragon
+Writing > Letter to your past self: You at 10; You on your first day of uni; You a year ago
+
+# Movement
+Workouts > HIIT: Tabata | 20 s on, 10 s off, 8 rounds; EMOM | 10 squats every minute for 10 minutes; 30-30 | 30 s jumping jacks, 30 s rest, 10 rounds
+Workouts > Bodyweight circuit: 20 squats, 10 push-ups, 30 s plank | 3 rounds; 10 lunges each leg, 15 glute bridges, 20 mountain climbers | 3 rounds
+Running > Intervals: 6 × 400 m | 90 s walk between; 10 × 1 min fast | 1 min easy between
+Running > Hill repeats: 8 × 30 s uphill | Walk back down

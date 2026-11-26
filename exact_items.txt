@@ -1,0 +1,106 @@
+# Deepest layer: exact named things (brands, models, titles, artists) under an existing item.
+# Format:  Category > Item: exact; exact; exact      (semicolons, because names can contain commas)
+# The item can sit at any depth inside the category. build_db.py attaches these as children.
+Music > Guitar: Fender Stratocaster; Gibson Les Paul; Yamaha FG800; Taylor GS Mini; Martin D-28
+Music > Ukulele: Kala KA-15S; Martin S1 Uke; Cordoba 15CM
+Music > Piano: Yamaha U1 upright; Steinway Model D; Roland FP-30X; Casio Privia PX-S1100
+Music > Synthesiser: Korg Minilogue; Arturia MicroFreak; Roland Juno-60; Teenage Engineering OP-1; Moog Subsequent 37
+Music > Saxophone: Selmer Mark VI; Yamaha YAS-280
+Music > Harmonica: Hohner Special 20; Hohner Marine Band; Suzuki Manji
+Music > Drum kit: Pearl Export; Ludwig Classic Maple; Roland TD-17 V-Drums
+Music > City pop: Mariya Takeuchi, Plastic Love; Tatsuro Yamashita, Ride on Time; Anri, Remember Summer Days
+Music > Cantopop: Leslie Cheung; Anita Mui; Eason Chan; Beyond
+Music > K-pop: BTS; BLACKPINK; NewJeans; SEVENTEEN
+Music > Synth-pop: Depeche Mode; Pet Shop Boys; CHVRCHES
+Music > Shoegaze: My Bloody Valentine, Loveless; Slowdive, Souvlaki
+Music > Bossa nova: João Gilberto; Antônio Carlos Jobim; Astrud Gilberto, The Girl from Ipanema
+Music > Ambient: Brian Eno, Music for Airports; Hiroshi Yoshimura, Music for Nine Post Cards
+Music > Lo-fi beats: Nujabes, Feather; J Dilla, Donuts
+Music > Neo-soul: D'Angelo, Voodoo; Erykah Badu, Baduizm
+Music > Film score: Joe Hisaishi, Spirited Away; Hans Zimmer, Interstellar; Ennio Morricone, The Good, the Bad and the Ugly
+Music > Minimalism: Steve Reich, Music for 18 Musicians; Philip Glass, Glassworks
+Music > Baroque: Bach, Goldberg Variations; Vivaldi, The Four Seasons
+Music > Singer-songwriter: Joni Mitchell, Blue; Phoebe Bridgers, Punisher
+Drawing > Graphite pencil: Staedtler Mars Lumograph; Faber-Castell 9000; Blackwing 602
+Drawing > Coloured pencil: Faber-Castell Polychromos; Caran d'Ache Luminance; Prismacolor Premier
+Drawing > Oil pastel: Sennelier oil pastels; Caran d'Ache Neopastel
+Drawing > Ballpoint pen: Bic Cristal; Uni Jetstream; Parker Jotter
+Drawing > Watercolour: Winsor & Newton Cotman; Daniel Smith Extra Fine; Schmincke Horadam
+Drawing > Gouache: Holbein Artists' Gouache; Winsor & Newton Designers Gouache; Himi jelly gouache
+Drawing > Ink and brush: Pentel Pocket Brush Pen; Kuretake No. 8 brush pen
+Drawing > Markers: Copic Sketch; Posca; Tombow Dual Brush Pen
+Drawing > Acrylic: Liquitex Basics; Golden Heavy Body
+Drawing > Digital painting: Procreate; Adobe Fresco; Clip Studio Paint; Krita
+Drawing > Pixel art: Aseprite; Piskel
+Drawing > Vector shapes: Adobe Illustrator; Affinity Designer; Figma
+Cooking > Cantonese: Char siu; Har gow; Wonton noodles; Claypot rice; Steamed fish with ginger and spring onion
+Cooking > Japanese: Okonomiyaki; Tonkatsu; Oyakodon; Miso soup
+Cooking > Thai: Pad kra pao; Tom yum goong; Som tam; Massaman curry
+Cooking > Korean: Kimchi jjigae; Bibimbap; Tteokbokki; Japchae
+Cooking > Italian: Cacio e pepe; Risotto alla milanese; Focaccia; Tiramisu
+Cooking > Mexican: Tacos al pastor; Chilaquiles; Pozole; Guacamole
+Coffee > Pour-over: Hario V60; Kalita Wave; Chemex
+Coffee > AeroPress: AeroPress Original; AeroPress Go
+Coffee > Moka pot: Bialetti Moka Express
+Coffee > French press: Bodum Chambord
+Tea > Oolong: Tieguanyin; Da Hong Pao; Dong Ding
+Tea > Pu-erh: Menghai 7572 ripe cake
+Tea > Matcha: Ippodo; Marukyu Koyamaen
+Board games > Codenames: Codenames Duet; Codenames Pictures
+Board games > Ticket to Ride: Ticket to Ride Europe; Ticket to Ride: First Journey
+Board games > Catan: Catan Seafarers; Catan Junior
+Board games > Azul: Azul Summer Pavilion; Azul Stained Glass of Sintra
+Board games > Dixit: Dixit Odyssey
+Video games > Cosy farming sim: Stardew Valley; Animal Crossing: New Horizons; Story of Seasons
+Video games > Roguelike: Hades; Slay the Spire; Dead Cells; Balatro
+Video games > Rhythm game: Beat Saber; Taiko no Tatsujin; Rhythm Heaven
+Video games > Puzzle platformer: Celeste; Portal 2; Inside; Limbo
+Video games > Co-op cooking chaos: Overcooked! 2; PlateUp!
+Video games > Open-world exploring: The Legend of Zelda: Breath of the Wild; Elden Ring; Outer Wilds
+Video games > Party game: Mario Party Superstars; The Jackbox Party Pack; Fall Guys
+Video games > Retro arcade: Pac-Man; Street Fighter II; Galaga
+Films > Hong Kong action: Police Story; Hard Boiled; Kung Fu Hustle; Infernal Affairs
+Films > Studio Ghibli: Spirited Away; My Neighbor Totoro; Kiki's Delivery Service; Princess Mononoke
+Films > Wong Kar-wai mood: In the Mood for Love; Chungking Express; Fallen Angels; Happy Together
+Films > Heist: Ocean's Eleven; Heat; Baby Driver
+Films > Whodunnit: Knives Out; Murder on the Orient Express; Clue
+Films > 80s sci-fi: Blade Runner; Back to the Future; The Terminator; E.T. the Extra-Terrestrial
+Films > Musical: Singin' in the Rain; La La Land; The Sound of Music
+Films > Silent film: Metropolis; The General; Modern Times
+TV series > Korean drama: Crash Landing on You; Reply 1988; Extraordinary Attorney Woo
+TV series > Sitcom: Friends; Brooklyn Nine-Nine; The Office
+TV series > Nature series: Planet Earth II; Blue Planet II; Our Planet
+TV series > Cooking competition: The Great British Bake Off; MasterChef; Culinary Class Wars
+TV series > TVB classic: Journey to the West (1996); War and Beauty; Triumph in the Skies
+TV series > Anthology: Black Mirror; Love, Death & Robots
+TV series > Travel show: Street Food; Somebody Feed Phil; Anthony Bourdain: No Reservations
+Anime > Slice of life: K-On!; Barakamon; Laid-Back Camp
+Anime > Sports anime: Haikyu!!; Slam Dunk; Kuroko's Basketball
+Anime > Mecha: Neon Genesis Evangelion; Mobile Suit Gundam; Code Geass
+Anime > Cooking anime: Food Wars!; Restaurant to Another World
+Anime > Shōjo romance: Fruits Basket; Ouran High School Host Club; Kimi ni Todoke
+Books > Sci-fi: Dune; The Three-Body Problem; Project Hail Mary
+Books > Mystery: The Murder of Roger Ackroyd; The Girl with the Dragon Tattoo
+Books > Graphic novel: Persepolis; Maus; Watchmen
+Books > Memoir: Educated; Born a Crime
+Podcasts > History: The Rest Is History; Dan Carlin's Hardcore History
+Podcasts > Design: 99% Invisible
+Podcasts > Science: Radiolab
+Podcasts > Comedy: Conan O'Brien Needs a Friend
+Podcasts > True crime: Serial
+Racket sports > Badminton: Yonex Astrox 88S; Yonex Arcsaber 11; Victor Thruster K
+Racket sports > Tennis: Wilson Pro Staff; Babolat Pure Drive; Head Speed
+Racket sports > Table tennis: Butterfly Viscaria blade; DHS Hurricane 3 rubber
+Puzzles > Rubik's cube: Rubik's Cube 3x3; GAN 356 speed cube; MoYu RS3M
+Party games > Werewolf: One Night Ultimate Werewolf
+Party games > Heads Up: Heads Up! app
+Coding > A tiny game: Godot; PICO-8; Phaser; Unity
+Coding > A personal website: Astro; Next.js; Framer; GitHub Pages
+Coding > A bot that tells jokes: Discord bot; Telegram bot
+Electronics > An LED circuit: Arduino Uno; Raspberry Pi Pico; BBC micro:bit
+Electronics > A plant moisture sensor: Arduino Uno; ESP32; Raspberry Pi Pico W
+Music production > A lo-fi loop: Ableton Live; FL Studio; GarageBand; Koala Sampler
+Video making > A one-minute vlog: CapCut; DaVinci Resolve; iMovie
+Animation > Flipbook: FlipaClip
+Animation > Stop motion: Stop Motion Studio
+Animation > Pixel animation: Aseprite

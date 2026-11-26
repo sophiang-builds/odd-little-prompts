@@ -1,0 +1,118 @@
+# One category per line:  Category | Facet: item, item, item | Facet: item, item
+# Lines starting with # are ignored. build_db.py merges this with the deep tree.
+Baking | Bake: sourdough loaf, croissants, egg tarts, focaccia, cinnamon scrolls, Basque cheesecake, pineapple buns, banana bread | Twist: add miso, make it tiny, bake it in a mug, use only a rice cooker, add matcha | Challenge: no recipe, under an hour, decorate it like a painting
+Gardening | Grow: basil, cherry tomatoes, chillies, spring onions from scraps, a succulent, mint, microgreens, a pothos cutting | Project: propagate a cutting, build a terrarium, start a windowsill herb box, compost scraps, regrow vegetables in water
+Board games | Classic: chess, Go, mahjong, Chinese checkers, backgammon, Scrabble | Modern: Codenames, Ticket to Ride, Catan, Splendor, Azul, Dixit, Wavelength | Twist: play with house rules, teach someone new, invent a variant
+Video games | Genre: cosy farming sim, roguelike, rhythm game, puzzle platformer, co-op cooking chaos, open-world exploring, party game, retro arcade | Challenge: speedrun the first level, play only with one hand, swap controllers mid-game, finish one game you abandoned
+Card games | Game: Big Two, Uno, Cheat, Spit, Snap, Gin rummy, Blackjack for matchsticks, Solitaire race | Twist: invent a new rule each round, play in silence, loser picks the next game
+Puzzles | Type: jigsaw, crossword, sudoku, cryptic clue, Rubik's cube, nonogram, logic grid, escape-room box | Challenge: race a friend, timer on, solve it together without talking
+Films | Genre: Hong Kong action, Studio Ghibli, Wong Kar-wai mood, heist, whodunnit, documentary, silent film, 80s sci-fi, musical, animated short | Pick: a film from the year you were born, the oldest film you can find, a film from a country you've never visited, a friend's comfort film | Twist: watch with the sound off for ten minutes, rewrite the ending afterwards, rank the snacks
+TV series | Kind: Korean drama, sitcom, nature series, cooking competition, true crime, anthology, TVB classic, travel show | Ritual: pilot episodes only, watch a finale first, binge three episodes with snacks
+Anime | Genre: slice of life, sports anime, mecha, isekai, shōjo romance, cooking anime, horror | Activity: watch a first episode, draw a character, cook a dish from an anime, learn the opening song
+Books | Genre: mystery, sci-fi, poetry collection, memoir, graphic novel, fantasy, short stories, classic | Challenge: read the first chapter of five books, read a book in under a day, read in a café, swap books with a friend | Pick: an author from another continent, a book under 150 pages, the oldest book on your shelf
+Podcasts | Topic: history, true crime, comedy, design, science, interviews, language learning, sleep stories | Twist: listen at 1.5x on a walk, share a favourite episode, make a one-minute podcast yourself
+Comedy | Do: write five jokes, try improv games, tell an embarrassing story, make a parody advert, roast your houseplant | Watch: stand-up special, sketch show, clown show, sitcom bloopers
+Theatre | Do: act out a scene, write a one-minute play, perform a monologue, shadow puppetry, mime a job | Watch: musical, Cantonese opera, street performance, improv show, ballet
+Languages | Learn: ten words in Japanese, a greeting in Swahili, a Cantonese slang phrase, numbers in Korean, a French tongue twister, sign language alphabet, a toast in Italian | Activity: label things at home, sing a song in it, order food in it, write a postcard in it
+History | Era: ancient Egypt, Tang dynasty, Roman Empire, Edo Japan, the Silk Road, the 1960s, the Renaissance | Activity: find one weird fact, recreate a historic recipe, dress like the era, explain it in one minute
+Science experiments | Kitchen: grow crystals, make a volcano, red cabbage pH test, egg in vinegar, oobleck, invisible ink | Try: build a paper bridge, egg drop challenge, measure your reaction time, make a sundial
+Astronomy | Spot: the Moon's craters, Jupiter, the Orion constellation, the International Space Station, a meteor shower, Venus at dusk | Do: draw the moon phases for a week, find your star sign stars, learn one constellation story
+Wildlife | Spot: a bird you can't name, a butterfly, a crab on the shore, a gecko, a dragonfly, a squirrel | Do: sketch it, look it up and learn three facts, photograph it, make a sound map of what you hear
+Ocean | Do: rock pooling, beach clean-up, snorkelling, collect sea glass, watch the sunrise at the beach, paddleboard | Learn: a deep-sea creature, how tides work, a sea shanty
+Hong Kong outings | Area: Sham Shui Po, Tai O, Cheung Chau, Sai Kung, Lamma Island, Tai Hang, Kennedy Town, Peng Chau, Lai Chi Wo | Mission: find the best egg waffle, ride the tram end to end, take the Star Ferry at night, eat at a dai pai dong, visit a temple, find a hidden rooftop view
+Hiking | Hong Kong trail: Dragon's Back, Lion Rock, Lantau Peak, Sharp Peak, High Junk Peak, MacLehose Stage 2, Tai Mo Shan, Pat Sin Leng, Suicide Cliff | Style: sunrise hike, night hike, picnic at the top, photo every 15 minutes
+Street food | Hong Kong: egg waffles, curry fish balls, siu mai, stinky tofu, pineapple bun with butter, cheung fun, milk tea | World: tacos, bánh mì, takoyaki, arepas, falafel, churros, satay | Mission: rate three stalls, try something you've never eaten, find the oldest stall nearby
+Coffee | Brew: pour-over, AeroPress, cold brew, moka pot, French press, dalgona, yuenyeung | Mission: try a new café, latte art attempt, blind taste test, coffee and dessert pairing
+Tea | Kind: oolong, pu-erh, jasmine, matcha, milk tea, chrysanthemum, rooibos, masala chai | Do: gongfu tea session, make bubble tea at home, tea tasting with notes, visit a tea house
+Drinks | Make: mocktail with herbs, lemonade three ways, homemade soda, smoothie bowl, kombucha, hot chocolate from scratch | Twist: colour theme, name it after a friend, garnish competition
+Desserts | Make: mango pomelo sago, mochi, tiramisu, tong sui, crème brûlée, pavlova, grass jelly, ice cream without a machine | Twist: only three ingredients, plate it like a restaurant, make a mini version
+Fashion | Do: style one item three ways, monochrome outfit, dress as a decade, swap outfits with a friend, sketch an outfit, wear your boldest colour | Theme: 90s, minimalist, streetwear, old-money, Y2K, workwear
+Thrifting | Find: a jacket under $100, a vintage plate, an odd book, a scarf to turn into a top, the weirdest object | Rule: ten-minute dash, pick for a friend, only one colour
+Beauty | Try: a graphic liner, a new hairstyle, a face mask night, nail art, a fragrance layering test, a skincare routine reset | Theme: festival look, no-makeup makeup, film character look
+Home styling | Do: rearrange one room, make a gallery wall, style a shelf, build a reading nook, add plants to one corner, colour-sort your books | Budget: zero dollars, $200, only what you already own
+Architecture | Spot: a staircase, a window you love, a tong lau building, a brutalist building, a temple roof, a neon sign | Do: sketch a facade, design your dream house on paper, photograph doors, build a cardboard model
+Graphic design | Make: a poster for an imaginary film, a logo for a friend, a band T-shirt, a menu, a sticker set, a zine cover | Rule: one font only, two colours, type only, no straight lines
+Lettering | Style: brush calligraphy, Chinese calligraphy, graffiti tag style, blackletter, bubble letters, neon sign lettering | Write: your name, a favourite lyric, a friend's nickname, a motivational word
+Painting | Medium: acrylic pour, watercolour wash, gouache, oil sticks, spray paint, finger painting | Subject: sunset, abstract feelings, a still life, a portrait of a pet, your street
+Sculpture | Material: air-dry clay, wire, soap carving, papier-mâché, found objects, ice | Make: a tiny creature, a self-portrait head, a hand, an abstract form
+Pottery | Make: a pinch pot, a coil vase, a tiny plate, a mug, an incense holder, a ring dish | Twist: eyes closed, make a matching set, glaze in a gradient
+Sewing | Make: a tote bag, a scrunchie, a patch, a pillowcase, a pouch, mend a hole visibly | Technique: sashiko, embroidery, appliqué, hand-stitched hem
+Woodworking | Make: a spoon, a phone stand, a bird house, a cutting board, a small shelf, a whittled animal | Tool: knife only, hand saw, sandpaper and patience
+Coding | Build: a tiny game, a personal website, a bot that tells jokes, a to-do app, a random generator, a weather display | Twist: in one hour, in a language you've never used, with a friend pair-programming
+Electronics | Build: an LED circuit, a buzzer alarm, a plant moisture sensor, a mini fan, a light-up card | Learn: soldering, Ohm's law, how a speaker works
+Video making | Make: a one-minute vlog, a stop-motion clip, a mini documentary of a friend, a cooking video, a music video, a trailer for your week | Rule: one take only, no talking, shot on the floor, vertical only
+Animation | Style: flipbook, stop motion, pixel animation, rotoscope, claymation, whiteboard doodle | Subject: a bouncing ball, a walking cat, a growing plant, a face changing moods
+Music production | Make: a beat from kitchen sounds, a lo-fi loop, a remix of a voice memo, a jingle for a friend, an ambient track | Constraint: 8 bars only, one synth, 120 BPM, no drums
+DJing | Do: a 15-minute set, a two-song transition, a mood playlist, a decade mix | Theme: sunset vibes, 2000s throwbacks, songs in other languages, songs with colours in the title
+Karaoke | Sing: a Cantopop classic, a power ballad, a duet, a rap verse, a Disney song, a song in a language you don't speak | Rule: in a different voice, swap songs with a friend, slow it right down
+Dance | Style: K-pop choreography, salsa, waacking, swing, hip-hop, contemporary, line dancing, tap | Do: learn a TikTok dance, freestyle for one song, film a dance in public, teach a friend
+Martial arts | Try: tai chi, Wing Chun basics, boxing combos, Muay Thai kicks, capoeira, kendo footwork | Do: watch a kung fu film, learn one form, shadow boxing round
+Ball sports | Play: basketball, football, volleyball, dodgeball, handball, futsal | Challenge: shoot 10 free throws, keepie-uppies record, play with your weaker side
+Racket sports | Play: badminton, table tennis, tennis, pickleball, squash, padel | Challenge: longest rally, serve practice, play left-handed
+Water sports | Try: kayaking, stand-up paddleboarding, snorkelling, swimming laps, dragon boat, wakeboarding | Place: Sai Kung, Repulse Bay, Shek O, Tung Chung, a local pool
+Workouts | Type: HIIT, kettlebell, bodyweight circuit, stair climb, Pilates, resistance bands, mobility flow | Duration: 7 minutes, 20 minutes, 45 minutes | Twist: with a friend, outdoors, to one album
+Yoga | Pose: downward dog, tree pose, warrior II, crow pose, pigeon pose, headstand prep, bridge, child's pose | Session: morning flow, bedtime stretch, yin yoga, partner yoga
+Running | Type: 5 km, intervals, hill repeats, slow long run, night run, parkrun | Route: waterfront, a new neighbourhood, track laps, a park loop | Twist: run without music, run to a café
+Cycling | Route: Tolo Harbour, Tai Wai to Tai Mei Tuk, a city loop, a coastal path, a park loop | Do: ride somewhere for breakfast, fix a puncture, try a bike-share
+Meditation | Type: body scan, breath counting, walking meditation, loving-kindness, sound bath, candle gazing | Duration: 3 minutes, 10 minutes, 20 minutes
+Journaling | Prompt: what surprised me today, three tiny wins, a letter to future me, what I'm avoiding, my perfect ordinary day, a list of 20 small joys | Format: bullet journal, morning pages, scrapbook, voice memo diary
+Self-care | Do: a digital detox hour, a long bath, a solo date, an early night, cook yourself something nice, tidy one drawer | Plan: a lazy Sunday, a reset day, a mini retreat at home
+Kindness | Do: write a thank-you note, compliment a stranger, cook for a neighbour, leave a kind review, donate clothes, call a grandparent | Size: tiny, medium, big gesture
+Volunteering | Cause: animal shelter, food bank, beach clean-up, elderly visits, tutoring, community garden | Do: one afternoon, a skill you can donate, organise friends to join
+Conversation | Ask: what's a hill you'd die on, your strangest skill, a food you'd ban, your dream job at age 7, the best advice you ignored, your perfect day | Format: one question each, answer in one word, hot takes round
+Party games | Game: charades, two truths and a lie, Mafia, Werewolf, Pictionary, Heads Up, the hat game, would you rather | Twist: themed rounds, losers pick the music, teams by birthday month
+Date ideas | Plan: cook a new cuisine, night market, sunrise picnic, pottery class, museum then dessert, arcade, stargazing, plan a fake trip | Budget: free, under $200, splurge
+Hangouts | Plan: hot pot night, movie marathon, board game café, karaoke, beach BBQ, craft night, cook-off, photo walk | Twist: everyone brings one dish, no phones, themed dress code
+Picnics | Spot: Victoria Park, a beach, a rooftop, a hilltop, a harbourfront promenade, a country park | Theme: all one colour, bento only, snacks from a convenience store, dessert picnic
+Camping | Spot: Ham Tin, Tai Long Wan, Cheung Chau campsite, a balcony, the living room floor | Do: cook over a camp stove, tell ghost stories, stargaze, make s'mores
+Magic | Learn: a coin vanish, a card force, a mind-reading trick, a rope trick, a disappearing pen | Do: perform for a friend, make your own trick, learn one sleight of hand
+Circus skills | Learn: juggling three balls, spinning a plate, diabolo, poi, balancing on a board, a cartwheel | Goal: 10 catches, 30 seconds, film a trick
+Memory | Challenge: memorise a poem, learn pi to 20 digits, remember a shopping list, a deck of cards order, everyone's birthdays | Technique: memory palace, chunking, rhymes
+Maths fun | Try: a magic square, the Monty Hall puzzle, fold paper 7 times, Fibonacci in nature, a tangram, a Möbius strip | Do: explain it to a friend, draw it, test it
+Philosophy | Question: is a hot dog a sandwich, would you plug into a dream machine, the ship of Theseus, is free will real, the trolley problem, what makes a good life | Format: debate it, sleep on it, write a one-page answer
+Debate | Topic: pineapple on pizza, cats vs dogs, cities vs countryside, should homework exist, morning vs night people, sequels vs originals | Rule: argue the side you disagree with, two minutes each, audience votes
+Mythology | Myth: Chang'e and the Moon, Medusa, Thor's hammer, the Monkey King, Anansi the spider, Pandora's box, the Nine-tailed fox | Do: retell it in modern times, draw the creature, make a comic
+Fairy tales | Tale: Cinderella, Red Riding Hood, the Little Mermaid, Hansel and Gretel, the Frog Prince, the Cowherd and the Weaver Girl | Twist: villain's point of view, set in Hong Kong, as a news report
+Superpowers | Power: teleporting, talking to animals, pausing time, reading minds, invisibility, shape-shifting | Do: draw your hero, write the origin story, decide the weakness
+Inventions | Invent: a gadget for lazy mornings, a new sport, a holiday, a flavour of crisps, a better umbrella, a new emoji | Do: sketch it, pitch it in 30 seconds, make a prototype from junk
+Business ideas | Idea: a café concept, a subscription box, a weird app, a pop-up shop, a tiny online course | Do: name it, make a logo, write the first post, price it
+Money | Challenge: no-spend weekend, cook with $50 for a week, sell one thing you don't use, track every dollar for a week, find a free activity | Learn: compound interest, budgeting apps, investing basics
+Skills | Learn: touch typing, knot tying, basic first aid, changing a tyre, ironing a shirt, sewing a button, whistling with fingers | Time: in 30 minutes, practise for a week
+Space | Topic: black holes, Mars rovers, the Moon landing, life on Europa, the James Webb telescope, the Big Bang | Do: watch a launch, make a model solar system, write a letter to an alien
+Dinosaurs | Dino: Triceratops, Spinosaurus, Velociraptor, Ankylosaurus, Brachiosaurus, Pteranodon | Do: draw it, guess its sound, find its real size
+Animals | Animal: axolotl, red panda, octopus, pangolin, capybara, mantis shrimp, quokka, Chinese white dolphin | Do: learn three facts, draw it, adopt one at a zoo virtually, do an impression
+Plants | Plant: bonsai, monstera, carnivorous plant, bamboo, orchid, cactus | Do: press flowers, draw a leaf, visit a flower market, identify five trees
+Weather | Do: photograph clouds, measure rain in a cup, watch a storm safely from inside, catch the sunset, track temperature for a week | Mood: rainy day film, sunny picnic, foggy walk
+Countries | Country: Peru, Georgia, Vietnam, Iceland, Morocco, Mongolia, Portugal, Ethiopia, Japan, Mexico | Do: cook a dish from it, learn the flag, listen to its music, plan a dream trip
+Festivals | Festival: Mid-Autumn, Lunar New Year, Diwali, Día de los Muertos, Holi, Cheung Chau Bun Festival, Hanami | Do: make a lantern, cook a festival food, learn the story, throw a mini version
+Art movements | Movement: Impressionism, Pop art, Bauhaus, Surrealism, Cubism, Art Nouveau, Ukiyo-e, Memphis design | Do: make something in that style, read one artist, recreate a famous piece
+Museums | Place: M+, Hong Kong Museum of Art, Hong Kong Science Museum, Tai Kwun, a gallery you've never been to, an online museum tour | Mission: find your favourite piece, sketch one work, ask a question to staff
+Dares | Do: talk to a stranger, wear something bold, sing in public, try a food you hate, go somewhere alone, say yes to everything for an hour | Level: mild, spicy, wild
+Colours | Colour: cobalt blue, tangerine, mint, lilac, mustard, crimson, sage, hot pink | Do: wear only it, find ten things in it, cook a dish in it, paint with only it
+Scents | Do: blind smell test, make a scent from spices, visit a perfume counter, describe a memory smell, make potpourri | Note: citrus, sandalwood, jasmine, rain, coffee, sea salt
+Sound | Do: record a sound walk, make a field recording, build a shaker, listen with eyes closed for 5 minutes, find the quietest place nearby | Theme: city noise, nature, kitchen, water
+Declutter | Area: one drawer, your wardrobe, phone photos, email inbox, your desk, the fridge | Rule: 15 minutes, keep only what you love, donate five things
+Breakfast | Make: congee, French toast, shakshuka, pancakes, kaya toast, açaí bowl, a full fry-up, macaroni soup | Twist: make it for dinner, eat it outside, plate it beautifully
+Hot pot | Broth: tomato, satay, mala, pork bone, sukiyaki, coconut chicken | Twist: everyone brings a mystery ingredient, make your own sauce, dessert hot pot
+Ice cream | Flavour: black sesame, earl grey, durian, salted caramel, pandan, olive oil, mango | Do: make no-churn ice cream, taste test brands, invent a flavour
+Picture books | Do: write a picture book for a kid you know, illustrate a page, read one aloud with voices, rewrite a classic | Theme: a lost sock, a brave cloud, a shy dragon
+Comics | Make: a four-panel strip, a webtoon scroll, a superhero cover, a diary comic, a silent comic | Character: yourself as a cat, a talking plant, a tired robot
+Fan fiction | Fandom: your favourite show, a video game, a band, a classic novel | Prompt: a coffee shop AU, the villain wins, the side character's story, swap two characters
+Worldbuilding | Build: a map of an island, a made-up language, a creature, a city's laws, a religion's festival, a currency | Twist: the sky is green, there's no night, everyone flies
+Role-play games | Game: a one-shot Dungeons & Dragons, a murder mystery party, a LARP, a solo journaling RPG | Do: make a character, run a session, design a monster
+Escape rooms | Do: book one with friends, design a mini one at home, solve an online one, make a treasure hunt | Theme: haunted house, spy mission, pirate ship
+Treasure hunts | Hide: a snack, a note, a small gift, a puzzle piece | Clue style: riddles, photos, maps, emoji only
+Letters | Write: a letter to your future self, a postcard to a friend, a thank-you to a teacher, a pen pal letter, a love letter to your city | Form: handwritten, typed and posted, a voice letter
+Nostalgia | Do: rewatch a childhood cartoon, play a childhood game, cook a school lunch, listen to the first album you owned, look at old photos | Era: primary school, high school, the year you turned 18
+Pets | Do: teach a trick, make a toy, take a portrait, plan a pet party, volunteer to walk a dog, visit a cat café | Pet: dog, cat, rabbit, hamster, fish, a friend's pet
+Babysitting play | Activity: fort building, finger painting, a puppet show, a scavenger hunt, baking cookies, playdough | Theme: dinosaurs, space, under the sea
+Photography walks | Theme: doors, cats, shadows at noon, people's shoes, signs, reflections in puddles, the colour yellow | Rule: one lens only, twenty shots, square crop only
+Collecting | Collect: postcards, stickers, leaves, bottle caps, transit tickets, stamps, receipts from good days | Do: start a collection, display it, trade with a friend
+Spa at home | Do: foot soak, face mask, hair oil treatment, candlelight bath, DIY body scrub, gua sha | Mood: playlist on, phone off, matching robes
+Night activities | Do: stargaze, night market, late cinema, night swim, rooftop chat, midnight snack run, glow-in-the-dark painting | Place: the harbourfront, a rooftop, the Peak, a beach
+Rainy day | Do: board game marathon, baking, puzzle, film double feature, write a story, build a blanket fort | Mood: cosy, productive, lazy
+Mini adventures | Do: take the first bus that comes, get off one stop early, eat at the restaurant with the longest queue, follow a stranger's recommendation, walk with no map | Time: one hour, half a day, a whole day
+Gift making | Make: a playlist, a jar of reasons, a photo book, a hand-painted mug, a recipe card set, a knitted scarf | For: a best friend, a parent, a stranger, yourself
+Planning | Plan: a dream trip, your perfect weekend, a five-year vision board, a surprise party, a monthly challenge | Format: mood board, spreadsheet, scrapbook
+Reading aloud | Read: a poem, a children's book, a news story in a silly voice, a play scene, a recipe like a drama | For: a friend, a voice memo, a sibling
+Tiny challenges | Do: 100 push-ups in a day, no sugar for a day, drink 2 litres of water, 10 000 steps, no phone at meals, wake up at sunrise | Length: one day, three days, one week

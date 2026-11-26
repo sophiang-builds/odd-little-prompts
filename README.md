@@ -1,4 +1,9 @@
-# Try Your Luck
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="brand/logo-horizontal-dark.svg">
+  <img src="brand/logo-horizontal.svg" alt="Three Word Brief" width="420">
+</picture>
+
+# Three Word Brief
 
 A random picker for things to make, do, cook, play and learn. Up to three Liquid Glass cards land on random categories, and you can step down layer by layer to the exact thing: a real phrase, song, dish, place or product.
 
@@ -38,10 +43,14 @@ python3 picker.py Music Drawing --depth 3
 python3 picker.py --test
 ```
 
+## Brand
+
+`brand/` holds the logo (light and dark horizontal versions) and the favicon. `icons/` holds the sizes made from it: a 32 px tab icon, the 180 px iPhone home-screen icon, and 192 and 512 px icons for `manifest.webmanifest`. The on-screen "Try your luck" line is the app's prompt, not its name.
+
 ## Hosting on GitHub Pages
 
 Settings > Pages > Build and deployment > Deploy from a branch > `main` / root. The app is then live at `https://sophiang1227.github.io/three-word-brief/` (explore version at `/explore.html`). On iPhone, open it in Safari and use Share > Add to Home Screen.
 
 ## iOS app
 
-`ios/TryYourLuck/` is a SwiftUI version using Apple's Liquid Glass APIs (iOS 26, Xcode 26). It has the original pick mode; the explore mode and the note line are not ported yet. It has not been compiled yet. See its README for setup.
+`ios/ThreeWordBrief/` is a SwiftUI version using Apple's Liquid Glass APIs (iOS 26, Xcode 26). It has the original pick mode; the explore mode and the note line are not ported yet. It has not been compiled yet. See its README for setup.

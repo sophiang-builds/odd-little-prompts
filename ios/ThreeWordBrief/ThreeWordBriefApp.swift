@@ -1,7 +1,7 @@
 import SwiftUI
 
 @main
-struct TryYourLuckApp: App {
+struct ThreeWordBriefApp: App {
     var body: some Scene {
         WindowGroup { ContentView() }
     }

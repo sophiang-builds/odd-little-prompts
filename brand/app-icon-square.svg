@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <title>Three Word Brief</title>
+  <rect width="64" height="64" fill="#1B1A2E"/>
+  <g stroke="#1B1A2E" stroke-width="3" stroke-linejoin="round">
+    <rect x="-13" y="-17" width="26" height="34" rx="6" fill="#FF5A4E" transform="translate(23 35) rotate(-16)"/>
+    <rect x="-13" y="-17" width="26" height="34" rx="6" fill="#FFC23C" transform="translate(32 31) rotate(0)"/>
+    <rect x="-13" y="-17" width="26" height="34" rx="6" fill="#2EC4B6" transform="translate(41 35) rotate(16)"/>
+  </g>
+  <path d="M0,-11 C1.6,-3 3,-1.6 11,0 C3,1.6 1.6,3 0,11 C-1.6,3 -3,1.6 -11,0 C-3,-1.6 -1.6,-3 0,-11Z" fill="#FFF6E9" transform="translate(41 35) rotate(16) scale(0.78)"/>
+</svg>

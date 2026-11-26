@@ -40,6 +40,10 @@ Deal up to three random prompts, then go deeper for something specific or back u
 
 ![The phone app](docs/preview-app.png)
 
+## Security
+
+Page code lives in `assets/site.js` and `assets/app.js` (no inline scripts), and each page carries a Content Security Policy. See `SECURITY.md` before adding any outside service.
+
 ## Search setup
 
 - The homepage and guide each have their own title, description, canonical URL (on `oddlittleprompts.com`) and sharing preview. Their copy, examples and questions are plain HTML, so search engines and AI assistants can read them without running the deck.
